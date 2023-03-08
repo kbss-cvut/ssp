@@ -1,0 +1,139 @@
+@prefix a-popis-dat-pojem: <http://onto.fel.cvut.cz/ontologies/slovník/agendový/popis-dat/pojem/> .
+@prefix d-sgov-testovací: <https://slovník.gov.cz/datový/testovací/> .
+@prefix d-sgov-testovací-pojem: <https://slovník.gov.cz/datový/testovací/pojem/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+d-sgov-testovací:model a a-popis-dat-pojem:model, owl:Ontology;
+  dcterms:created "2022-10-19T10:11:39.621Z"^^xsd:dateTime;
+  dcterms:rights <https://creativecommons.org/licenses/by-sa/4.0>;
+  dcterms:title "Testovací - model"@cs;
+  vann:preferredNamespacePrefix "d-sgov-testovací-pojem";
+  vann:preferredNamespaceUri "https://slovník.gov.cz/datový/testovací/pojem/";
+  owl:imports d-sgov-testovací:glosář;
+  owl:versionIRI "https://slovník.gov.cz/datový/testovací/model/verze/1.0.0" .
+
+d-sgov-testovací-pojem:kouzelná-hůlka a <https://slovník.gov.cz/základní/pojem/typ-objektu>;
+  <http://onto.fel.cvut.cz/ontologies/application/termit/pojem/je-draft> true;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+      owl:someValuesFrom d-sgov-testovací-pojem:jádro-hůlky
+    ], [ a owl:Restriction;
+      owl:allValuesFrom d-sgov-testovací-pojem:jádro-hůlky;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass d-sgov-testovací-pojem:jádro-hůlky;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+      owl:someValuesFrom d-sgov-testovací-pojem:dřevo-hůlky
+    ], [ a owl:Restriction;
+      owl:allValuesFrom d-sgov-testovací-pojem:dřevo-hůlky;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass d-sgov-testovací-pojem:dřevo-hůlky;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ] .
+
+d-sgov-testovací-pojem:kouzelník a <https://slovník.gov.cz/základní/pojem/role>, <https://slovník.gov.cz/základní/pojem/typ-objektu>;
+  <http://onto.fel.cvut.cz/ontologies/application/termit/pojem/je-draft> true;
+  rdfs:subClassOf d-sgov-testovací-pojem:člověk, [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+        ];
+      owl:someValuesFrom d-sgov-testovací-pojem:má-hůlku
+    ], [ a owl:Restriction;
+      owl:allValuesFrom d-sgov-testovací-pojem:má-hůlku;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+        ]
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass d-sgov-testovací-pojem:má-hůlku;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+        ]
+    ] .
+
+d-sgov-testovací-pojem:má-hůlku a <https://slovník.gov.cz/základní/pojem/typ-vztahu>;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>;
+      owl:someValuesFrom d-sgov-testovací-pojem:kouzelník
+    ], [ a owl:Restriction;
+      owl:allValuesFrom d-sgov-testovací-pojem:kouzelník;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger;
+      owl:onClass d-sgov-testovací-pojem:kouzelník;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+    ], [ a owl:Restriction;
+      owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger;
+      owl:onClass d-sgov-testovací-pojem:kouzelník;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+    ], [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>;
+      owl:someValuesFrom d-sgov-testovací-pojem:kouzelná-hůlka
+    ], [ a owl:Restriction;
+      owl:allValuesFrom d-sgov-testovací-pojem:kouzelná-hůlka;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass d-sgov-testovací-pojem:kouzelná-hůlka;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
+    ] .
+
+d-sgov-testovací-pojem:jádro-hůlky a <https://slovník.gov.cz/základní/pojem/typ-vlastnosti>;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ];
+      owl:someValuesFrom d-sgov-testovací-pojem:kouzelná-hůlka
+    ], [ a owl:Restriction;
+      owl:allValuesFrom d-sgov-testovací-pojem:kouzelná-hůlka;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass d-sgov-testovací-pojem:kouzelná-hůlka;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ] .
+
+d-sgov-testovací-pojem:dřevo-hůlky a <https://slovník.gov.cz/základní/pojem/typ-vlastnosti>;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ];
+      owl:someValuesFrom d-sgov-testovací-pojem:kouzelná-hůlka
+    ], [ a owl:Restriction;
+      owl:allValuesFrom d-sgov-testovací-pojem:kouzelná-hůlka;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass d-sgov-testovací-pojem:kouzelná-hůlka;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ] .
+
+d-sgov-testovací-pojem:typ-jádra a <https://slovník.gov.cz/základní/pojem/typ-vlastnosti> .
+
+d-sgov-testovací-pojem:člověk a <https://slovník.gov.cz/základní/pojem/role>, <https://slovník.gov.cz/základní/pojem/typ-objektu> .
+
+[] owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2> .
+
+[] owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2> .
+
+[] owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2> .
+
+[] owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2> .
