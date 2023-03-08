@@ -11,6 +11,9 @@
     owl:Ontology;
   a-popis-dat-pojem:má-glosář l-sgov-sbírka-89-2012:glosář;
   a-popis-dat-pojem:má-model l-sgov-sbírka-89-2012:model;
+  a-popis-dat-pojem:má-přílohu <https://slovník.gov.cz/příloha/instance-a29c7d04-1a18-4388-b65f-a3dd8c87fc45>,
+    <https://slovník.gov.cz/příloha/instance-a46a4ef0-1a6c-451b-b918-7d25e1e9daa8>, <https://slovník.gov.cz/příloha/instance-cabe5ecb-6756-498c-8710-aaaf851debc9>,
+    <https://slovník.gov.cz/příloha/instance-ce370500-8876-461e-afca-860086497b84>, <https://slovník.gov.cz/příloha/instance-de05f65e-c80a-4ce8-927c-4ed2ecc52ffc>;
   dcterms:created "2021-01-26T19:09:06.168+02:00"^^xsd:dateTime;
   dcterms:rights <https://creativecommons.org/licenses/by-sa/4.0>;
   dcterms:title "Slovník zákona č. 89/2012 Sb., občanský zákoník"@cs;
