@@ -1,0 +1,239 @@
+@prefix a-popis-dat-pojem: <http://onto.fel.cvut.cz/ontologies/slovník/agendový/popis-dat/pojem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://slovník.gov.cz/datový/a944/pojem/zemědělský-podnikatel> a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/element>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/hidden> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "63";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "291" .
+
+<https://slovník.gov.cz/datový/a944/pojem/osobní-jméno> a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/element>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/hidden> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "708";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "273" .
+
+<https://slovník.gov.cz/datový/a944/pojem/ičo> a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/element>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/hidden> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "481";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "401" .
+
+<https://slovník.gov.cz/datový/a944/pojem/jméno-člena-statutárního-orgánu> a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/element>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/hidden> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "537";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "337" .
+
+<https://slovník.gov.cz/datový/a944/pojem/uživatel-půdy> a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/element>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/hidden> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "689";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "320" .
+
+<https://slovník.gov.cz/datový/a944/pojem/díl-půdy> a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/element>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/hidden> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "681";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "168" .
+
+<https://slovník.gov.cz/datový/a944/pojem/vlastník> a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/element>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/hidden> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "174";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "84" .
+
+<https://slovník.gov.cz/datový/a944/pojem/evidence-objektů> a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/element>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/hidden> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "411";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "225" .
+
+<https://slovník.gov.cz/datový/pracovní-prostor/pojem/příloha/instance-80641b9d-780b-427f-8848-38f5972e0d23>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/diagram>, a-popis-dat-pojem:příloha,
+    <https://slovník.gov.cz/datový/pracovní-prostor/pojem/příloha>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "80641b9d-780b-427f-8848-38f5972e0d23";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/index> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/name> "Nový diagram";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/representation> "1" .
+
+<https://slovník.gov.cz/datový/a944/pojem/užívá-půdu> a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/element>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/hidden> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "554";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "208" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-79bad7f3-fbf7-4db9-8cb1-830db1a59169>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "79bad7f3-fbf7-4db9-8cb1-830db1a59169";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/datový/a944/pojem/užívá-půdu>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/datový/a944/pojem/díl-půdy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/datový/a944/pojem/uživatel-půdy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/vertex> <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-79bad7f3-fbf7-4db9-8cb1-830db1a59169/vertex-1> .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-6f7c1c55-8675-48a6-8608-8c3973307864>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "6f7c1c55-8675-48a6-8608-8c3973307864";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/datový/a944/pojem/užívá-půdu>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/datový/a944/pojem/díl-půdy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-641e2443-8a09-4d27-be60-806c35e9bcfa>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "641e2443-8a09-4d27-be60-806c35e9bcfa";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/datový/a944/pojem/užívá-půdu>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/datový/a944/pojem/uživatel-půdy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-79bad7f3-fbf7-4db9-8cb1-830db1a59169/vertex-1>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/vertex>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/index> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "753";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "286" .
+
+<https://slovník.gov.cz/datový/a944/pojem/podniká-s-půdou> a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/element>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/hidden> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "-10";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "114" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-8f7816dd-e321-4451-8b50-8894f99474f4>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "8f7816dd-e321-4451-8b50-8894f99474f4";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/datový/a944/pojem/podniká-s-půdou>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/datový/a944/pojem/vlastník>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/datový/a944/pojem/zemědělský-podnikatel>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-cb53cfa1-8f50-4338-9afa-00fece0d0943>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "cb53cfa1-8f50-4338-9afa-00fece0d0943";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/datový/a944/pojem/podniká-s-půdou>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/datový/a944/pojem/vlastník>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-68c94900-33c3-4484-a2d9-b042ad905c04>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "68c94900-33c3-4484-a2d9-b042ad905c04";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/datový/a944/pojem/podniká-s-půdou>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/datový/a944/pojem/zemědělský-podnikatel>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-c067c13a-dfba-4a11-b536-53e16c085374>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "c067c13a-dfba-4a11-b536-53e16c085374";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/datový/a944/pojem/vlastní-půdu>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/datový/a944/pojem/uživatel>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/datový/a944/pojem/díl-půdy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-bdd688a5-9234-4c46-8dab-0ea35dd482b6>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "bdd688a5-9234-4c46-8dab-0ea35dd482b6";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/datový/a944/pojem/zemědělský-podnikatel>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/datový/a944/pojem/blalbla>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-4ea8fdfd-8f2a-43ab-9f6e-23bb70030afa>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "4ea8fdfd-8f2a-43ab-9f6e-23bb70030afa";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/datový/a944/pojem/zemědělský-podnikatel>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/datový/a944/pojem/blalbla>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<https://slovník.gov.cz/datový/a944/pojem/hranice> a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/element>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/hidden> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "402";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "316" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-41b03e28-5777-48d9-a3a9-47722eb0ab3f>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "41b03e28-5777-48d9-a3a9-47722eb0ab3f";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/datový/a944/pojem/uživatel-půdy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/datový/a944/pojem/hranice>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-644d9a14-3e48-4023-b673-a54b1051cfdf>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "644d9a14-3e48-4023-b673-a54b1051cfdf";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/datový/a944/pojem/uživatel-půdy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/datový/a944/pojem/výměra>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<https://slovník.gov.cz/datový/a944/pojem/vinice> a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/element>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/hidden> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "430";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "334" .
+
+<https://slovník.gov.cz/datový/a944/pojem/id-vinice> a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/element>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/hidden> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "388";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "371" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-8676ad1f-0366-40db-8398-ac2b646457ab>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "8676ad1f-0366-40db-8398-ac2b646457ab";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/datový/a944/pojem/vinice>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/datový/a944/pojem/id-vinice>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
