@@ -1,0 +1,98 @@
+@prefix a-popis-dat-pojem: <http://onto.fel.cvut.cz/ontologies/slovník/agendový/popis-dat/pojem/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix l-sgov-sbírka-25-2008: <https://slovník.gov.cz/legislativní/sbírka/25/2008/> .
+@prefix l-sgov-sbírka-25-2008-pojem: <https://slovník.gov.cz/legislativní/sbírka/25/2008/pojem/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+l-sgov-sbírka-25-2008:glosář a a-popis-dat-pojem:glosář, owl:Ontology, skos:ConceptScheme;
+  dcterms:created "2022-10-19T12:13:00.522Z"^^xsd:dateTime;
+  dcterms:rights <https://creativecommons.org/licenses/by-sa/4.0>;
+  dcterms:title "Zákon č. 25/2008 - glosář"@cs;
+  vann:preferredNamespacePrefix "l-sgov-sbírka-25-2008-pojem";
+  vann:preferredNamespaceUri "https://slovník.gov.cz/legislativní/sbírka/25/2008/pojem/";
+  owl:versionIRI "https://slovník.gov.cz/legislativní/sbírka/25/2008/glosář/verze/1.0.0";
+  skos:hasTopConcept l-sgov-sbírka-25-2008-pojem:datový-standard, l-sgov-sbírka-25-2008-pojem:e-prtr,
+    <https://slovník.gov.cz/legislativní/sbírka/25/2008/pojem/e-prtr/irz>, l-sgov-sbírka-25-2008-pojem:hlášení,
+    l-sgov-sbírka-25-2008-pojem:identifikační-číslo-provozovny, l-sgov-sbírka-25-2008-pojem:integrovaný-registr-znečišťování-životního-prostředí,
+    l-sgov-sbírka-25-2008-pojem:integrovaný-systém-plnění-ohlašovacích-povinností-v-oblasti-životního-prostředí,
+    l-sgov-sbírka-25-2008-pojem:ičo, l-sgov-sbírka-25-2008-pojem:ohlášení, l-sgov-sbírka-25-2008-pojem:provozovatel,
+    l-sgov-sbírka-25-2008-pojem:provozovna, l-sgov-sbírka-25-2008-pojem:provozovna-e-prtr,
+    l-sgov-sbírka-25-2008-pojem:provozovna-irz, l-sgov-sbírka-25-2008-pojem:publikace-datového-standardu,
+    l-sgov-sbírka-25-2008-pojem:publikace-ohlášených-údajů .
+
+l-sgov-sbírka-25-2008-pojem:integrovaný-registr-znečišťování-životního-prostředí a
+    skos:Concept;
+  dcterms:source "§ 2 zákona č. 25/2008 Sb.";
+  dcterms:title "Registr znečišťování"@cs;
+  skos:altLabel "IRZ"@cs, "PRTR"@cs, "Registr znečišťování"@cs;
+  skos:definition "Veřejně přístupný informační systém veřejné správy."@cs;
+  skos:hiddenLabel "registr"@cs;
+  skos:inScheme l-sgov-sbírka-25-2008:glosář;
+  skos:prefLabel "Integrovaný registr znečišťování životního prostředí"@cs;
+  skos:scopeNote ""@cs .
+
+l-sgov-sbírka-25-2008-pojem:integrovaný-systém-plnění-ohlašovacích-povinností-v-oblasti-životního-prostředí
+  a skos:Concept;
+  dcterms:source "§ 4 odst. (1) zákona č. 25/2008 Sb.";
+  dcterms:title "ISPOP"@cs;
+  skos:altLabel "IS ISPOP"@cs, "ISPOP"@cs, "Integrovaný systém plnění ohlašovacích povinností"@cs;
+  skos:definition "Integrovaný systém plnění ohlašovacích povinností v oblasti životního prostředí umožňuje plnění ohlašovacích povinností v oblasti životního prostředí podle § 3 a podle zvláštních právních předpisů i k jiným úkonům, stanoví-li tak zvláštní právní předpis."@cs;
+  skos:inScheme l-sgov-sbírka-25-2008:glosář;
+  skos:prefLabel "Integrovaný systém plnění ohlašovacích povinností v oblasti životního prostředí"@cs;
+  skos:scopeNote "https://www.zakonyprolidi.cz/cs/2008-25"@cs .
+
+l-sgov-sbírka-25-2008-pojem:datový-standard a skos:Concept;
+  skos:inScheme l-sgov-sbírka-25-2008:glosář;
+  skos:prefLabel "Datový standard"@cs .
+
+l-sgov-sbírka-25-2008-pojem:hlášení a skos:Concept;
+  skos:inScheme l-sgov-sbírka-25-2008:glosář;
+  skos:prefLabel "Hlášení"@cs .
+
+l-sgov-sbírka-25-2008-pojem:provozovna-irz a skos:Concept;
+  skos:inScheme l-sgov-sbírka-25-2008:glosář;
+  skos:prefLabel "Provozovna IRZ"@cs .
+
+l-sgov-sbírka-25-2008-pojem:provozovatel a skos:Concept;
+  skos:inScheme l-sgov-sbírka-25-2008:glosář;
+  skos:prefLabel "Provozovatel"@cs .
+
+l-sgov-sbírka-25-2008-pojem:provozovna-e-prtr a skos:Concept;
+  skos:inScheme l-sgov-sbírka-25-2008:glosář;
+  skos:prefLabel "Provozovna E-PRTR"@cs .
+
+l-sgov-sbírka-25-2008-pojem:ohlášení a skos:Concept;
+  skos:inScheme l-sgov-sbírka-25-2008:glosář;
+  skos:prefLabel "Ohlášení"@cs .
+
+l-sgov-sbírka-25-2008-pojem:publikace-datového-standardu a skos:Concept;
+  skos:inScheme l-sgov-sbírka-25-2008:glosář;
+  skos:prefLabel "Publikace datového standardu"@cs .
+
+l-sgov-sbírka-25-2008-pojem:publikace-ohlášených-údajů a skos:Concept;
+  skos:inScheme l-sgov-sbírka-25-2008:glosář;
+  skos:prefLabel "Publikace ohlášených údajů"@cs .
+
+l-sgov-sbírka-25-2008-pojem:provozovna a skos:Concept;
+  skos:inScheme l-sgov-sbírka-25-2008:glosář;
+  skos:prefLabel "Provozovna"@cs .
+
+l-sgov-sbírka-25-2008-pojem:e-prtr a skos:Concept;
+  skos:inScheme l-sgov-sbírka-25-2008:glosář;
+  skos:prefLabel "E-PRTR"@cs .
+
+<https://slovník.gov.cz/legislativní/sbírka/25/2008/pojem/e-prtr/irz> a skos:Concept;
+  skos:inScheme l-sgov-sbírka-25-2008:glosář;
+  skos:prefLabel "E-PRTR/IRZ"@cs .
+
+l-sgov-sbírka-25-2008-pojem:ičo a skos:Concept;
+  skos:inScheme l-sgov-sbírka-25-2008:glosář;
+  skos:prefLabel "IČO"@cs .
+
+l-sgov-sbírka-25-2008-pojem:identifikační-číslo-provozovny a skos:Concept;
+  skos:inScheme l-sgov-sbírka-25-2008:glosář;
+  skos:prefLabel "Identifikační číslo provozovny"@cs .
