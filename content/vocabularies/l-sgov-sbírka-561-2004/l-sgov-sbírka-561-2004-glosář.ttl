@@ -1,0 +1,67 @@
+@prefix a-popis-dat-pojem: <http://onto.fel.cvut.cz/ontologies/slovník/agendový/popis-dat/pojem/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix l-sgov-sbírka-561-2004: <https://slovník.gov.cz/legislativní/sbírka/561/2004/> .
+@prefix l-sgov-sbírka-561-2004-pojem: <https://slovník.gov.cz/legislativní/sbírka/561/2004/pojem/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+l-sgov-sbírka-561-2004:glosář a a-popis-dat-pojem:glosář, owl:Ontology, skos:ConceptScheme;
+  dcterms:created "2023-01-03T09:32:46.876Z"^^xsd:dateTime;
+  dcterms:rights <https://creativecommons.org/licenses/by-sa/4.0>;
+  dcterms:title "Slovník zákona č. 561/2004 Sb., Zákon o předškolním, základním, středním, vyšším odborném a jiném vzdělávání (školský zákon). - slovník - glosář"@cs;
+  vann:preferredNamespacePrefix "l-sgov-sbírka-561-2004-pojem";
+  vann:preferredNamespaceUri "https://slovník.gov.cz/legislativní/sbírka/561/2004/pojem/";
+  owl:versionIRI "https://slovník.gov.cz/legislativní/sbírka/561/2004/glosář/verze/1.0.0";
+  skos:hasTopConcept l-sgov-sbírka-561-2004-pojem:místo-poskytování-vzdělání-nebo-školských-služeb,
+    l-sgov-sbírka-561-2004-pojem:obor-vzdělání, l-sgov-sbírka-561-2004-pojem:právní-subjekt-vykonávající-činnost,
+    l-sgov-sbírka-561-2004-pojem:statutární-orgán-právního-subjektu-vykonávající-činnost,
+    l-sgov-sbírka-561-2004-pojem:ředitelk-ka-školy-školského-zařízení, <https://slovník.gov.cz/legislativní/sbírka/561/2004/pojem/škola/školské-zařízení>,
+    <https://slovník.gov.cz/legislativní/sbírka/561/2004/pojem/škola/školské-zařízeníghfnxvb> .
+
+<https://slovník.gov.cz/legislativní/sbírka/561/2004/pojem/škola/školské-zařízení>
+  a skos:Concept;
+  skos:inScheme l-sgov-sbírka-561-2004:glosář;
+  skos:prefLabel "Škola/školské zařízení"@cs .
+
+l-sgov-sbírka-561-2004-pojem:právní-subjekt-vykonávající-činnost a skos:Concept;
+  dcterms:source "§ 142";
+  skos:definition "Účinností zápisu školy a školského zařízení do rejstříku škol a školských zařízení vzniká právnické osobě, která vykonává činnost školy nebo školského zařízení, právo poskytovat vzdělávání a školské služby a právo vydávat doklady o vzdělání stanovené tímto zákonem, a to v rozsahu tohoto zápisu."@cs;
+  skos:inScheme l-sgov-sbírka-561-2004:glosář;
+  skos:prefLabel "Právní subjekt vykonávající činnost"@cs;
+  skos:scopeNote ""@cs .
+
+l-sgov-sbírka-561-2004-pojem:obor-vzdělání a skos:Concept;
+  dcterms:source "§ 144, (1), d)";
+  skos:inScheme l-sgov-sbírka-561-2004:glosář;
+  skos:prefLabel "Obor vzdělání"@cs;
+  skos:scopeNote ""@cs .
+
+l-sgov-sbírka-561-2004-pojem:místo-poskytování-vzdělání-nebo-školských-služeb a skos:Concept;
+  dcterms:source "§ 144, (1), g)";
+  skos:definition ""@cs;
+  skos:inScheme l-sgov-sbírka-561-2004:glosář;
+  skos:prefLabel "Místo poskytování vzdělání nebo školských služeb"@cs;
+  skos:scopeNote ""@cs .
+
+l-sgov-sbírka-561-2004-pojem:ředitelk-ka-školy-školského-zařízení a skos:Concept;
+  dcterms:source "§ 144, (1), i)";
+  skos:definition ""@cs;
+  skos:inScheme l-sgov-sbírka-561-2004:glosář;
+  skos:prefLabel "Ředitelk/ka školy/školského zařízení"@cs;
+  skos:scopeNote ""@cs .
+
+l-sgov-sbírka-561-2004-pojem:statutární-orgán-právního-subjektu-vykonávající-činnost
+  a skos:Concept;
+  dcterms:source "§ 144, (1), j)";
+  skos:definition ""@cs;
+  skos:inScheme l-sgov-sbírka-561-2004:glosář;
+  skos:prefLabel "Statutární orgán právního subjektu vykonávající činnost"@cs;
+  skos:scopeNote ""@cs .
+
+<https://slovník.gov.cz/legislativní/sbírka/561/2004/pojem/škola/školské-zařízeníghfnxvb>
+  a skos:Concept;
+  skos:inScheme l-sgov-sbírka-561-2004:glosář;
+  skos:prefLabel "Škola/školské zařízeníghfnxvb"@cs .
