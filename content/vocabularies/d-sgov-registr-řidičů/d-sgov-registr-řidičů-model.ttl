@@ -8,14 +8,36 @@
 @prefix vann: <http://purl.org/vocab/vann/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-d-sgov-registr-řidičů:model a a-popis-dat-pojem:model, owl:Ontology;
-  dcterms:created "2022-01-28T11:37:29.639Z"^^xsd:dateTime;
-  dcterms:rights <https://creativecommons.org/licenses/by-sa/4.0>;
-  dcterms:title "Registr řidičů - model"@cs;
-  vann:preferredNamespacePrefix "d-sgov-registr-řidičů-pojem";
-  vann:preferredNamespaceUri "https://slovník.gov.cz/datový/registr-řidičů/pojem/";
-  owl:imports d-sgov-registr-řidičů:glosář;
-  owl:versionIRI "https://slovník.gov.cz/datový/registr-řidičů/model/verze/1.0.0" .
+d-sgov-registr-řidičů-pojem:eviduje-skupinu-vozidel a <https://slovník.gov.cz/základní/pojem/typ-vztahu>;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>;
+      owl:someValuesFrom d-sgov-registr-řidičů-pojem:číselník-skupin-vozidel
+    ], [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>;
+      owl:someValuesFrom d-sgov-registr-řidičů-pojem:skupina-vozidel-jako-položka-číselníku
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger;
+      owl:onClass d-sgov-registr-řidičů-pojem:skupina-vozidel-jako-položka-číselníku;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger;
+      owl:onClass d-sgov-registr-řidičů-pojem:číselník-skupin-vozidel;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+    ], [ a owl:Restriction;
+      owl:allValuesFrom d-sgov-registr-řidičů-pojem:číselník-skupin-vozidel;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+    ], [ a owl:Restriction;
+      owl:allValuesFrom d-sgov-registr-řidičů-pojem:skupina-vozidel-jako-položka-číselníku;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
+    ], [ a owl:Restriction;
+      owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger;
+      owl:onClass d-sgov-registr-řidičů-pojem:číselník-skupin-vozidel;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+    ], [ a owl:Restriction;
+      owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger;
+      owl:onClass d-sgov-registr-řidičů-pojem:skupina-vozidel-jako-položka-číselníku;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
+    ] .
 
 d-sgov-registr-řidičů-pojem:skupina-vozidel-jako-položka-číselníku a <https://slovník.gov.cz/základní/pojem/typ-objektu>;
   rdfs:subClassOf <https://slovník.gov.cz/legislativní/sbírka/361/2000/pojem/skupina-vozidel>,
@@ -23,72 +45,6 @@ d-sgov-registr-řidičů-pojem:skupina-vozidel-jako-položka-číselníku a <htt
       owl:onProperty [
           owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
         ];
-      owl:someValuesFrom d-sgov-registr-řidičů-pojem:eviduje-skupinu-vozidel
-    ], [ a owl:Restriction;
-      owl:allValuesFrom d-sgov-registr-řidičů-pojem:eviduje-skupinu-vozidel;
-      owl:onProperty [
-          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
-        ]
-    ], [ a owl:Restriction;
-      owl:onProperty [
-          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
-        ];
-      owl:someValuesFrom d-sgov-registr-řidičů-pojem:eviduje-skupinu-vozidel
-    ], [ a owl:Restriction;
-      owl:allValuesFrom d-sgov-registr-řidičů-pojem:eviduje-skupinu-vozidel;
-      owl:onProperty [
-          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
-        ]
-    ], [ a owl:Restriction;
-      owl:onProperty [
-          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
-        ];
-      owl:someValuesFrom d-sgov-registr-řidičů-pojem:eviduje-skupinu-vozidel
-    ], [ a owl:Restriction;
-      owl:allValuesFrom d-sgov-registr-řidičů-pojem:eviduje-skupinu-vozidel;
-      owl:onProperty [
-          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
-        ]
-    ], [ a owl:Restriction;
-      owl:onProperty [
-          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
-        ];
-      owl:someValuesFrom d-sgov-registr-řidičů-pojem:eviduje-skupinu-vozidel
-    ], [ a owl:Restriction;
-      owl:allValuesFrom d-sgov-registr-řidičů-pojem:eviduje-skupinu-vozidel;
-      owl:onProperty [
-          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
-        ]
-    ], [ a owl:Restriction;
-      owl:onProperty [
-          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
-        ];
-      owl:someValuesFrom d-sgov-registr-řidičů-pojem:eviduje-skupinu-vozidel
-    ], [ a owl:Restriction;
-      owl:allValuesFrom d-sgov-registr-řidičů-pojem:eviduje-skupinu-vozidel;
-      owl:onProperty [
-          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
-        ]
-    ], [ a owl:Restriction;
-      owl:onProperty [
-          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
-        ];
-      owl:someValuesFrom d-sgov-registr-řidičů-pojem:eviduje-skupinu-vozidel
-    ], [ a owl:Restriction;
-      owl:allValuesFrom d-sgov-registr-řidičů-pojem:eviduje-skupinu-vozidel;
-      owl:onProperty [
-          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
-        ]
-    ], [ a owl:Restriction;
-      owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger;
-      owl:onClass d-sgov-registr-řidičů-pojem:eviduje-skupinu-vozidel;
-      owl:onProperty [
-          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
-        ]
-    ], [ a owl:Restriction;
-      owl:onProperty [
-          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
-        ];
       owl:someValuesFrom d-sgov-registr-řidičů-pojem:uděleno-pro-skupinu-vozidel-jako-položka-číselníku
     ], [ a owl:Restriction;
       owl:allValuesFrom d-sgov-registr-řidičů-pojem:uděleno-pro-skupinu-vozidel-jako-položka-číselníku;
@@ -99,29 +55,9 @@ d-sgov-registr-řidičů-pojem:skupina-vozidel-jako-položka-číselníku a <htt
       owl:onProperty [
           owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
         ];
-      owl:someValuesFrom d-sgov-registr-řidičů-pojem:uděleno-pro-skupinu-vozidel-jako-položka-číselníku
+      owl:someValuesFrom d-sgov-registr-řidičů-pojem:eviduje-skupinu-vozidel
     ], [ a owl:Restriction;
-      owl:allValuesFrom d-sgov-registr-řidičů-pojem:uděleno-pro-skupinu-vozidel-jako-položka-číselníku;
-      owl:onProperty [
-          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
-        ]
-    ], [ a owl:Restriction;
-      owl:onProperty [
-          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
-        ];
-      owl:someValuesFrom d-sgov-registr-řidičů-pojem:uděleno-pro-skupinu-vozidel-jako-položka-číselníku
-    ], [ a owl:Restriction;
-      owl:allValuesFrom d-sgov-registr-řidičů-pojem:uděleno-pro-skupinu-vozidel-jako-položka-číselníku;
-      owl:onProperty [
-          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
-        ]
-    ], [ a owl:Restriction;
-      owl:onProperty [
-          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
-        ];
-      owl:someValuesFrom d-sgov-registr-řidičů-pojem:uděleno-pro-skupinu-vozidel-jako-položka-číselníku
-    ], [ a owl:Restriction;
-      owl:allValuesFrom d-sgov-registr-řidičů-pojem:uděleno-pro-skupinu-vozidel-jako-položka-číselníku;
+      owl:allValuesFrom d-sgov-registr-řidičů-pojem:eviduje-skupinu-vozidel;
       owl:onProperty [
           owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
         ]
@@ -131,6 +67,124 @@ d-sgov-registr-řidičů-pojem:skupina-vozidel-jako-položka-číselníku a <htt
       owl:onProperty [
           owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
         ]
+    ], [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
+        ];
+      owl:someValuesFrom d-sgov-registr-řidičů-pojem:uděleno-pro-skupinu-vozidel-jako-položka-číselníku
+    ], [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
+        ];
+      owl:someValuesFrom d-sgov-registr-řidičů-pojem:eviduje-skupinu-vozidel
+    ], [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
+        ];
+      owl:someValuesFrom d-sgov-registr-řidičů-pojem:eviduje-skupinu-vozidel
+    ], [ a owl:Restriction;
+      owl:allValuesFrom d-sgov-registr-řidičů-pojem:eviduje-skupinu-vozidel;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
+        ]
+    ], [ a owl:Restriction;
+      owl:allValuesFrom d-sgov-registr-řidičů-pojem:eviduje-skupinu-vozidel;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
+        ]
+    ], [ a owl:Restriction;
+      owl:allValuesFrom d-sgov-registr-řidičů-pojem:eviduje-skupinu-vozidel;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
+        ]
+    ], [ a owl:Restriction;
+      owl:allValuesFrom d-sgov-registr-řidičů-pojem:uděleno-pro-skupinu-vozidel-jako-položka-číselníku;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
+        ]
+    ], [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
+        ];
+      owl:someValuesFrom d-sgov-registr-řidičů-pojem:eviduje-skupinu-vozidel
+    ], [ a owl:Restriction;
+      owl:allValuesFrom d-sgov-registr-řidičů-pojem:eviduje-skupinu-vozidel;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
+        ]
+    ], [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
+        ];
+      owl:someValuesFrom d-sgov-registr-řidičů-pojem:eviduje-skupinu-vozidel
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger;
+      owl:onClass d-sgov-registr-řidičů-pojem:eviduje-skupinu-vozidel;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
+        ]
+    ], [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
+        ];
+      owl:someValuesFrom d-sgov-registr-řidičů-pojem:uděleno-pro-skupinu-vozidel-jako-položka-číselníku
+    ], [ a owl:Restriction;
+      owl:allValuesFrom d-sgov-registr-řidičů-pojem:uděleno-pro-skupinu-vozidel-jako-položka-číselníku;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
+        ]
+    ], [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
+        ];
+      owl:someValuesFrom d-sgov-registr-řidičů-pojem:eviduje-skupinu-vozidel
+    ], [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
+        ];
+      owl:someValuesFrom d-sgov-registr-řidičů-pojem:uděleno-pro-skupinu-vozidel-jako-položka-číselníku
+    ], [ a owl:Restriction;
+      owl:allValuesFrom d-sgov-registr-řidičů-pojem:uděleno-pro-skupinu-vozidel-jako-položka-číselníku;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
+        ]
+    ], [ a owl:Restriction;
+      owl:allValuesFrom d-sgov-registr-řidičů-pojem:eviduje-skupinu-vozidel;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
+        ]
+    ] .
+
+d-sgov-registr-řidičů-pojem:uděleno-pro-skupinu-vozidel-jako-položka-číselníku a <https://slovník.gov.cz/základní/pojem/typ-vztahu>;
+  rdfs:subClassOf <https://slovník.gov.cz/legislativní/sbírka/361/2000/pojem/uděleno-pro-skupinu-vozidel>,
+    [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>;
+      owl:someValuesFrom <https://slovník.gov.cz/legislativní/sbírka/361/2000/pojem/řidičské-oprávnění>
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger;
+      owl:onClass <https://slovník.gov.cz/legislativní/sbírka/361/2000/pojem/řidičské-oprávnění>;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+    ], [ a owl:Restriction;
+      owl:allValuesFrom <https://slovník.gov.cz/legislativní/sbírka/361/2000/pojem/řidičské-oprávnění>;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+    ], [ a owl:Restriction;
+      owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger;
+      owl:onClass <https://slovník.gov.cz/legislativní/sbírka/361/2000/pojem/řidičské-oprávnění>;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger;
+      owl:onClass d-sgov-registr-řidičů-pojem:skupina-vozidel-jako-položka-číselníku;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
+    ], [ a owl:Restriction;
+      owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger;
+      owl:onClass d-sgov-registr-řidičů-pojem:skupina-vozidel-jako-položka-číselníku;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
+    ], [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>;
+      owl:someValuesFrom d-sgov-registr-řidičů-pojem:skupina-vozidel-jako-položka-číselníku
+    ], [ a owl:Restriction;
+      owl:allValuesFrom d-sgov-registr-řidičů-pojem:skupina-vozidel-jako-položka-číselníku;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
     ] .
 
 d-sgov-registr-řidičů-pojem:číselník-skupin-vozidel a <https://slovník.gov.cz/základní/pojem/typ-objektu>;
@@ -140,6 +194,16 @@ d-sgov-registr-řidičů-pojem:číselník-skupin-vozidel a <https://slovník.go
         ];
       owl:someValuesFrom d-sgov-registr-řidičů-pojem:eviduje-skupinu-vozidel
     ], [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+        ];
+      owl:someValuesFrom d-sgov-registr-řidičů-pojem:eviduje-skupinu-vozidel
+    ], [ a owl:Restriction;
+      owl:allValuesFrom d-sgov-registr-řidičů-pojem:eviduje-skupinu-vozidel;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+        ]
+    ], [ a owl:Restriction;
       owl:allValuesFrom d-sgov-registr-řidičů-pojem:eviduje-skupinu-vozidel;
       owl:onProperty [
           owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
@@ -160,11 +224,6 @@ d-sgov-registr-řidičů-pojem:číselník-skupin-vozidel a <https://slovník.go
         ];
       owl:someValuesFrom d-sgov-registr-řidičů-pojem:eviduje-skupinu-vozidel
     ], [ a owl:Restriction;
-      owl:allValuesFrom d-sgov-registr-řidičů-pojem:eviduje-skupinu-vozidel;
-      owl:onProperty [
-          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
-        ]
-    ], [ a owl:Restriction;
       owl:onProperty [
           owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
         ];
@@ -174,11 +233,6 @@ d-sgov-registr-řidičů-pojem:číselník-skupin-vozidel a <https://slovník.go
       owl:onProperty [
           owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
         ]
-    ], [ a owl:Restriction;
-      owl:onProperty [
-          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
-        ];
-      owl:someValuesFrom d-sgov-registr-řidičů-pojem:eviduje-skupinu-vozidel
     ], [ a owl:Restriction;
       owl:allValuesFrom d-sgov-registr-řidičů-pojem:eviduje-skupinu-vozidel;
       owl:onProperty [
@@ -192,107 +246,19 @@ d-sgov-registr-řidičů-pojem:číselník-skupin-vozidel a <https://slovník.go
         ]
     ] .
 
-d-sgov-registr-řidičů-pojem:eviduje-skupinu-vozidel a <https://slovník.gov.cz/základní/pojem/typ-vztahu>;
-  rdfs:subClassOf [ a owl:Restriction;
-      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>;
-      owl:someValuesFrom d-sgov-registr-řidičů-pojem:skupina-vozidel-jako-položka-číselníku
-    ], [ a owl:Restriction;
-      owl:allValuesFrom d-sgov-registr-řidičů-pojem:skupina-vozidel-jako-položka-číselníku;
-      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
-    ], [ a owl:Restriction;
-      owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger;
-      owl:onClass d-sgov-registr-řidičů-pojem:skupina-vozidel-jako-položka-číselníku;
-      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
-    ], [ a owl:Restriction;
-      owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger;
-      owl:onClass d-sgov-registr-řidičů-pojem:skupina-vozidel-jako-položka-číselníku;
-      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
-    ], [ a owl:Restriction;
-      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>;
-      owl:someValuesFrom d-sgov-registr-řidičů-pojem:číselník-skupin-vozidel
-    ], [ a owl:Restriction;
-      owl:allValuesFrom d-sgov-registr-řidičů-pojem:číselník-skupin-vozidel;
-      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
-    ], [ a owl:Restriction;
-      owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger;
-      owl:onClass d-sgov-registr-řidičů-pojem:číselník-skupin-vozidel;
-      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
-    ], [ a owl:Restriction;
-      owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger;
-      owl:onClass d-sgov-registr-řidičů-pojem:číselník-skupin-vozidel;
-      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
-    ] .
-
-d-sgov-registr-řidičů-pojem:uděleno-pro-skupinu-vozidel-jako-položka-číselníku a <https://slovník.gov.cz/základní/pojem/typ-vztahu>;
-  rdfs:subClassOf <https://slovník.gov.cz/legislativní/sbírka/361/2000/pojem/uděleno-pro-skupinu-vozidel>,
-    [ a owl:Restriction;
-      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>;
-      owl:someValuesFrom <https://slovník.gov.cz/legislativní/sbírka/361/2000/pojem/řidičské-oprávnění>
-    ], [ a owl:Restriction;
-      owl:allValuesFrom <https://slovník.gov.cz/legislativní/sbírka/361/2000/pojem/řidičské-oprávnění>;
-      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
-    ], [ a owl:Restriction;
-      owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger;
-      owl:onClass <https://slovník.gov.cz/legislativní/sbírka/361/2000/pojem/řidičské-oprávnění>;
-      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
-    ], [ a owl:Restriction;
-      owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger;
-      owl:onClass <https://slovník.gov.cz/legislativní/sbírka/361/2000/pojem/řidičské-oprávnění>;
-      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
-    ], [ a owl:Restriction;
-      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>;
-      owl:someValuesFrom d-sgov-registr-řidičů-pojem:skupina-vozidel-jako-položka-číselníku
-    ], [ a owl:Restriction;
-      owl:allValuesFrom d-sgov-registr-řidičů-pojem:skupina-vozidel-jako-položka-číselníku;
-      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
-    ], [ a owl:Restriction;
-      owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger;
-      owl:onClass d-sgov-registr-řidičů-pojem:skupina-vozidel-jako-položka-číselníku;
-      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
-    ], [ a owl:Restriction;
-      owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger;
-      owl:onClass d-sgov-registr-řidičů-pojem:skupina-vozidel-jako-položka-číselníku;
-      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
-    ] .
+d-sgov-registr-řidičů:model a a-popis-dat-pojem:model, owl:Ontology;
+  dcterms:created "2022-01-28T11:37:29.639Z"^^xsd:dateTime;
+  dcterms:rights <https://creativecommons.org/licenses/by-sa/4.0>;
+  dcterms:title "Registr řidičů - model"@cs;
+  vann:preferredNamespacePrefix "d-sgov-registr-řidičů-pojem";
+  vann:preferredNamespaceUri "https://slovník.gov.cz/datový/registr-řidičů/pojem/";
+  owl:imports d-sgov-registr-řidičů:glosář;
+  owl:versionIRI "https://slovník.gov.cz/datový/registr-řidičů/model/verze/1.0.0" .
 
 <https://slovník.gov.cz/legislativní/sbírka/361/2000/pojem/řidičské-oprávnění> rdfs:subClassOf
     [ a owl:Restriction;
-      owl:onProperty [
-          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
-        ];
-      owl:someValuesFrom d-sgov-registr-řidičů-pojem:uděleno-pro-skupinu-vozidel-jako-položka-číselníku
-    ], [ a owl:Restriction;
-      owl:allValuesFrom d-sgov-registr-řidičů-pojem:uděleno-pro-skupinu-vozidel-jako-položka-číselníku;
-      owl:onProperty [
-          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
-        ]
-    ], [ a owl:Restriction;
-      owl:onProperty [
-          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
-        ];
-      owl:someValuesFrom d-sgov-registr-řidičů-pojem:uděleno-pro-skupinu-vozidel-jako-položka-číselníku
-    ], [ a owl:Restriction;
-      owl:allValuesFrom d-sgov-registr-řidičů-pojem:uděleno-pro-skupinu-vozidel-jako-položka-číselníku;
-      owl:onProperty [
-          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
-        ]
-    ], [ a owl:Restriction;
-      owl:onProperty [
-          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
-        ];
-      owl:someValuesFrom d-sgov-registr-řidičů-pojem:uděleno-pro-skupinu-vozidel-jako-položka-číselníku
-    ], [ a owl:Restriction;
-      owl:allValuesFrom d-sgov-registr-řidičů-pojem:uděleno-pro-skupinu-vozidel-jako-položka-číselníku;
-      owl:onProperty [
-          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
-        ]
-    ], [ a owl:Restriction;
-      owl:onProperty [
-          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
-        ];
-      owl:someValuesFrom d-sgov-registr-řidičů-pojem:uděleno-pro-skupinu-vozidel-jako-položka-číselníku
-    ], [ a owl:Restriction;
-      owl:allValuesFrom d-sgov-registr-řidičů-pojem:uděleno-pro-skupinu-vozidel-jako-položka-číselníku;
+      owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger;
+      owl:onClass d-sgov-registr-řidičů-pojem:uděleno-pro-skupinu-vozidel-jako-položka-číselníku;
       owl:onProperty [
           owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
         ]
@@ -313,32 +279,54 @@ d-sgov-registr-řidičů-pojem:uděleno-pro-skupinu-vozidel-jako-položka-číse
           owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
         ]
     ], [ a owl:Restriction;
-      owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger;
-      owl:onClass d-sgov-registr-řidičů-pojem:uděleno-pro-skupinu-vozidel-jako-položka-číselníku;
+      owl:allValuesFrom d-sgov-registr-řidičů-pojem:uděleno-pro-skupinu-vozidel-jako-položka-číselníku;
       owl:onProperty [
           owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
         ]
+    ], [ a owl:Restriction;
+      owl:allValuesFrom d-sgov-registr-řidičů-pojem:uděleno-pro-skupinu-vozidel-jako-položka-číselníku;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+        ]
+    ], [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+        ];
+      owl:someValuesFrom d-sgov-registr-řidičů-pojem:uděleno-pro-skupinu-vozidel-jako-položka-číselníku
+    ], [ a owl:Restriction;
+      owl:allValuesFrom d-sgov-registr-řidičů-pojem:uděleno-pro-skupinu-vozidel-jako-položka-číselníku;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+        ]
+    ], [ a owl:Restriction;
+      owl:allValuesFrom d-sgov-registr-řidičů-pojem:uděleno-pro-skupinu-vozidel-jako-položka-číselníku;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+        ]
+    ], [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+        ];
+      owl:someValuesFrom d-sgov-registr-řidičů-pojem:uděleno-pro-skupinu-vozidel-jako-položka-číselníku
+    ], [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+        ];
+      owl:someValuesFrom d-sgov-registr-řidičů-pojem:uděleno-pro-skupinu-vozidel-jako-položka-číselníku
+    ], [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+        ];
+      owl:someValuesFrom d-sgov-registr-řidičů-pojem:uděleno-pro-skupinu-vozidel-jako-položka-číselníku
     ] .
 
 [] owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2> .
 
-[] owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2> .
-
 [] owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1> .
-
-[] owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2> .
 
 [] owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1> .
 
 [] owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2> .
-
-[] owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1> .
-
-[] owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2> .
-
-[] owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1> .
-
-[] owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1> .
 
 [] owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1> .
 
@@ -353,3 +341,15 @@ d-sgov-registr-řidičů-pojem:uděleno-pro-skupinu-vozidel-jako-položka-číse
 [] owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1> .
 
 [] owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2> .
+
+[] owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1> .
+
+[] owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1> .
+
+[] owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2> .
+
+[] owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2> .
+
+[] owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2> .
+
+[] owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1> .
