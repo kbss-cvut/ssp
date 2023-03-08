@@ -1,0 +1,38 @@
+@prefix a-popis-dat-pojem: <http://onto.fel.cvut.cz/ontologies/slovník/agendový/popis-dat/pojem/> .
+@prefix d-sgov-testovací-slovník-mm-221019: <https://slovník.gov.cz/datový/testovací-slovník-mm-221019/> .
+@prefix d-sgov-testovací-slovník-mm-221019-pojem: <https://slovník.gov.cz/datový/testovací-slovník-mm-221019/pojem/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+d-sgov-testovací-slovník-mm-221019:glosář a a-popis-dat-pojem:glosář, owl:Ontology,
+    skos:ConceptScheme;
+  dcterms:created "2022-10-19T10:10:25.396Z"^^xsd:dateTime;
+  dcterms:rights <https://creativecommons.org/licenses/by-sa/4.0>;
+  dcterms:title "Testovací slovník MM 221019 - glosář"@cs;
+  vann:preferredNamespacePrefix "d-sgov-testovací-slovník-mm-221019-pojem";
+  vann:preferredNamespaceUri "https://slovník.gov.cz/datový/testovací-slovník-mm-221019/pojem/";
+  owl:versionIRI "https://slovník.gov.cz/datový/testovací-slovník-mm-221019/glosář/verze/1.0.0";
+  skos:hasTopConcept d-sgov-testovací-slovník-mm-221019-pojem:má-typ-silničního-vozidla,
+    d-sgov-testovací-slovník-mm-221019-pojem:silniční-vozidlo, d-sgov-testovací-slovník-mm-221019-pojem:typ-silničího-vozidla .
+
+d-sgov-testovací-slovník-mm-221019-pojem:silniční-vozidlo a skos:Concept;
+  dcterms:source <https://www.zakonyprolidi.cz/cs/2001-56#p2-1>;
+  skos:definition "Silniční vozidlo je vozidle, keré jezdí po silnici"@cs;
+  skos:inScheme d-sgov-testovací-slovník-mm-221019:glosář;
+  skos:prefLabel "Silniční vozidlo"@cs;
+  skos:scopeNote ""@cs .
+
+d-sgov-testovací-slovník-mm-221019-pojem:typ-silničího-vozidla a skos:Concept;
+  dcterms:source "Paragraf 2 odstavec 56/2001";
+  skos:definition " Typem silničního vozidla se rozumí silniční vozidla určité kategorie, jež se shodují alespoň v základních znacích. Typ vozidla může zahrnovat varianty a verze. Základní znaky pro určení typů vozidel, variant a verzí stanoví pro jednotlivé kategorie prováděcí právní předpis."@cs;
+  skos:inScheme d-sgov-testovací-slovník-mm-221019:glosář;
+  skos:prefLabel "Typ silničího vozidla"@cs;
+  skos:scopeNote ""@cs .
+
+d-sgov-testovací-slovník-mm-221019-pojem:má-typ-silničního-vozidla a skos:Concept;
+  skos:inScheme d-sgov-testovací-slovník-mm-221019:glosář;
+  skos:prefLabel "má typ silničního vozidla"@cs .
