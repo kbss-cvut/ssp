@@ -1,0 +1,86 @@
+@prefix a-popis-dat-pojem: <http://onto.fel.cvut.cz/ontologies/slovník/agendový/popis-dat/pojem/> .
+@prefix d-sgov-testik-ks: <https://slovník.gov.cz/datový/testik-ks/> .
+@prefix d-sgov-testik-ks-pojem: <https://slovník.gov.cz/datový/testik-ks/pojem/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+d-sgov-testik-ks:glosář a a-popis-dat-pojem:glosář, owl:Ontology, skos:ConceptScheme;
+  dcterms:created "2022-10-19T10:12:12.844Z"^^xsd:dateTime;
+  dcterms:rights <https://creativecommons.org/licenses/by-sa/4.0>;
+  dcterms:title "Testik KS - glosář"@cs;
+  vann:preferredNamespacePrefix "d-sgov-testik-ks-pojem";
+  vann:preferredNamespaceUri "https://slovník.gov.cz/datový/testik-ks/pojem/";
+  owl:versionIRI "https://slovník.gov.cz/datový/testik-ks/glosář/verze/1.0.0";
+  skos:hasTopConcept d-sgov-testik-ks-pojem:agenda, d-sgov-testik-ks-pojem:evropský-předpis,
+    d-sgov-testik-ks-pojem:je-definována-právním-předpisem, d-sgov-testik-ks-pojem:má-úkon,
+    d-sgov-testik-ks-pojem:má-činnost, d-sgov-testik-ks-pojem:obsahuje-služby, d-sgov-testik-ks-pojem:ohlášení-nové-agendy,
+    d-sgov-testik-ks-pojem:právní-předpis, d-sgov-testik-ks-pojem:změna-existující, d-sgov-testik-ks-pojem:zákon,
+    d-sgov-testik-ks-pojem:činnost .
+
+d-sgov-testik-ks-pojem:služba-veřejné-správy a skos:Concept;
+  dcterms:source "12/2020, § 2";
+  skos:altLabel "služba"@cs;
+  skos:broader d-sgov-testik-ks-pojem:agenda;
+  skos:definition "interakce mezi OVM a klientem"@cs;
+  skos:inScheme d-sgov-testik-ks:glosář;
+  skos:prefLabel "Služba veřejné správy"@cs;
+  skos:scopeNote "https://www.zakonyprolidi.cz/cs/2020-12#f6701642"@cs .
+
+d-sgov-testik-ks-pojem:úkon a skos:Concept;
+  dcterms:source "12/2020, § 2";
+  skos:broader d-sgov-testik-ks-pojem:agenda, d-sgov-testik-ks-pojem:služba-veřejné-správy;
+  skos:definition "interakce mezi klientem a OVM, která v rámci služby nemusí nastat"@cs;
+  skos:inScheme d-sgov-testik-ks:glosář;
+  skos:prefLabel "úkon"@cs;
+  skos:scopeNote "https://www.zakonyprolidi.cz/cs/2020-12#f6701642"@cs .
+
+d-sgov-testik-ks-pojem:má-úkon a skos:Concept;
+  skos:inScheme d-sgov-testik-ks:glosář;
+  skos:prefLabel "má úkon"@cs .
+
+d-sgov-testik-ks-pojem:agenda a skos:Concept;
+  dcterms:source "§ 50-1-c, 111/2009";
+  skos:definition "okruh činností a povinností jednoho tématu"@cs;
+  skos:inScheme d-sgov-testik-ks:glosář;
+  skos:prefLabel "Agenda"@cs;
+  skos:scopeNote "https://www.zakonyprolidi.cz/cs/2009-111#p50-1-c"@cs .
+
+d-sgov-testik-ks-pojem:obsahuje-služby a skos:Concept;
+  skos:inScheme d-sgov-testik-ks:glosář;
+  skos:prefLabel "obsahuje služby?"@cs .
+
+d-sgov-testik-ks-pojem:právní-předpis a skos:Concept;
+  skos:inScheme d-sgov-testik-ks:glosář;
+  skos:prefLabel "Právní předpis"@cs .
+
+d-sgov-testik-ks-pojem:ohlášení-nové-agendy a skos:Concept;
+  skos:inScheme d-sgov-testik-ks:glosář;
+  skos:prefLabel "Ohlášení nové agendy"@cs .
+
+d-sgov-testik-ks-pojem:změna-existující a skos:Concept;
+  skos:inScheme d-sgov-testik-ks:glosář;
+  skos:prefLabel "změna existující"@cs .
+
+d-sgov-testik-ks-pojem:činnost a skos:Concept;
+  skos:inScheme d-sgov-testik-ks:glosář;
+  skos:prefLabel "Činnost"@cs .
+
+d-sgov-testik-ks-pojem:má-činnost a skos:Concept;
+  skos:inScheme d-sgov-testik-ks:glosář;
+  skos:prefLabel "má činnost"@cs .
+
+d-sgov-testik-ks-pojem:zákon a skos:Concept;
+  skos:inScheme d-sgov-testik-ks:glosář;
+  skos:prefLabel "zákon"@cs .
+
+d-sgov-testik-ks-pojem:evropský-předpis a skos:Concept;
+  skos:inScheme d-sgov-testik-ks:glosář;
+  skos:prefLabel "evropský předpis"@cs .
+
+d-sgov-testik-ks-pojem:je-definována-právním-předpisem a skos:Concept;
+  skos:inScheme d-sgov-testik-ks:glosář;
+  skos:prefLabel "je definována právním předpisem"@cs .
