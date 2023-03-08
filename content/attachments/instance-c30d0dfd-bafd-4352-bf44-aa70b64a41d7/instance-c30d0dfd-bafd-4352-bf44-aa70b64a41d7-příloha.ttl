@@ -1,0 +1,859 @@
+@prefix a-popis-dat-pojem: <http://onto.fel.cvut.cz/ontologies/slovník/agendový/popis-dat/pojem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/subjekt-údajů-vedený-v-registru-obyvatel>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/element>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/hidden> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "213";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "74" .
+
+<https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/fyzická-osoba> a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/element>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/hidden> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "292";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "-134" .
+
+<https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/účastník-národního-boje-za-osvobození>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/element>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/hidden> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "71";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "330" .
+
+<https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/oprávněná-osoba-k-podání-žádosti>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/element>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/hidden> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "174";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "196" .
+
+<https://slovník.gov.cz/datový/pracovní-prostor/pojem/příloha/instance-c30d0dfd-bafd-4352-bf44-aa70b64a41d7>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/diagram>, a-popis-dat-pojem:příloha,
+    <https://slovník.gov.cz/datový/pracovní-prostor/pojem/příloha>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "c30d0dfd-bafd-4352-bf44-aa70b64a41d7";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/index> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/name> "Nový diagram";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/representation> "1" .
+
+<https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/jméno-a-příjmení>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/element>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/hidden> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "141";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "264" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-b502d9b0-4640-45d9-b036-7c66a6ab749e>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "b502d9b0-4640-45d9-b036-7c66a6ab749e";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/oprávněná-osoba-k-podání-žádosti>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/jméno-a-příjmení>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/osoba,-na-níž-přechází-práva>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/element>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/hidden> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "276";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "507" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-074763fd-debf-495d-abab-bf891a8a4573>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "074763fd-debf-495d-abab-bf891a8a4573";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/uml/generalization>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/oprávněná-osoba-k-podání-žádosti>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/subjekt-údajů-vedený-v-registru-obyvatel>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "generalization" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-222a16be-2325-466a-a4f3-990e1dcad62e>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "222a16be-2325-466a-a4f3-990e1dcad62e";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/uml/generalization>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/účastník-národního-boje-za-osvobození>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/oprávněná-osoba-k-podání-žádosti>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "generalization" .
+
+<https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/při-úmrtí>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/element>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/hidden> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "130";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "426" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-809aaa18-52a8-4d2c-bec2-94274b8e1bae>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "809aaa18-52a8-4d2c-bec2-94274b8e1bae";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/při-úmrtí>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/účastník-národního-boje-za-osvobození>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/osoba,-na-níž-přechází-práva>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-fecdc254-ec4b-4100-8a3c-2ca038ed81d4>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "fecdc254-ec4b-4100-8a3c-2ca038ed81d4";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/při-úmrtí>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/účastník-národního-boje-za-osvobození>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-8fc2eafc-dfa2-4291-b041-d477bd0dc64d>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "8fc2eafc-dfa2-4291-b041-d477bd0dc64d";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/při-úmrtí>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/osoba,-na-níž-přechází-práva>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/žádost-o-vydání-osvědčení-o-účasti-na-národním-boji-za-osvobození>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/element>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/hidden> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "565";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "338" .
+
+<https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/osvědčení-o-účasti-na-národním-boji-za-osvobození>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/element>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/hidden> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "1602";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "326" .
+
+<https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/podává-žádost>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/element>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/hidden> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "-32";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "431" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-dd63bbb2-91d8-413b-b5f8-fcf691acbadf>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "dd63bbb2-91d8-413b-b5f8-fcf691acbadf";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/podává-žádost>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/účastník-národního-boje-za-osvobození>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/žádost-o-vydání-osvědčení-o-účasti-na-národním-boji-za-osvobození>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-630b7f9f-8d09-4c4b-95a9-caf5ffabc564>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "630b7f9f-8d09-4c4b-95a9-caf5ffabc564";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/podává-žádost>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/účastník-národního-boje-za-osvobození>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-666e4859-0cf4-48d6-9f35-64bda2861970>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "666e4859-0cf4-48d6-9f35-64bda2861970";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/podává-žádost>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/žádost-o-vydání-osvědčení-o-účasti-na-národním-boji-za-osvobození>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/při-splnění-podmíne>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/element>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/hidden> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "646";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "453" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-9c8d4170-3c26-434c-9997-13d44995213d>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "9c8d4170-3c26-434c-9997-13d44995213d";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/při-splnění-podmíne>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/žádost-o-vydání-osvědčení-o-účasti-na-národním-boji-za-osvobození>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/osvědčení-o-účasti-na-národním-boji-za-osvobození>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-a11699c0-eefc-49fd-9aa7-f2b891405b45>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "a11699c0-eefc-49fd-9aa7-f2b891405b45";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/při-splnění-podmíne>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/žádost-o-vydání-osvědčení-o-účasti-na-národním-boji-za-osvobození>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-b0f67782-f364-4ee8-997b-a27d3d841e24>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "b0f67782-f364-4ee8-997b-a27d3d841e24";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/při-splnění-podmíne>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/osvědčení-o-účasti-na-národním-boji-za-osvobození>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/při-splnění-podmínek-zákona>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/element>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/hidden> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "653";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "364" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-74fcdde5-9dad-4ca2-9b32-5e0eedcce4cd>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "74fcdde5-9dad-4ca2-9b32-5e0eedcce4cd";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/při-splnění-podmínek-zákona>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/žádost-o-vydání-osvědčení-o-účasti-na-národním-boji-za-osvobození>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/osvědčení-o-účasti-na-národním-boji-za-osvobození>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-36629497-3cb4-48bc-b55c-161588f97842>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "36629497-3cb4-48bc-b55c-161588f97842";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/při-splnění-podmínek-zákona>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/žádost-o-vydání-osvědčení-o-účasti-na-národním-boji-za-osvobození>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-bd048eaa-055a-428e-8113-a2a2c2c1f987>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "bd048eaa-055a-428e-8113-a2a2c2c1f987";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/při-splnění-podmínek-zákona>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/osvědčení-o-účasti-na-národním-boji-za-osvobození>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/údaj-o-osobě>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/element>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/hidden> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "1861";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "525" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-a73a713b-dd40-4311-914b-c641771dd7e4>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "a73a713b-dd40-4311-914b-c641771dd7e4";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/osvědčení-o-účasti-na-národním-boji-za-osvobození>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/údaj-o-osobě>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/doba-strávená-ve-vlastnosti-účastníka-národního-boje-za-osvobození>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/element>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/hidden> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "1861";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "525" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-8a5a512e-284a-4062-9b1c-db3a46302026>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "8a5a512e-284a-4062-9b1c-db3a46302026";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/osvědčení-o-účasti-na-národním-boji-za-osvobození>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/doba-strávená-ve-vlastnosti-účastníka-národního-boje-za-osvobození>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/při-splnění-podmínek-zákona-se-vydává>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/element>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/hidden> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "563";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "515" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-094760f1-7376-4c47-bab8-fd82cf06af3a>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "094760f1-7376-4c47-bab8-fd82cf06af3a";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/při-splnění-podmínek-zákona-se-vydává>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/žádost-o-vydání-osvědčení-o-účasti-na-národním-boji-za-osvobození>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/osvědčení-o-účasti-na-národním-boji-za-osvobození>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-34c6018d-22fe-4c97-a12e-d3196e886931>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "34c6018d-22fe-4c97-a12e-d3196e886931";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/při-splnění-podmínek-zákona-se-vydává>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/žádost-o-vydání-osvědčení-o-účasti-na-národním-boji-za-osvobození>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-43994a8d-b68c-4e65-b617-ef1fa166200f>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "43994a8d-b68c-4e65-b617-ef1fa166200f";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/při-splnění-podmínek-zákona-se-vydává>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/osvědčení-o-účasti-na-národním-boji-za-osvobození>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/účast-na-národním-boji-za-osvobození>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/element>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/hidden> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "747";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "498" .
+
+<https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/příslušník-československé-armády-v-zahraničí>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/element>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/hidden> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "1031";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "914" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-fce89e75-e63b-41ef-a6d1-32055872443b>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "fce89e75-e63b-41ef-a6d1-32055872443b";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/účast-na-národním-boji-za-osvobození>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/příslušník-československé-armády-v-zahraničí>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/osoba,-která-konala-vojenskou-službu-v-československé-armádě-v-zahraničí>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/element>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/hidden> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "1031";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "914" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-1fcb12c0-2ff9-4da3-a0c2-4106128c0df9>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "1fcb12c0-2ff9-4da3-a0c2-4106128c0df9";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/účast-na-národním-boji-za-osvobození>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/osoba,-která-konala-vojenskou-službu-v-československé-armádě-v-zahraničí>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/příslušník-1.-čs.-armády-na-slovensku>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/element>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/hidden> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "1031";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "914" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-eedd9cad-3955-4bbe-b350-ba6653fa596a>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "eedd9cad-3955-4bbe-b350-ba6653fa596a";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/účast-na-národním-boji-za-osvobození>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/příslušník-1.-čs.-armády-na-slovensku>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/účastník-domácího-hnutí>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/element>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/hidden> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "1031";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "914" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-294d40ca-2a5a-4237-bcb7-abcf40a934dd>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "294d40ca-2a5a-4237-bcb7-abcf40a934dd";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/účast-na-národním-boji-za-osvobození>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/účastník-domácího-hnutí>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/účastník-zahraničního-hnutí>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/element>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/hidden> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "1031";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "914" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-f2ceb367-1e19-43db-85d6-aa9f5baf5609>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "f2ceb367-1e19-43db-85d6-aa9f5baf5609";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/účast-na-národním-boji-za-osvobození>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/účastník-zahraničního-hnutí>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/účastník-snp>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/element>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/hidden> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "1031";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "914" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-552cc659-f5f1-4ad4-8db0-c680bcdd5424>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "552cc659-f5f1-4ad4-8db0-c680bcdd5424";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/účast-na-národním-boji-za-osvobození>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/účastník-snp>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/účastník-povstání-v-květnu-1945>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/element>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/hidden> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "1031";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "914" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-fa76bef5-54b8-4b80-b277-fc9a9bafed15>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "fa76bef5-54b8-4b80-b277-fc9a9bafed15";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/účast-na-národním-boji-za-osvobození>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/účastník-povstání-v-květnu-1945>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/čs.-politický-vězeň>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/element>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/hidden> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "1031";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "914" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-44e32c91-da38-4bcb-b799-56075ec6b5ae>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "44e32c91-da38-4bcb-b799-56075ec6b5ae";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/účast-na-národním-boji-za-osvobození>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/čs.-politický-vězeň>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/čs.-dobrovolník-ve-španělsku>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/element>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/hidden> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "1031";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "914" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-8a57ab56-2aed-4a39-b067-5bd75daa0931>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "8a57ab56-2aed-4a39-b067-5bd75daa0931";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/účast-na-národním-boji-za-osvobození>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/čs.-dobrovolník-ve-španělsku>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/příslušník-stráže-obrany-státu>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/element>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/hidden> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "1031";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "914" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-63949b48-c405-46e3-a3b9-a2c7e2af3436>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "63949b48-c405-46e3-a3b9-a2c7e2af3436";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/účast-na-národním-boji-za-osvobození>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/příslušník-stráže-obrany-státu>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/vyvíjí>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/element>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/hidden> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "-98";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "519" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-42973d5b-82e7-4ed2-b156-b6d6e0c89744>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "42973d5b-82e7-4ed2-b156-b6d6e0c89744";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/vyvíjí>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/účast-na-národním-boji-za-osvobození>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/účastník-národního-boje-za-osvobození>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-2a891384-9aa9-40f3-85d8-76a55870a26d>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "2a891384-9aa9-40f3-85d8-76a55870a26d";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/vyvíjí>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/účast-na-národním-boji-za-osvobození>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-90d3e38a-6e22-4042-bc50-3cfc4a5ddfc7>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "90d3e38a-6e22-4042-bc50-3cfc4a5ddfc7";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/vyvíjí>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/účastník-národního-boje-za-osvobození>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-e0332376-d140-4c14-a844-8900602765ba>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "e0332376-d140-4c14-a844-8900602765ba";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/vyvíjí>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/účastník-národního-boje-za-osvobození>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/účast-na-národním-boji-za-osvobození>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-73eaf415-715d-49dd-9a4e-7eeb31db2e5c>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "73eaf415-715d-49dd-9a4e-7eeb31db2e5c";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/vyvíjí>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/účastník-národního-boje-za-osvobození>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-0c6f1375-c8c5-444a-996c-9476d67bc3fc>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "0c6f1375-c8c5-444a-996c-9476d67bc3fc";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/vyvíjí>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/účast-na-národním-boji-za-osvobození>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/je-uváděna-na-osvědčení>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/element>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/hidden> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "867";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "759" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-ca9a620a-ca11-458f-82b1-3e824adcbf20>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "ca9a620a-ca11-458f-82b1-3e824adcbf20";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/je-uváděna-na-osvědčení>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/účast-na-národním-boji-za-osvobození>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/osvědčení-o-účasti-na-národním-boji-za-osvobození>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-86f76a70-dcea-45c8-a58c-fb1011c3cdb8>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "86f76a70-dcea-45c8-a58c-fb1011c3cdb8";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/je-uváděna-na-osvědčení>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/účast-na-národním-boji-za-osvobození>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-2cf88e3a-788f-4f45-a31b-c6e3e2302255>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "2cf88e3a-788f-4f45-a31b-c6e3e2302255";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/je-uváděna-na-osvědčení>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/osvědčení-o-účasti-na-národním-boji-za-osvobození>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-19b52227-a74b-4fc2-91d4-8eea23f2c61e>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "19b52227-a74b-4fc2-91d4-8eea23f2c61e";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/uml/generalization>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/osoba,-na-níž-přechází-práva>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/oprávněná-osoba-k-podání-žádosti>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "generalization";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/vertex> <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-19b52227-a74b-4fc2-91d4-8eea23f2c61e/vertex-1>,
+    <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-19b52227-a74b-4fc2-91d4-8eea23f2c61e/vertex-2> .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-19b52227-a74b-4fc2-91d4-8eea23f2c61e/vertex-1>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/vertex>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/index> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "9";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "537" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-19b52227-a74b-4fc2-91d4-8eea23f2c61e/vertex-2>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/vertex>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/index> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "9";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "236" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-5f226d42-7cb4-4060-8fdc-5d26ebad3a98>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "5f226d42-7cb4-4060-8fdc-5d26ebad3a98";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/podává-žádost>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/oprávněná-osoba-k-podání-žádosti>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/žádost-o-vydání-osvědčení-o-účasti-na-národním-boji-za-osvobození>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-0d2e61a1-01af-40e4-b01d-c141a912e711>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "0d2e61a1-01af-40e4-b01d-c141a912e711";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/podává-žádost>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/oprávněná-osoba-k-podání-žádosti>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-e95e7b13-ccfa-462b-aa8d-a63ec8fc5896>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "e95e7b13-ccfa-462b-aa8d-a63ec8fc5896";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/podává-žádost>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/žádost-o-vydání-osvědčení-o-účasti-na-národním-boji-za-osvobození>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/manžel,-manželka>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/element>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/hidden> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "131";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "769" .
+
+<https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/dítě>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/element>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/hidden> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "507";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "771" .
+
+<https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/rodič>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/element>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/hidden> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "348";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "771" .
+
+<https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/sourozenec>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/element>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/hidden> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "689";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "774" .
+
+<https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/osvojenec>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/element>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/hidden> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "-57";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "776" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-91bb67c8-61d6-4e2f-b9bf-135187385e14>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "91bb67c8-61d6-4e2f-b9bf-135187385e14";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/uml/generalization>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/osvojenec>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/osoba,-na-níž-přechází-práva>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "generalization" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-378d5d36-780b-4ba8-84e2-62e3f178b5ac>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "378d5d36-780b-4ba8-84e2-62e3f178b5ac";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/uml/generalization>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/manžel,-manželka>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/osoba,-na-níž-přechází-práva>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "generalization" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-65197b5e-90a8-411d-b427-70899c546540>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "65197b5e-90a8-411d-b427-70899c546540";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/uml/generalization>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/rodič>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/osoba,-na-níž-přechází-práva>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "generalization" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-2c4230d3-6e5a-499b-b452-c4db6b2d6b82>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "2c4230d3-6e5a-499b-b452-c4db6b2d6b82";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/uml/generalization>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/dítě>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/osoba,-na-níž-přechází-práva>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "generalization" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-cda03455-fbe4-4446-83c8-0e9ed9a86a48>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "cda03455-fbe4-4446-83c8-0e9ed9a86a48";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/uml/generalization>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/sourozenec>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/osoba,-na-níž-přechází-práva>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "generalization" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-e93dc467-f572-4f91-85cf-ae5d756f4f1e>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "e93dc467-f572-4f91-85cf-ae5d756f4f1e";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/uml/generalization>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/subjekt-údajů-vedený-v-registru-obyvatel>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/fyzická-osoba>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "generalization" .
