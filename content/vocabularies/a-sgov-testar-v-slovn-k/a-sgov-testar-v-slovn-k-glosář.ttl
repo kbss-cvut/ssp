@@ -1,0 +1,16 @@
+@prefix a-popis-dat-pojem: <http://onto.fel.cvut.cz/ontologies/slovník/agendový/popis-dat/pojem/> .
+@prefix a-sgov-testar-v-slovn-k: <https://slovník.gov.cz/agendový/testar-v-slovn-k/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+a-sgov-testar-v-slovn-k:glosář a a-popis-dat-pojem:glosář, owl:Ontology, skos:ConceptScheme;
+  dcterms:created "2022-10-17T11:48:28.925Z"^^xsd:dateTime;
+  dcterms:rights <https://creativecommons.org/licenses/by-sa/4.0>;
+  dcterms:title "Testarův slovník - glosář"@cs;
+  vann:preferredNamespacePrefix "a-sgov-testar-v-slovn-k-pojem";
+  vann:preferredNamespaceUri "https://slovník.gov.cz/agendový/testar-v-slovn-k/pojem/";
+  owl:versionIRI "https://slovník.gov.cz/agendový/testar-v-slovn-k/glosář/verze/1.0.0" .
