@@ -1,0 +1,372 @@
+@prefix a-popis-dat-pojem: <http://onto.fel.cvut.cz/ontologies/slovník/agendový/popis-dat/pojem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://slovník.gov.cz/legislativní/sbírka/25/2008/pojem/integrovaný-registr-znečišťování-životního-prostředí>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/element>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/hidden> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "1010";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "74" .
+
+<https://slovník.gov.cz/legislativní/sbírka/25/2008/pojem/integrovaný-systém-plnění-ohlašovacích-povinností-v-oblasti-životního-prostředí>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/element>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/hidden> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "973";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "-103" .
+
+<https://slovník.gov.cz/datový/pracovní-prostor/pojem/příloha/instance-16643ad2-8f8d-4965-953d-e115428913c7>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/diagram>, a-popis-dat-pojem:příloha,
+    <https://slovník.gov.cz/datový/pracovní-prostor/pojem/příloha>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "16643ad2-8f8d-4965-953d-e115428913c7";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/index> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/name> "Nový diagram";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/representation> "0" .
+
+<https://slovník.gov.cz/legislativní/sbírka/25/2008/pojem/datový-standard> a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/element>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/hidden> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "550";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "358" .
+
+<https://slovník.gov.cz/legislativní/sbírka/25/2008/pojem/hlášení> a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/element>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/hidden> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "559";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "49" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-48061dd9-4056-4b17-86b1-9b51dab268e3/vertex-1>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/vertex>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/index> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "100" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-48061dd9-4056-4b17-86b1-9b51dab268e3/vertex-2>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/vertex>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/index> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "124";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "100" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-48061dd9-4056-4b17-86b1-9b51dab268e3/vertex-3>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/vertex>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/index> "2";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "124";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "0" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-c9b7b64b-da7a-49ae-bda3-350ba6c384ea>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "c9b7b64b-da7a-49ae-bda3-350ba6c384ea";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/uml/generalization>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/25/2008/pojem/datový-standard>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/25/2008/pojem/datový-standard>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "generalization";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/vertex> <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-c9b7b64b-da7a-49ae-bda3-350ba6c384ea/vertex-1>,
+    <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-c9b7b64b-da7a-49ae-bda3-350ba6c384ea/vertex-2>,
+    <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-c9b7b64b-da7a-49ae-bda3-350ba6c384ea/vertex-3> .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-c9b7b64b-da7a-49ae-bda3-350ba6c384ea/vertex-1>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/vertex>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/index> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "100" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-c9b7b64b-da7a-49ae-bda3-350ba6c384ea/vertex-2>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/vertex>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/index> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "127";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "100" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-c9b7b64b-da7a-49ae-bda3-350ba6c384ea/vertex-3>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/vertex>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/index> "2";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "127";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "0" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-f53a708c-7657-4090-a75a-4615bcf741f0>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "f53a708c-7657-4090-a75a-4615bcf741f0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/uml/generalization>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/25/2008/pojem/hlášení>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/25/2008/pojem/datový-standard>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "generalization" .
+
+<https://slovník.gov.cz/legislativní/sbírka/25/2008/pojem/provozovna-irz> a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/element>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/hidden> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "270";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "16" .
+
+<https://slovník.gov.cz/legislativní/sbírka/25/2008/pojem/provozovatel> a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/element>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/hidden> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "38";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "111" .
+
+<https://slovník.gov.cz/legislativní/sbírka/25/2008/pojem/provozovna-e-prtr> a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/element>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/hidden> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "247";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "-94" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-ec5bc7cf-9392-404c-adcc-d3aa8a47358a>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "ec5bc7cf-9392-404c-adcc-d3aa8a47358a";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/uml/generalization>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/25/2008/pojem/provozovna-e-prtr>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/25/2008/pojem/hlášení>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "generalization" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-db653b74-fe10-4259-99f2-b57eb2cdfbff>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "db653b74-fe10-4259-99f2-b57eb2cdfbff";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/uml/generalization>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/25/2008/pojem/provozovna-irz>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/25/2008/pojem/hlášení>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "generalization" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-d111d37e-882d-4944-8af2-75b0c0fd27c5>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "d111d37e-882d-4944-8af2-75b0c0fd27c5";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/je-ve-vztahu>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/25/2008/pojem/provozovatel>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/25/2008/pojem/provozovna-irz>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-5f507aa4-db61-4d56-be56-7ddbc3e72178>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "5f507aa4-db61-4d56-be56-7ddbc3e72178";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/je-ve-vztahu>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/25/2008/pojem/provozovna-e-prtr>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/25/2008/pojem/provozovna-e-prtr>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/vertex> <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-5f507aa4-db61-4d56-be56-7ddbc3e72178/vertex-1>,
+    <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-5f507aa4-db61-4d56-be56-7ddbc3e72178/vertex-2>,
+    <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-5f507aa4-db61-4d56-be56-7ddbc3e72178/vertex-3> .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-5f507aa4-db61-4d56-be56-7ddbc3e72178/vertex-1>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/vertex>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/index> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "100" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-5f507aa4-db61-4d56-be56-7ddbc3e72178/vertex-2>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/vertex>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/index> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "137";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "100" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-5f507aa4-db61-4d56-be56-7ddbc3e72178/vertex-3>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/vertex>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/index> "2";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "137";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "0" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-6acfec0b-1a2e-4da8-9ae3-2a560c57ea0a>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "6acfec0b-1a2e-4da8-9ae3-2a560c57ea0a";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/je-ve-vztahu>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/25/2008/pojem/provozovatel>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/25/2008/pojem/provozovna-e-prtr>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-5c0a6566-a8d2-486a-bf43-aee5d1ed1664>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "5c0a6566-a8d2-486a-bf43-aee5d1ed1664";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/uml/generalization>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/25/2008/pojem/integrovaný-systém-plnění-ohlašovacích-povinností-v-oblasti-životního-prostředí>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/25/2008/pojem/hlášení>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "generalization" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-825b42e6-f17d-43b6-a8a2-60f4d2ebe708>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "825b42e6-f17d-43b6-a8a2-60f4d2ebe708";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/uml/generalization>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/25/2008/pojem/integrovaný-registr-znečišťování-životního-prostředí>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/25/2008/pojem/integrovaný-systém-plnění-ohlašovacích-povinností-v-oblasti-životního-prostředí>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "generalization" .
+
+<https://slovník.gov.cz/legislativní/sbírka/25/2008/pojem/ohlášení> a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/element>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/hidden> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "561";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "-91" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-f7dba735-1c7e-4671-883d-8e28ea7ecf53>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "f7dba735-1c7e-4671-883d-8e28ea7ecf53";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/je-vykonána>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/25/2008/pojem/ohlášení>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/25/2008/pojem/hlášení>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<https://slovník.gov.cz/legislativní/sbírka/25/2008/pojem/publikace-datového-standardu>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/element>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/hidden> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "490";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "452" .
+
+<https://slovník.gov.cz/legislativní/sbírka/25/2008/pojem/publikace-ohlášených-údajů>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/element>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/hidden> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "841";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "140" .
+
+<https://slovník.gov.cz/legislativní/sbírka/25/2008/pojem/provozovna> a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/element>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/hidden> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "277";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "109" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-6cfc1b50-21c0-4f20-8421-bdfc41640dd1>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "6cfc1b50-21c0-4f20-8421-bdfc41640dd1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/je-ve-vztahu>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/25/2008/pojem/provozovatel>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/25/2008/pojem/provozovna>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<https://slovník.gov.cz/legislativní/sbírka/25/2008/pojem/e-prtr> a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/element>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/hidden> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "133";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "504" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-468666d6-e6d5-4e13-b268-b80950a41da6>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "468666d6-e6d5-4e13-b268-b80950a41da6";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/je-vlastností>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/25/2008/pojem/e-prtr>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/25/2008/pojem/provozovna>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<https://slovník.gov.cz/legislativní/sbírka/25/2008/pojem/e-prtr/irz> a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/element>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/hidden> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "407";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "199" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-615bead2-8c16-4a81-9ded-68b6aeef90a1>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "615bead2-8c16-4a81-9ded-68b6aeef90a1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/je-vlastností>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/25/2008/pojem/e-prtr/irz>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/25/2008/pojem/provozovna>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-ff0311ce-1d2a-48bd-95ec-83b40de38200>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "ff0311ce-1d2a-48bd-95ec-83b40de38200";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/uml/generalization>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/25/2008/pojem/provozovna>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/25/2008/pojem/hlášení>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "generalization" .
+
+<https://slovník.gov.cz/legislativní/sbírka/25/2008/pojem/ičo> a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/element>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/hidden> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "50";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "480" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-efff01c8-e426-402b-954c-a4bf866807ab>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "efff01c8-e426-402b-954c-a4bf866807ab";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/je-vlastností>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/25/2008/pojem/ičo>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/25/2008/pojem/provozovna>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-3a991731-a63b-4e6a-9d1c-5779578e1377>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "3a991731-a63b-4e6a-9d1c-5779578e1377";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/je-vlastností>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/25/2008/pojem/ičo>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/25/2008/pojem/provozovatel>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<https://slovník.gov.cz/legislativní/sbírka/25/2008/pojem/identifikační-číslo-provozovny>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/element>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/hidden> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "167";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "271" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-6e9003fa-f373-4b03-9f0b-1a2b16550a49>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "6e9003fa-f373-4b03-9f0b-1a2b16550a49";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/je-vlastností>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/25/2008/pojem/identifikační-číslo-provozovny>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/25/2008/pojem/provozovna>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
