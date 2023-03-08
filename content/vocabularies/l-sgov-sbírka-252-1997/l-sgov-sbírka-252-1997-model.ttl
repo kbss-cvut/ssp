@@ -1,0 +1,19 @@
+@prefix a-popis-dat-pojem: <http://onto.fel.cvut.cz/ontologies/slovník/agendový/popis-dat/pojem/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix l-sgov-sbírka-252-1997: <https://slovník.gov.cz/legislativní/sbírka/252/1997/> .
+@prefix l-sgov-sbírka-252-1997-pojem: <https://slovník.gov.cz/legislativní/sbírka/252/1997/pojem/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+l-sgov-sbírka-252-1997:model a a-popis-dat-pojem:model, owl:Ontology;
+  dcterms:created "2023-03-07T14:46:05.732Z"^^xsd:dateTime;
+  dcterms:rights <https://creativecommons.org/licenses/by-sa/4.0>;
+  dcterms:title "252/1997 Sb.,  o zemědělství - model"@cs;
+  vann:preferredNamespacePrefix "l-sgov-sbírka-252-1997-pojem";
+  vann:preferredNamespaceUri "https://slovník.gov.cz/legislativní/sbírka/252/1997/pojem/";
+  owl:imports l-sgov-sbírka-252-1997:glosář;
+  owl:versionIRI "https://slovník.gov.cz/legislativní/sbírka/252/1997/model/verze/1.0.0" .
+
+l-sgov-sbírka-252-1997-pojem:zemědělský-podnikatel a <https://slovník.gov.cz/základní/pojem/typ-objektu> .
