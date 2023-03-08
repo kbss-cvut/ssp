@@ -8,6 +8,30 @@
 @prefix vann: <http://purl.org/vocab/vann/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+g-sgov-evaluace-5-směrnice-rady-1999-37-es-pojem:hmotnost a skos:Concept;
+  skos:inScheme g-sgov-evaluace-5-směrnice-rady-1999-37-es:glosář;
+  skos:prefLabel "hmotnost"@cs .
+
+g-sgov-evaluace-5-směrnice-rady-1999-37-es-pojem:identifikační-číslo-vozidla a skos:Concept;
+  skos:inScheme g-sgov-evaluace-5-směrnice-rady-1999-37-es:glosář;
+  skos:prefLabel "identifikační číslo vozidla"@cs .
+
+g-sgov-evaluace-5-směrnice-rady-1999-37-es-pojem:počet-míst-k-sezení a skos:Concept;
+  skos:inScheme g-sgov-evaluace-5-směrnice-rady-1999-37-es:glosář;
+  skos:prefLabel "počet míst k sezení"@cs .
+
+g-sgov-evaluace-5-směrnice-rady-1999-37-es-pojem:vozidlo a skos:Concept;
+  skos:inScheme g-sgov-evaluace-5-směrnice-rady-1999-37-es:glosář;
+  skos:prefLabel "vozidlo"@cs .
+
+g-sgov-evaluace-5-směrnice-rady-1999-37-es-pojem:den-první-registrace a skos:Concept;
+  skos:inScheme g-sgov-evaluace-5-směrnice-rady-1999-37-es:glosář;
+  skos:prefLabel "den první registrace"@cs .
+
+g-sgov-evaluace-5-směrnice-rady-1999-37-es-pojem:registrační-značka a skos:Concept;
+  skos:inScheme g-sgov-evaluace-5-směrnice-rady-1999-37-es:glosář;
+  skos:prefLabel "registrační značka"@cs .
+
 g-sgov-evaluace-5-směrnice-rady-1999-37-es:glosář a a-popis-dat-pojem:glosář, owl:Ontology,
     skos:ConceptScheme;
   dcterms:created "2022-04-10T19:30:57.924Z"^^xsd:dateTime;
@@ -20,27 +44,3 @@ g-sgov-evaluace-5-směrnice-rady-1999-37-es:glosář a a-popis-dat-pojem:glosá�
     g-sgov-evaluace-5-směrnice-rady-1999-37-es-pojem:hmotnost, g-sgov-evaluace-5-směrnice-rady-1999-37-es-pojem:identifikační-číslo-vozidla,
     g-sgov-evaluace-5-směrnice-rady-1999-37-es-pojem:počet-míst-k-sezení, g-sgov-evaluace-5-směrnice-rady-1999-37-es-pojem:registrační-značka,
     g-sgov-evaluace-5-směrnice-rady-1999-37-es-pojem:vozidlo .
-
-g-sgov-evaluace-5-směrnice-rady-1999-37-es-pojem:vozidlo a skos:Concept;
-  skos:inScheme g-sgov-evaluace-5-směrnice-rady-1999-37-es:glosář;
-  skos:prefLabel "vozidlo"@cs .
-
-g-sgov-evaluace-5-směrnice-rady-1999-37-es-pojem:registrační-značka a skos:Concept;
-  skos:inScheme g-sgov-evaluace-5-směrnice-rady-1999-37-es:glosář;
-  skos:prefLabel "registrační značka"@cs .
-
-g-sgov-evaluace-5-směrnice-rady-1999-37-es-pojem:hmotnost a skos:Concept;
-  skos:inScheme g-sgov-evaluace-5-směrnice-rady-1999-37-es:glosář;
-  skos:prefLabel "hmotnost"@cs .
-
-g-sgov-evaluace-5-směrnice-rady-1999-37-es-pojem:počet-míst-k-sezení a skos:Concept;
-  skos:inScheme g-sgov-evaluace-5-směrnice-rady-1999-37-es:glosář;
-  skos:prefLabel "počet míst k sezení"@cs .
-
-g-sgov-evaluace-5-směrnice-rady-1999-37-es-pojem:den-první-registrace a skos:Concept;
-  skos:inScheme g-sgov-evaluace-5-směrnice-rady-1999-37-es:glosář;
-  skos:prefLabel "den první registrace"@cs .
-
-g-sgov-evaluace-5-směrnice-rady-1999-37-es-pojem:identifikační-číslo-vozidla a skos:Concept;
-  skos:inScheme g-sgov-evaluace-5-směrnice-rady-1999-37-es:glosář;
-  skos:prefLabel "identifikační číslo vozidla"@cs .
