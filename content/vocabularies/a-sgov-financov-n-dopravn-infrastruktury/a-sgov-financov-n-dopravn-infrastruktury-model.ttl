@@ -1,0 +1,23 @@
+@prefix a-popis-dat-pojem: <http://onto.fel.cvut.cz/ontologies/slovník/agendový/popis-dat/pojem/> .
+@prefix a-sgov-financov-n-dopravn-infrastruktury: <https://slovník.gov.cz/agendový/financov-n-dopravn-infrastruktury/> .
+@prefix a-sgov-financov-n-dopravn-infrastruktury-pojem: <https://slovník.gov.cz/agendový/financov-n-dopravn-infrastruktury/pojem/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+a-sgov-financov-n-dopravn-infrastruktury:model a a-popis-dat-pojem:model, owl:Ontology;
+  dcterms:created "2023-02-15T16:50:14.686Z"^^xsd:dateTime;
+  dcterms:rights <https://creativecommons.org/licenses/by-sa/4.0>;
+  dcterms:title "Financování dopravní infrastruktury - model"@cs;
+  vann:preferredNamespacePrefix "a-sgov-financov-n-dopravn-infrastruktury-pojem";
+  vann:preferredNamespaceUri "https://slovník.gov.cz/agendový/financov-n-dopravn-infrastruktury/pojem/";
+  owl:imports a-sgov-financov-n-dopravn-infrastruktury:glosář;
+  owl:versionIRI "https://slovník.gov.cz/agendový/financov-n-dopravn-infrastruktury/model/verze/1.0.0" .
+
+a-sgov-financov-n-dopravn-infrastruktury-pojem:žadatel-o-příspěvek <http://onto.fel.cvut.cz/ontologies/application/termit/pojem/je-draft>
+    true .
+
+a-sgov-financov-n-dopravn-infrastruktury-pojem:příjemce-příspěvku <http://onto.fel.cvut.cz/ontologies/application/termit/pojem/je-draft>
+    true .

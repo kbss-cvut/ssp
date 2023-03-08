@@ -1,0 +1,36 @@
+@prefix a-popis-dat-pojem: <http://onto.fel.cvut.cz/ontologies/slovník/agendový/popis-dat/pojem/> .
+@prefix a-sgov-financov-n-dopravn-infrastruktury: <https://slovník.gov.cz/agendový/financov-n-dopravn-infrastruktury/> .
+@prefix a-sgov-financov-n-dopravn-infrastruktury-pojem: <https://slovník.gov.cz/agendový/financov-n-dopravn-infrastruktury/pojem/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+a-sgov-financov-n-dopravn-infrastruktury:glosář a a-popis-dat-pojem:glosář, owl:Ontology,
+    skos:ConceptScheme;
+  dcterms:created "2023-02-15T16:50:14.686Z"^^xsd:dateTime;
+  dcterms:rights <https://creativecommons.org/licenses/by-sa/4.0>;
+  dcterms:title "Financování dopravní infrastruktury - glosář"@cs;
+  vann:preferredNamespacePrefix "a-sgov-financov-n-dopravn-infrastruktury-pojem";
+  vann:preferredNamespaceUri "https://slovník.gov.cz/agendový/financov-n-dopravn-infrastruktury/pojem/";
+  owl:versionIRI "https://slovník.gov.cz/agendový/financov-n-dopravn-infrastruktury/glosář/verze/1.0.0";
+  skos:hasTopConcept a-sgov-financov-n-dopravn-infrastruktury-pojem:příjemce-příspěvku,
+    a-sgov-financov-n-dopravn-infrastruktury-pojem:žadatel-o-příspěvek .
+
+a-sgov-financov-n-dopravn-infrastruktury-pojem:žadatel-o-příspěvek a skos:Concept;
+  dcterms:source "Zákon č. 104/2000 Sb., o Státním fondu dopravní infrastruktury";
+  skos:altLabel "žadatel"@cs;
+  skos:definition "Role subjektu, osoba žádající o příspěvek na financování podle některých ustanovení zákona 104/2000"@cs;
+  skos:inScheme a-sgov-financov-n-dopravn-infrastruktury:glosář;
+  skos:prefLabel "Žadatel o příspěvek"@cs;
+  skos:scopeNote ""@cs .
+
+a-sgov-financov-n-dopravn-infrastruktury-pojem:příjemce-příspěvku a skos:Concept;
+  dcterms:source "Zákon";
+  skos:altLabel "příjemce"@cs;
+  skos:definition "Role subjektu, osoba jíž bylo vyhověno při žádosti o příspěvek na financování podle určitých ustanovení zákona 104/2000 a které se po kontrole proplací financování akce"@cs;
+  skos:inScheme a-sgov-financov-n-dopravn-infrastruktury:glosář;
+  skos:prefLabel "Příjemce příspěvku"@cs;
+  skos:scopeNote ""@cs .
