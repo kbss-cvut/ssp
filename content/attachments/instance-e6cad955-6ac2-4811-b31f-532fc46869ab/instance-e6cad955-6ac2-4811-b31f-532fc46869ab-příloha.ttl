@@ -1,0 +1,333 @@
+@prefix a-popis-dat-pojem: <http://onto.fel.cvut.cz/ontologies/slovník/agendový/popis-dat/pojem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://slovník.gov.cz/datový/testik-ks/pojem/služba-veřejné-správy> a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/element>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/hidden> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "177";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "113" .
+
+<https://slovník.gov.cz/datový/testik-ks/pojem/úkon> a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/element>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/hidden> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "221";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "284" .
+
+<https://slovník.gov.cz/datový/pracovní-prostor/pojem/příloha/instance-e6cad955-6ac2-4811-b31f-532fc46869ab>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/diagram>, a-popis-dat-pojem:příloha,
+    <https://slovník.gov.cz/datový/pracovní-prostor/pojem/příloha>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "e6cad955-6ac2-4811-b31f-532fc46869ab";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/index> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/name> "agenda v RPP";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/representation> "1" .
+
+<https://slovník.gov.cz/datový/testik-ks/pojem/má-úkon> a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/element>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/hidden> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "142";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "228" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-88411108-1673-45ad-bc28-331c8d44e275>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "88411108-1673-45ad-bc28-331c8d44e275";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/datový/testik-ks/pojem/má-úkon>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/datový/testik-ks/pojem/služba-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/datový/testik-ks/pojem/úkon>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/vertex> <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-88411108-1673-45ad-bc28-331c8d44e275/vertex-1> .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-f741a6e1-96e5-498e-ab64-0f2a1737d53f>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "f741a6e1-96e5-498e-ab64-0f2a1737d53f";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/datový/testik-ks/pojem/má-úkon>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/datový/testik-ks/pojem/služba-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-5b4859e3-77ce-4144-80b7-43ec32e9c1ac>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "5b4859e3-77ce-4144-80b7-43ec32e9c1ac";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/datový/testik-ks/pojem/má-úkon>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/datový/testik-ks/pojem/úkon>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-88411108-1673-45ad-bc28-331c8d44e275/vertex-1>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/vertex>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/index> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "295";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "257" .
+
+<https://slovník.gov.cz/datový/testik-ks/pojem/agenda> a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/element>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/hidden> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "218";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "-52" .
+
+<https://slovník.gov.cz/datový/testik-ks/pojem/obsahuje-služby> a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/element>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/hidden> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "-549";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "82" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-3a1985e9-790b-4267-a7c6-285ab7e28999>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "3a1985e9-790b-4267-a7c6-285ab7e28999";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/datový/testik-ks/pojem/obsahuje-služby>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/datový/testik-ks/pojem/agenda>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/datový/testik-ks/pojem/služba-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/vertex> <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-3a1985e9-790b-4267-a7c6-285ab7e28999/vertex-1> .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-fc6eddcb-3b1e-4ead-994e-17e3a29c7503>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "fc6eddcb-3b1e-4ead-994e-17e3a29c7503";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/datový/testik-ks/pojem/obsahuje-služby>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/datový/testik-ks/pojem/agenda>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-02963f37-2a36-4935-92a5-b53118d2fcbb>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "02963f37-2a36-4935-92a5-b53118d2fcbb";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/datový/testik-ks/pojem/obsahuje-služby>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/datový/testik-ks/pojem/služba-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-3a1985e9-790b-4267-a7c6-285ab7e28999/vertex-1>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/vertex>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/index> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "283";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "17" .
+
+<https://slovník.gov.cz/datový/testik-ks/pojem/právní-předpis> a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/element>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/hidden> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "506";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "75" .
+
+<https://slovník.gov.cz/datový/testik-ks/pojem/ohlášení-nové-agendy> a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/element>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/hidden> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "-101";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "68" .
+
+<https://slovník.gov.cz/datový/testik-ks/pojem/změna-existující> a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/element>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/hidden> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "-345";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "60" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-7d3bf00d-8122-49f0-9066-db613963036d>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "7d3bf00d-8122-49f0-9066-db613963036d";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/datový/testik-ks/pojem/změna-existující>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/datový/testik-ks/pojem/ohlášení-nové-agendy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/datový/testik-ks/pojem/agenda>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-f845e12f-d737-4b2c-bc8d-021716e5e948>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "f845e12f-d737-4b2c-bc8d-021716e5e948";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/datový/testik-ks/pojem/změna-existující>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/datový/testik-ks/pojem/ohlášení-nové-agendy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-8d27c979-ac65-4d92-bebb-8f4994dc28c5>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "8d27c979-ac65-4d92-bebb-8f4994dc28c5";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/datový/testik-ks/pojem/změna-existující>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/datový/testik-ks/pojem/agenda>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<https://slovník.gov.cz/datový/testik-ks/pojem/činnost> a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/element>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/hidden> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "617";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "-13" .
+
+<https://slovník.gov.cz/datový/testik-ks/pojem/má-činnost> a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/element>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/hidden> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "-110";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "-56" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-e5a31aa3-6334-4fa9-8fff-d0f2cc51a7a5>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "e5a31aa3-6334-4fa9-8fff-d0f2cc51a7a5";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/datový/testik-ks/pojem/má-činnost>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/datový/testik-ks/pojem/agenda>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/datový/testik-ks/pojem/činnost>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/vertex> <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-e5a31aa3-6334-4fa9-8fff-d0f2cc51a7a5/vertex-1> .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-b0ef0d5f-0eda-4dcc-a32a-38430c6fd93b>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "b0ef0d5f-0eda-4dcc-a32a-38430c6fd93b";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/datový/testik-ks/pojem/má-činnost>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/datový/testik-ks/pojem/agenda>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-c055b2e9-7479-4b9a-9172-2cd2269accda>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "c055b2e9-7479-4b9a-9172-2cd2269accda";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/datový/testik-ks/pojem/má-činnost>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/datový/testik-ks/pojem/činnost>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<https://slovník.gov.cz/datový/testik-ks/pojem/zákon> a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/element>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/hidden> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "519";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "195" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-3a3c826c-95b6-4c14-91c1-54ea22117213>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "3a3c826c-95b6-4c14-91c1-54ea22117213";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/uml/generalization>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/datový/testik-ks/pojem/zákon>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/datový/testik-ks/pojem/právní-předpis>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "generalization" .
+
+<https://slovník.gov.cz/datový/testik-ks/pojem/evropský-předpis> a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/element>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/hidden> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "644";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "187" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-49a5054b-440d-4370-8a6c-9fa8d848c72c>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "49a5054b-440d-4370-8a6c-9fa8d848c72c";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/uml/generalization>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/datový/testik-ks/pojem/evropský-předpis>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/datový/testik-ks/pojem/právní-předpis>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "generalization" .
+
+<https://slovník.gov.cz/datový/testik-ks/pojem/je-definována-právním-předpisem> a
+    <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/element>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/hidden> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "-24";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "-51" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-cc02d667-e007-44bf-bdcd-a089a909a4cb>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "cc02d667-e007-44bf-bdcd-a089a909a4cb";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/datový/testik-ks/pojem/je-definována-právním-předpisem>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/datový/testik-ks/pojem/agenda>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/datový/testik-ks/pojem/právní-předpis>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/vertex> <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-cc02d667-e007-44bf-bdcd-a089a909a4cb/vertex-1>,
+    <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-cc02d667-e007-44bf-bdcd-a089a909a4cb/vertex-2> .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-573f1709-ff57-4a1c-94f5-b0806978b4d8>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "573f1709-ff57-4a1c-94f5-b0806978b4d8";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/datový/testik-ks/pojem/je-definována-právním-předpisem>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/datový/testik-ks/pojem/agenda>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-01ab7c75-d4e5-4275-9b55-2ca7f925ceee>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "01ab7c75-d4e5-4275-9b55-2ca7f925ceee";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/datový/testik-ks/pojem/je-definována-právním-předpisem>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/datový/testik-ks/pojem/právní-předpis>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-cc02d667-e007-44bf-bdcd-a089a909a4cb/vertex-1>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/vertex>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/index> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "349";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "-7" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-cc02d667-e007-44bf-bdcd-a089a909a4cb/vertex-2>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/vertex>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/index> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "513";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "67" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-e5a31aa3-6334-4fa9-8fff-d0f2cc51a7a5/vertex-1>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/vertex>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/index> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "369";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "-31" .
