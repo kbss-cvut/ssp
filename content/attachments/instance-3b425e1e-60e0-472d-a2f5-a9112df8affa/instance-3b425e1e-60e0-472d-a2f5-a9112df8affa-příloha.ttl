@@ -1,0 +1,27 @@
+@prefix a-popis-dat-pojem: <http://onto.fel.cvut.cz/ontologies/slovník/agendový/popis-dat/pojem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://slovník.gov.cz/datový/vfr-1.8.0/pojem/adresní-místo> a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/element>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/hidden> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "304";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "116" .
+
+<https://slovník.gov.cz/legislativní/sbírka/561/2004/pojem/obor-vzdělání> a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/element>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/hidden> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "741";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "-51" .
+
+<https://slovník.gov.cz/datový/pracovní-prostor/pojem/příloha/instance-3b425e1e-60e0-472d-a2f5-a9112df8affa>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/diagram>, a-popis-dat-pojem:příloha,
+    <https://slovník.gov.cz/datový/pracovní-prostor/pojem/příloha>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "3b425e1e-60e0-472d-a2f5-a9112df8affa";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/index> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/name> "Nový diagram";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/representation> "0" .
+
+<https://slovník.gov.cz/legislativní/sbírka/561/2004/pojem/škola/školské-zařízeníghfnxvb>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/element>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/hidden> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "542";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "132" .
