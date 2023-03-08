@@ -1,0 +1,23 @@
+@prefix a-popis-dat-pojem: <http://onto.fel.cvut.cz/ontologies/slovník/agendový/popis-dat/pojem/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix g-sgov-test-legislatívneho-slovníka-inspire: <https://slovník.gov.cz/generický/test-legislatívneho-slovníka-inspire/> .
+@prefix g-sgov-test-legislatívneho-slovníka-inspire-pojem: <https://slovník.gov.cz/generický/test-legislatívneho-slovníka-inspire/pojem/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+g-sgov-test-legislatívneho-slovníka-inspire:model a a-popis-dat-pojem:model, owl:Ontology;
+  dcterms:created "2022-10-19T10:13:47.887Z"^^xsd:dateTime;
+  dcterms:rights <https://creativecommons.org/licenses/by-sa/4.0>;
+  dcterms:title "Test Legislatívneho slovníka INSPIRE - model"@cs;
+  vann:preferredNamespacePrefix "g-sgov-test-legislatívneho-slovníka-inspire-pojem";
+  vann:preferredNamespaceUri "https://slovník.gov.cz/generický/test-legislatívneho-slovníka-inspire/pojem/";
+  owl:imports g-sgov-test-legislatívneho-slovníka-inspire:glosář;
+  owl:versionIRI "https://slovník.gov.cz/generický/test-legislatívneho-slovníka-inspire/model/verze/1.0.0" .
+
+g-sgov-test-legislatívneho-slovníka-inspire-pojem:národná-infraštruktúra-pre-priestorové-informácie
+  <http://onto.fel.cvut.cz/ontologies/application/termit/pojem/je-draft> false .
+
+g-sgov-test-legislatívneho-slovníka-inspire-pojem:metaúdaj <http://onto.fel.cvut.cz/ontologies/application/termit/pojem/je-draft>
+    true .

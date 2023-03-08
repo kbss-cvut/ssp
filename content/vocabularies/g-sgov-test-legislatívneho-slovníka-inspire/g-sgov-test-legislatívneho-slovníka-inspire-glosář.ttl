@@ -1,0 +1,38 @@
+@prefix a-popis-dat-pojem: <http://onto.fel.cvut.cz/ontologies/slovník/agendový/popis-dat/pojem/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix g-sgov-test-legislatívneho-slovníka-inspire: <https://slovník.gov.cz/generický/test-legislatívneho-slovníka-inspire/> .
+@prefix g-sgov-test-legislatívneho-slovníka-inspire-pojem: <https://slovník.gov.cz/generický/test-legislatívneho-slovníka-inspire/pojem/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+g-sgov-test-legislatívneho-slovníka-inspire:glosář a a-popis-dat-pojem:glosář, owl:Ontology,
+    skos:ConceptScheme;
+  dcterms:created "2022-10-19T10:13:47.887Z"^^xsd:dateTime;
+  dcterms:rights <https://creativecommons.org/licenses/by-sa/4.0>;
+  dcterms:title "Test Legislatívneho slovníka INSPIRE - glosář"@cs;
+  vann:preferredNamespacePrefix "g-sgov-test-legislatívneho-slovníka-inspire-pojem";
+  vann:preferredNamespaceUri "https://slovník.gov.cz/generický/test-legislatívneho-slovníka-inspire/pojem/";
+  owl:versionIRI "https://slovník.gov.cz/generický/test-legislatívneho-slovníka-inspire/glosář/verze/1.0.0";
+  skos:hasTopConcept g-sgov-test-legislatívneho-slovníka-inspire-pojem:národná-infraštruktúra-pre-priestorové-informácie .
+
+g-sgov-test-legislatívneho-slovníka-inspire-pojem:národná-infraštruktúra-pre-priestorové-informácie
+  a skos:Concept;
+  dcterms:source <https://www.slov-lex.sk/pravne-predpisy/SK/ZZ/2010/3/20160501#paragraf-2.pismeno-a>;
+  skos:altLabel "NIPI"@cs;
+  skos:definition "Sú metaúdaje, súbory priestorových údajov,1) služby priestorových údajov, sieťové služby a sieťové technológie, dohody o zdieľaní, prístupe a využívaní údajov pre akúkoľvek činnosť, pre ktorú sú tieto údaje využiteľné, koordinačné a monitorovacie mechanizmy, procesy a postupy zriadené, prevádzkované alebo sprístupnené."@cs;
+  skos:inScheme g-sgov-test-legislatívneho-slovníka-inspire:glosář;
+  skos:prefLabel "Národná infraštruktúra pre priestorové informácie"@cs;
+  skos:scopeNote ""@cs .
+
+g-sgov-test-legislatívneho-slovníka-inspire-pojem:metaúdaj a skos:Concept;
+  dcterms:source <https://www.slov-lex.sk/pravne-predpisy/SK/ZZ/2010/3/20160501#paragraf-2.pismeno-b>;
+  skos:altLabel "MD"@cs, "MD"@sk;
+  skos:broader g-sgov-test-legislatívneho-slovníka-inspire-pojem:národná-infraštruktúra-pre-priestorové-informácie;
+  skos:definition "Je informace popisující soubory prostorových dat a služby prostorových dat, která umožňuje jejich vyhledávání, katalogizaci a využívání."@cs,
+    "Je informácia opisujúca súbory priestorových údajov a služby priestorových údajov, ktorá umožňuje ich vyhľadávanie, katalogizáciu a využívanie."@sk;
+  skos:inScheme g-sgov-test-legislatívneho-slovníka-inspire:glosář;
+  skos:prefLabel "Metadata"@cs, "Metaúdaj"@sk;
+  skos:scopeNote ""@cs .
