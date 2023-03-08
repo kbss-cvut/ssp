@@ -1,0 +1,1088 @@
+@prefix a-popis-dat-pojem: <http://onto.fel.cvut.cz/ontologies/slovník/agendový/popis-dat/pojem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/fyzická-osoba> a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/element>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/hidden> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "559";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "401" .
+
+<https://slovník.gov.cz/datový/pracovní-prostor/pojem/příloha/instance-5e3d2887-7623-472c-8ff6-9d51a051abee>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/diagram>, a-popis-dat-pojem:příloha,
+    <https://slovník.gov.cz/datový/pracovní-prostor/pojem/příloha>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "5e3d2887-7623-472c-8ff6-9d51a051abee";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/index> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/name> "Nový diagram";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/representation> "1" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-af50c797-58ce-4d81-bb32-8f7310e06f15>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "af50c797-58ce-4d81-bb32-8f7310e06f15";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-účastníka>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/smrt-fyzické-osoby>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/fyzická-osoba>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-35d7ec4c-fdfa-493a-a2ac-7db777f7352e>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "35d7ec4c-fdfa-493a-a2ac-7db777f7352e";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/fyzická-osoba>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/jméno-fyzické-osoby>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-d787d46d-75b4-48e1-9bb0-eeb0076cb8f1>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "d787d46d-75b4-48e1-9bb0-eeb0076cb8f1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/fyzická-osoba>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/další-jméno-fyzické-osoby>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-a4dfdf42-a00a-46d7-bc90-089f90c1c7a0>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "a4dfdf42-a00a-46d7-bc90-089f90c1c7a0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/fyzická-osoba>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/osobní-jméno-fyzické-osoby>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-b822f3d6-8e53-4a06-966a-2e9be4c43315>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "b822f3d6-8e53-4a06-966a-2e9be4c43315";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/fyzická-osoba>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/pseudonym-fyzické-osoby>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-7d0cc8d0-1dc9-400b-a83a-5fbd957576e0>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "7d0cc8d0-1dc9-400b-a83a-5fbd957576e0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/fyzická-osoba>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/rodné-příjmení-fyzické-osoby>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-09328f0b-8348-4662-9548-d16ce91359cf>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "09328f0b-8348-4662-9548-d16ce91359cf";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/fyzická-osoba>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/příjmení-fyzické-osoby>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-b2379bf9-9fbf-44e0-a33e-0e3cfe09d904>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "b2379bf9-9fbf-44e0-a33e-0e3cfe09d904";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/má-adresu-sídla>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/sídlo>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-0b6c721b-1af2-449a-a4db-cba9c83908b9>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "0b6c721b-1af2-449a-a4db-cba9c83908b9";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/má-právní-formu-právnické-osoby>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/právní-forma>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-205524a3-5b87-4e29-be28-8c10164fb8b6>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "205524a3-5b87-4e29-be28-8c10164fb8b6";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/má-právní-formu-právnické-osoby>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/právnická-osoba>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-c849fff5-6518-4c57-a1e5-990808e4bf02>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "c849fff5-6518-4c57-a1e5-990808e4bf02";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/má-člena-statutárního-orgánu>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/statutární-orgán>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-27c6ef9f-6bbb-4d06-9c43-04bbc548dee4>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "27c6ef9f-6bbb-4d06-9c43-04bbc548dee4";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/má-člena-statutárního-orgánu>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/člen-statutárního-orgánu>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-b759ee56-8c4c-4730-90bb-a97f7ab1a501>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "b759ee56-8c4c-4730-90bb-a97f7ab1a501";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/je-vlastností>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/předmět-činnosti>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/právnická-osoba>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-7f34727b-fde3-4b62-b027-6b44a41cad26>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "7f34727b-fde3-4b62-b027-6b44a41cad26";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/má-zakladatele-právnické-osoby>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/zakladatel-právnické-osoby>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-ddb6eb1d-1c55-48e6-9102-d74a022fcc46>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "ddb6eb1d-1c55-48e6-9102-d74a022fcc46";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/má-zakladatele-právnické-osoby>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/právnická-osoba>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-d2fc2690-4507-4c63-acf2-3963af5c4fec>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "d2fc2690-4507-4c63-acf2-3963af5c4fec";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/má-bydliště-fyzické-osoby>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/fyzická-osoba>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-efcb03a2-b810-43d5-91ff-2642fccd04df>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "efcb03a2-b810-43d5-91ff-2642fccd04df";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/má-bydliště-fyzické-osoby>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/bydliště-fyzické-osoby>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-ba7114bd-590b-43d6-9059-c7560661d6cf>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "ba7114bd-590b-43d6-9059-c7560661d6cf";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/je-vlastností>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/právní-osobnost>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/osoba>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-b7f1660f-79c2-43d6-af9f-ed75869ae0be>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "b7f1660f-79c2-43d6-af9f-ed75869ae0be";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/je-vlastností>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/den-vzniku-právnické-osoby>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/právnická-osoba>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-eedc4083-d10f-431c-8e78-6f3d48ab46e8>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "eedc4083-d10f-431c-8e78-6f3d48ab46e8";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/je-vlastností>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/obchodní-firma>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/podnikatel>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-7dea9168-04d5-4dd1-99a6-3a9b2ddb1c98>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "7dea9168-04d5-4dd1-99a6-3a9b2ddb1c98";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/má-orgán>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/orgán-právnické-osoby>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-0322dff7-f43a-4b4e-a8a9-f00f0e4e4191>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "0322dff7-f43a-4b4e-a8a9-f00f0e4e4191";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/má-orgán>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/právnická-osoba>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-cdeccb31-1d7c-4812-9795-d04991b5e3e5>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "cdeccb31-1d7c-4812-9795-d04991b5e3e5";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/je-vlastností>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/den-vzniku-funkce-člena-statutárního-orgánu>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/má-člena-statutárního-orgánu>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-b4dc6b10-f88b-452d-b196-a05517f921d4>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "b4dc6b10-f88b-452d-b196-a05517f921d4";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/má-člena-orgánu-právnické-osoby>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/orgán-právnické-osoby>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-1a22193a-e641-42c6-beaf-59f4bbc4457f>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "1a22193a-e641-42c6-beaf-59f4bbc4457f";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/má-člena-orgánu-právnické-osoby>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/člen-orgánu-právnické-osoby>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-787c38db-2491-445c-8658-5bdf8cd6a4d4>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "787c38db-2491-445c-8658-5bdf8cd6a4d4";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/zastupuje-právnickou-osobu-v-orgánu-právnické-osoby>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/má-člena-orgánu-právnické-osoby>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-77d678de-93a7-4c23-a32f-191a1ebab88a>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "77d678de-93a7-4c23-a32f-191a1ebab88a";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/zastupuje-právnickou-osobu-v-orgánu-právnické-osoby>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/fyzická-osoba>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-8681ae06-511e-4bb9-ba2c-88281710006e>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "8681ae06-511e-4bb9-ba2c-88281710006e";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/je-vlastností>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/den-zániku-právnické-osoby>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/právnická-osoba>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-866972d0-d72c-4fe0-8b80-fe59987cf1fd>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "866972d0-d72c-4fe0-8b80-fe59987cf1fd";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/má-statutární-orgán>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/právnická-osoba>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-361786fb-53b8-4ea5-a976-f461b0868c3c>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "361786fb-53b8-4ea5-a976-f461b0868c3c";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/má-statutární-orgán>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/statutární-orgán>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-e82f729d-9d6a-45ca-94c3-1e77816c8812>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "e82f729d-9d6a-45ca-94c3-1e77816c8812";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/je-vlastností>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/svéprávnost>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/osoba>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-e879d571-0aa5-4c8d-8522-91cd75764eee>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "e879d571-0aa5-4c8d-8522-91cd75764eee";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/má-člena-právnické-osoby>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/člen-právnické-osoby>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-2b6375d7-48e7-4b72-b8b2-cc526f28270e>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "2b6375d7-48e7-4b72-b8b2-cc526f28270e";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/má-člena-právnické-osoby>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/právnická-osoba>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-aa80d7da-1196-400a-8130-e002bb58a30f>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "aa80d7da-1196-400a-8130-e002bb58a30f";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/je-vlastností>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/způsob-zastupování-právnické-osoby>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/statutární-orgán>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-e299ef5d-16ec-4998-9ab5-a43564ab7829>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "e299ef5d-16ec-4998-9ab5-a43564ab7829";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-účastníka>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/narození-fyzické-osoby>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/fyzická-osoba>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-f59f27de-7cbb-4add-a841-5b51f375a122>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "f59f27de-7cbb-4add-a841-5b51f375a122";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/je-vlastností>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/den-zániku-funkce-člena-statutárního-orgánu>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/má-člena-statutárního-orgánu>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-88f0503e-114b-4677-af5a-015479f9b08c>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "88f0503e-114b-4677-af5a-015479f9b08c";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/má-hlavní-spolek>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/pobočný-spolek>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-e28e13e1-7bbb-4266-8988-bbeb29cb46a8>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "e28e13e1-7bbb-4266-8988-bbeb29cb46a8";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/má-hlavní-spolek>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/spolek>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-eb454342-98b1-44ad-8b77-7c78bb251d0d>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "eb454342-98b1-44ad-8b77-7c78bb251d0d";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/je-vlastností>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/den-zrušení-právnické-osoby>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/právnická-osoba>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-bc88b1f7-7865-40f5-a4ba-2bbb8dbfd68b>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "bc88b1f7-7865-40f5-a4ba-2bbb8dbfd68b";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/má-sídlo-právnické-osoby>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/právnická-osoba>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-90d8fe14-9398-462c-b2b1-2d330d118590>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "90d8fe14-9398-462c-b2b1-2d330d118590";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/má-sídlo-právnické-osoby>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/sídlo>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-02363024-2219-4f65-978c-3b8a9f291426>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "02363024-2219-4f65-978c-3b8a9f291426";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/je-vlastností>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/právní-důvod-zrušení-právnické-osoby>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/právnická-osoba>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-54a567c9-4a36-4294-a526-a7abd99094fc>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "54a567c9-4a36-4294-a526-a7abd99094fc";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/je-vlastností>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/název-právnické-osoby>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/právnická-osoba>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-f7f7859b-3eb0-468a-9260-01d49fc8cbe3>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "f7f7859b-3eb0-468a-9260-01d49fc8cbe3";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/je-vlastností>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/druh-členství-v-právnické-osobě>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/má-člena-právnické-osoby>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-e07e0b13-6fa9-457d-baa7-e7bd733d639a>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "e07e0b13-6fa9-457d-baa7-e7bd733d639a";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/má-místo-bydliště>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/místo>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-b78944c1-9de3-41f5-9402-4a48d1ba477a>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "b78944c1-9de3-41f5-9402-4a48d1ba477a";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/má-místo-bydliště>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/bydliště-fyzické-osoby>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-110a8f5c-65c4-4769-84df-1a24db552831>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "110a8f5c-65c4-4769-84df-1a24db552831";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/má-místo-sídla>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/sídlo>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-5a355c24-1143-4672-aa1a-310ccc121c4b>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "5a355c24-1143-4672-aa1a-310ccc121c4b";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/má-místo-sídla>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/místo>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-ad6d3f67-766d-4e27-98e8-05df676b712e>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "ad6d3f67-766d-4e27-98e8-05df676b712e";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/uml/generalization>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/fyzická-osoba>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/osoba>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "generalization" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-c708fe76-6d75-4d26-9910-1b5508b0790c>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "c708fe76-6d75-4d26-9910-1b5508b0790c";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/uml/generalization>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/pobočný-spolek>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/korporace>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "generalization" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-e5eb5bc4-4247-408b-bf9e-ea42ce65a9b9>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "e5eb5bc4-4247-408b-bf9e-ea42ce65a9b9";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/uml/generalization>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/právnická-osoba>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/osoba>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "generalization" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-774c2b91-9c49-44bf-b396-eec6e140012d>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "774c2b91-9c49-44bf-b396-eec6e140012d";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/uml/generalization>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/zakladatel-právnické-osoby>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/osoba>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "generalization" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-dc55e14e-799d-4bfe-a2bb-deb7f09baef8>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "dc55e14e-799d-4bfe-a2bb-deb7f09baef8";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/má-právní-formu-právnické-osoby>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/právnická-osoba>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/právní-forma>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-89edbc21-505b-4775-accb-55065633d1e7>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "89edbc21-505b-4775-accb-55065633d1e7";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/uml/generalization>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/podnikatel>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/osoba>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "generalization" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-3862b089-8cc6-48a2-a85d-c548d579461f>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "3862b089-8cc6-48a2-a85d-c548d579461f";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/uml/generalization>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/má-člena-statutárního-orgánu>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/má-člena-orgánu-právnické-osoby>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "generalization" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-ec45cc5d-dbd8-457c-bfbd-f9faf134401f>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "ec45cc5d-dbd8-457c-bfbd-f9faf134401f";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/má-člena-statutárního-orgánu>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/statutární-orgán>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/člen-statutárního-orgánu>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-ce644e3b-9df9-47a2-81d0-dce13126b1d7>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "ce644e3b-9df9-47a2-81d0-dce13126b1d7";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/uml/generalization>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/statutární-orgán>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/orgán-právnické-osoby>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "generalization" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-add4d107-2c47-4402-9ec6-fd7717febc22>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "add4d107-2c47-4402-9ec6-fd7717febc22";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/uml/generalization>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/člen-statutárního-orgánu>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/osoba>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "generalization" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-bd907373-1429-47b9-b87b-3231c6d32f5d>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "bd907373-1429-47b9-b87b-3231c6d32f5d";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/uml/generalization>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/člen-statutárního-orgánu>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/člen-orgánu-právnické-osoby>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "generalization" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-816638b5-3cc9-45bc-8abe-a855fc6ff9f6>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "816638b5-3cc9-45bc-8abe-a855fc6ff9f6";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/uml/generalization>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/hlavní-předmět-činnosti>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/předmět-činnosti>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "generalization" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-ad8f91be-b9d6-4723-be1e-759f3865cd9f>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "ad8f91be-b9d6-4723-be1e-759f3865cd9f";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/má-zakladatele-právnické-osoby>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/právnická-osoba>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/zakladatel-právnické-osoby>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-5cb0b757-eb08-42f4-994f-064946b244da>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "5cb0b757-eb08-42f4-994f-064946b244da";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/má-bydliště-fyzické-osoby>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/fyzická-osoba>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/bydliště-fyzické-osoby>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-e7052b08-ba93-4abb-869d-7823ebd7c9bf>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "e7052b08-ba93-4abb-869d-7823ebd7c9bf";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/má-orgán>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/právnická-osoba>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/orgán-právnické-osoby>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-fdc3b534-145e-4d1f-b229-4ef64897fb48>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "fdc3b534-145e-4d1f-b229-4ef64897fb48";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/má-člena-orgánu-právnické-osoby>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/orgán-právnické-osoby>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/člen-orgánu-právnické-osoby>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-0508e148-7a83-48a9-b6bf-fe80dbbd1ec8>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "0508e148-7a83-48a9-b6bf-fe80dbbd1ec8";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/zastupuje-právnickou-osobu-v-orgánu-právnické-osoby>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/fyzická-osoba>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/má-člena-orgánu-právnické-osoby>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-916c1308-db75-42e5-8923-9a7289f045c2>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "916c1308-db75-42e5-8923-9a7289f045c2";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/uml/generalization>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/má-statutární-orgán>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/má-orgán>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "generalization" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-ed80850f-769f-455f-a74e-24efb180d4be>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "ed80850f-769f-455f-a74e-24efb180d4be";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/má-statutární-orgán>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/právnická-osoba>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/statutární-orgán>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-a78fdc61-aaef-46c7-a9bb-33d0d0408ea8>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "a78fdc61-aaef-46c7-a9bb-33d0d0408ea8";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/uml/generalization>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/rodné-příjmení-fyzické-osoby>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/příjmení-fyzické-osoby>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "generalization" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-81378e50-eeb3-41e6-9ecf-5323edaa8406>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "81378e50-eeb3-41e6-9ecf-5323edaa8406";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/má-člena-právnické-osoby>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/právnická-osoba>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/člen-právnické-osoby>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-4585f73f-c19c-4566-a31a-26732f3295b8>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "4585f73f-c19c-4566-a31a-26732f3295b8";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/uml/generalization>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/člen-právnické-osoby>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/osoba>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "generalization" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-d8d670bb-5a1f-4317-885b-010a2cb89f98>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "d8d670bb-5a1f-4317-885b-010a2cb89f98";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/uml/generalization>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/korporace>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/právnická-osoba>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "generalization" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-2932024f-bac0-4624-9c44-1f684c34db51>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "2932024f-bac0-4624-9c44-1f684c34db51";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/uml/generalization>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/spolek>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/korporace>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "generalization" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-a50c7e43-9847-45a8-bf13-cdf2a3b9e2c3>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "a50c7e43-9847-45a8-bf13-cdf2a3b9e2c3";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/má-hlavní-spolek>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/pobočný-spolek>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/spolek>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-16d13a14-eb83-430b-a56f-1eb427093b5d>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "16d13a14-eb83-430b-a56f-1eb427093b5d";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/uml/generalization>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/vedlejší-předmět-činnosti>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/předmět-činnosti>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "generalization" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-c09bee16-e7e1-4da4-8f44-e0c9ddff7c6b>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "c09bee16-e7e1-4da4-8f44-e0c9ddff7c6b";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/má-sídlo-právnické-osoby>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/právnická-osoba>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/sídlo>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-9130658a-1983-4526-888d-d2beb216e06e>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "9130658a-1983-4526-888d-d2beb216e06e";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/má-místo-bydliště>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/bydliště-fyzické-osoby>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/místo>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-342179bb-4f94-4a7b-b972-b8dec352f663>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "342179bb-4f94-4a7b-b972-b8dec352f663";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/uml/generalization>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/zahraniční-fyzická-osoba>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/fyzická-osoba>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "generalization" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-e9bdcaa9-c0af-4b14-b486-cc2ad2d53dbf>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "e9bdcaa9-c0af-4b14-b486-cc2ad2d53dbf";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/uml/generalization>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/zahraniční-fyzická-osoba>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/zahraniční-osoba>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "generalization" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-bc3864bf-ef9f-42e9-b319-1807a0dd26c3>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "bc3864bf-ef9f-42e9-b319-1807a0dd26c3";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/uml/generalization>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/zahraniční-osoba>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/osoba>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "generalization" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-1ef86a97-5396-4da5-81e4-1be2ee0f3a05>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "1ef86a97-5396-4da5-81e4-1be2ee0f3a05";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/má-místo-sídla>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/sídlo>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/místo>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-0550e88b-4aa4-46b7-8669-221cc5067081>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "0550e88b-4aa4-46b7-8669-221cc5067081";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/uml/generalization>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/zahraniční-právnická-osoba>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/právnická-osoba>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "generalization" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-6855c81f-6502-4057-90e9-316d0684e205>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "6855c81f-6502-4057-90e9-316d0684e205";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/uml/generalization>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/zahraniční-právnická-osoba>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/89/2012/pojem/zahraniční-osoba>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "generalization" .
+
+<https://slovník.gov.cz/legislativní/sbírka/252/1997/pojem/zemědělský-podnikatel>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/element>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/hidden> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "866";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "275" .
