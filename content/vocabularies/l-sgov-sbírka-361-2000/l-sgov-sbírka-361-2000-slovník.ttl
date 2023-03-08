@@ -11,6 +11,9 @@
     owl:Ontology;
   a-popis-dat-pojem:má-glosář l-sgov-sbírka-361-2000:glosář;
   a-popis-dat-pojem:má-model l-sgov-sbírka-361-2000:model;
+  a-popis-dat-pojem:má-přílohu <https://slovník.gov.cz/příloha/instance-7f789241-049e-4af8-9600-fb347f398eaa>,
+    <https://slovník.gov.cz/příloha/instance-ab2dd14f-770b-4dac-8b1d-1b413a001cf3>, <https://slovník.gov.cz/příloha/instance-e0a880f0-1726-4615-a358-201e44ae610e>,
+    <https://slovník.gov.cz/příloha/instance-f4e8b4e1-cdcf-4625-b284-42e0ddc9d531>;
   dcterms:created "2020-07-28";
   dcterms:title "Slovník zákona č. 361/2000 Sb. o provozu na pozemních komunikacích a o změnách některých zákonů - slovník"@cs;
   bibo:status "Specification"@en, "Specifikace"@cs;
