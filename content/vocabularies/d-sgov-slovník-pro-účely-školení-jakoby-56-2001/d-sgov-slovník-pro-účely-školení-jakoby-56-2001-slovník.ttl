@@ -1,0 +1,19 @@
+@prefix a-popis-dat-pojem: <http://onto.fel.cvut.cz/ontologies/slovník/agendový/popis-dat/pojem/> .
+@prefix d-sgov-slovník-pro-účely-školení-jakoby-56-2001: <https://slovník.gov.cz/datový/slovník-pro-účely-školení-jakoby-56-2001/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://slovník.gov.cz/datový/slovník-pro-účely-školení-jakoby-56-2001> a a-popis-dat-pojem:slovník,
+    owl:Ontology;
+  a-popis-dat-pojem:má-glosář d-sgov-slovník-pro-účely-školení-jakoby-56-2001:glosář;
+  a-popis-dat-pojem:má-model d-sgov-slovník-pro-účely-školení-jakoby-56-2001:model;
+  dcterms:created "2022-10-19T12:12:56.654Z"^^xsd:dateTime;
+  dcterms:rights <https://creativecommons.org/licenses/by-sa/4.0>;
+  dcterms:title "Slovník pro účely školení jakoby 56/2001"@cs;
+  vann:preferredNamespacePrefix "d-sgov-slovník-pro-účely-školení-jakoby-56-2001-pojem";
+  vann:preferredNamespaceUri "https://slovník.gov.cz/datový/slovník-pro-účely-školení-jakoby-56-2001/pojem/";
+  owl:imports d-sgov-slovník-pro-účely-školení-jakoby-56-2001:glosář, d-sgov-slovník-pro-účely-školení-jakoby-56-2001:model;
+  owl:versionIRI "https://slovník.gov.cz/datový/slovník-pro-účely-školení-jakoby-56-2001/verze/1.0.0" .

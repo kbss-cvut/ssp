@@ -1,0 +1,61 @@
+@prefix a-popis-dat-pojem: <http://onto.fel.cvut.cz/ontologies/slovník/agendový/popis-dat/pojem/> .
+@prefix d-sgov-slovník-pro-účely-školení-jakoby-56-2001: <https://slovník.gov.cz/datový/slovník-pro-účely-školení-jakoby-56-2001/> .
+@prefix d-sgov-slovník-pro-účely-školení-jakoby-56-2001-pojem: <https://slovník.gov.cz/datový/slovník-pro-účely-školení-jakoby-56-2001/pojem/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+d-sgov-slovník-pro-účely-školení-jakoby-56-2001:glosář a a-popis-dat-pojem:glosář,
+    owl:Ontology, skos:ConceptScheme;
+  dcterms:created "2022-10-19T12:12:56.654Z"^^xsd:dateTime;
+  dcterms:rights <https://creativecommons.org/licenses/by-sa/4.0>;
+  dcterms:title "Slovník pro účely školení jakoby 56/2001 - glosář"@cs;
+  vann:preferredNamespacePrefix "d-sgov-slovník-pro-účely-školení-jakoby-56-2001-pojem";
+  vann:preferredNamespaceUri "https://slovník.gov.cz/datový/slovník-pro-účely-školení-jakoby-56-2001/pojem/";
+  owl:versionIRI "https://slovník.gov.cz/datový/slovník-pro-účely-školení-jakoby-56-2001/glosář/verze/1.0.0";
+  skos:hasTopConcept d-sgov-slovník-pro-účely-školení-jakoby-56-2001-pojem:motorové-vozidlo,
+    d-sgov-slovník-pro-účely-školení-jakoby-56-2001-pojem:má-technický-průkaz, d-sgov-slovník-pro-účely-školení-jakoby-56-2001-pojem:připojné-vozidlo,
+    d-sgov-slovník-pro-účely-školení-jakoby-56-2001-pojem:silniční-vozidlo, d-sgov-slovník-pro-účely-školení-jakoby-56-2001-pojem:technický-průkaz,
+    d-sgov-slovník-pro-účely-školení-jakoby-56-2001-pojem:zvláštní-vozidlo, d-sgov-slovník-pro-účely-školení-jakoby-56-2001-pojem:číslo-technického-průkazu .
+
+d-sgov-slovník-pro-účely-školení-jakoby-56-2001-pojem:silniční-vozidlo a skos:Concept;
+  dcterms:source "Odstavec (1) paragrafu 2 zákona č. 56/2001 Sb.";
+  skos:altLabel "vozidlo"@cs;
+  skos:broadMatch <https://slovník.gov.cz/legislativní/sbírka/361/2000/pojem/vozidlo>;
+  skos:definition "Silniční vozidlo je motorové nebo nemotorové vozidlo, které je vyrobené za účelem provozu na pozemních komunikacích pro přepravu osob, zvířat nebo věcí."@cs;
+  skos:inScheme d-sgov-slovník-pro-účely-školení-jakoby-56-2001:glosář;
+  skos:prefLabel "Silniční vozidlo"@cs;
+  skos:relatedMatch <https://slovník.gov.cz/legislativní/sbírka/361/2000/pojem/řidičské-oprávnění>;
+  skos:scopeNote "https://www.zakonyprolidi.cz/cs/2001-56#p2-1"@cs .
+
+d-sgov-slovník-pro-účely-školení-jakoby-56-2001-pojem:zvláštní-vozidlo a skos:Concept;
+  skos:definition "Zvláštní vozidlo je vozidlo vyrobené k jiným účelům než k provozu na pozemních komunikacích, které může být při splnění podmínek stanovených tímto zákonem k provozu na pozemních komunikacích schváleno."@cs;
+  skos:inScheme d-sgov-slovník-pro-účely-školení-jakoby-56-2001:glosář;
+  skos:prefLabel "Zvláštní vozidlo"@cs;
+  skos:scopeNote ""@cs .
+
+d-sgov-slovník-pro-účely-školení-jakoby-56-2001-pojem:připojné-vozidlo a skos:Concept;
+  skos:definition ""@cs;
+  skos:inScheme d-sgov-slovník-pro-účely-školení-jakoby-56-2001:glosář;
+  skos:prefLabel "Připojné vozidlo"@cs;
+  skos:scopeNote ""@cs .
+
+d-sgov-slovník-pro-účely-školení-jakoby-56-2001-pojem:motorové-vozidlo a skos:Concept;
+  skos:inScheme d-sgov-slovník-pro-účely-školení-jakoby-56-2001:glosář;
+  skos:prefLabel "Motorové vozidlo"@cs .
+
+d-sgov-slovník-pro-účely-školení-jakoby-56-2001-pojem:technický-průkaz a skos:Concept;
+  skos:inScheme d-sgov-slovník-pro-účely-školení-jakoby-56-2001:glosář;
+  skos:prefLabel "Technický průkaz"@cs .
+
+d-sgov-slovník-pro-účely-školení-jakoby-56-2001-pojem:má-technický-průkaz a skos:Concept;
+  skos:inScheme d-sgov-slovník-pro-účely-školení-jakoby-56-2001:glosář;
+  skos:prefLabel "má technický průkaz"@cs .
+
+d-sgov-slovník-pro-účely-školení-jakoby-56-2001-pojem:číslo-technického-průkazu a
+    skos:Concept;
+  skos:inScheme d-sgov-slovník-pro-účely-školení-jakoby-56-2001:glosář;
+  skos:prefLabel "číslo technického průkazu"@cs .

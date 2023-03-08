@@ -1,0 +1,125 @@
+@prefix a-popis-dat-pojem: <http://onto.fel.cvut.cz/ontologies/slovník/agendový/popis-dat/pojem/> .
+@prefix d-sgov-slovník-pro-účely-školení-jakoby-56-2001: <https://slovník.gov.cz/datový/slovník-pro-účely-školení-jakoby-56-2001/> .
+@prefix d-sgov-slovník-pro-účely-školení-jakoby-56-2001-pojem: <https://slovník.gov.cz/datový/slovník-pro-účely-školení-jakoby-56-2001/pojem/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+d-sgov-slovník-pro-účely-školení-jakoby-56-2001:model a a-popis-dat-pojem:model, owl:Ontology;
+  dcterms:created "2022-10-19T12:12:56.654Z"^^xsd:dateTime;
+  dcterms:rights <https://creativecommons.org/licenses/by-sa/4.0>;
+  dcterms:title "Slovník pro účely školení jakoby 56/2001 - model"@cs;
+  vann:preferredNamespacePrefix "d-sgov-slovník-pro-účely-školení-jakoby-56-2001-pojem";
+  vann:preferredNamespaceUri "https://slovník.gov.cz/datový/slovník-pro-účely-školení-jakoby-56-2001/pojem/";
+  owl:imports d-sgov-slovník-pro-účely-školení-jakoby-56-2001:glosář;
+  owl:versionIRI "https://slovník.gov.cz/datový/slovník-pro-účely-školení-jakoby-56-2001/model/verze/1.0.0" .
+
+d-sgov-slovník-pro-účely-školení-jakoby-56-2001-pojem:silniční-vozidlo a <https://slovník.gov.cz/základní/pojem/typ-objektu>;
+  <http://onto.fel.cvut.cz/ontologies/application/termit/pojem/je-draft> true;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+        ];
+      owl:someValuesFrom d-sgov-slovník-pro-účely-školení-jakoby-56-2001-pojem:má-technický-průkaz
+    ], [ a owl:Restriction;
+      owl:allValuesFrom d-sgov-slovník-pro-účely-školení-jakoby-56-2001-pojem:má-technický-průkaz;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+        ]
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger;
+      owl:onClass d-sgov-slovník-pro-účely-školení-jakoby-56-2001-pojem:má-technický-průkaz;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+        ]
+    ], [ a owl:Restriction;
+      owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger;
+      owl:onClass d-sgov-slovník-pro-účely-školení-jakoby-56-2001-pojem:má-technický-průkaz;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+        ]
+    ] .
+
+d-sgov-slovník-pro-účely-školení-jakoby-56-2001-pojem:zvláštní-vozidlo <http://onto.fel.cvut.cz/ontologies/application/termit/pojem/je-draft>
+    true .
+
+d-sgov-slovník-pro-účely-školení-jakoby-56-2001-pojem:připojné-vozidlo a <https://slovník.gov.cz/základní/pojem/typ-objektu>;
+  <http://onto.fel.cvut.cz/ontologies/application/termit/pojem/je-draft> true .
+
+d-sgov-slovník-pro-účely-školení-jakoby-56-2001-pojem:motorové-vozidlo a <https://slovník.gov.cz/základní/pojem/typ-objektu>;
+  rdfs:subClassOf d-sgov-slovník-pro-účely-školení-jakoby-56-2001-pojem:silniční-vozidlo .
+
+d-sgov-slovník-pro-účely-školení-jakoby-56-2001-pojem:technický-průkaz rdfs:subClassOf
+    <https://slovník.gov.cz/veřejný-sektor/pojem/objekt-práva>, [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+      owl:someValuesFrom d-sgov-slovník-pro-účely-školení-jakoby-56-2001-pojem:číslo-technického-průkazu
+    ], [ a owl:Restriction;
+      owl:allValuesFrom d-sgov-slovník-pro-účely-školení-jakoby-56-2001-pojem:číslo-technického-průkazu;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass d-sgov-slovník-pro-účely-školení-jakoby-56-2001-pojem:číslo-technického-průkazu;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ] .
+
+d-sgov-slovník-pro-účely-školení-jakoby-56-2001-pojem:má-technický-průkaz a <https://slovník.gov.cz/základní/pojem/typ-vztahu>;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>;
+      owl:someValuesFrom d-sgov-slovník-pro-účely-školení-jakoby-56-2001-pojem:silniční-vozidlo
+    ], [ a owl:Restriction;
+      owl:allValuesFrom d-sgov-slovník-pro-účely-školení-jakoby-56-2001-pojem:silniční-vozidlo;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger;
+      owl:onClass d-sgov-slovník-pro-účely-školení-jakoby-56-2001-pojem:silniční-vozidlo;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+    ], [ a owl:Restriction;
+      owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger;
+      owl:onClass d-sgov-slovník-pro-účely-školení-jakoby-56-2001-pojem:silniční-vozidlo;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+    ], [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>;
+      owl:someValuesFrom d-sgov-slovník-pro-účely-školení-jakoby-56-2001-pojem:technický-průkaz
+    ], [ a owl:Restriction;
+      owl:allValuesFrom d-sgov-slovník-pro-účely-školení-jakoby-56-2001-pojem:technický-průkaz;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger;
+      owl:onClass d-sgov-slovník-pro-účely-školení-jakoby-56-2001-pojem:technický-průkaz;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
+    ], [ a owl:Restriction;
+      owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger;
+      owl:onClass d-sgov-slovník-pro-účely-školení-jakoby-56-2001-pojem:technický-průkaz;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
+    ] .
+
+d-sgov-slovník-pro-účely-školení-jakoby-56-2001-pojem:číslo-technického-průkazu a
+    <https://slovník.gov.cz/základní/pojem/typ-vlastnosti>;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ];
+      owl:someValuesFrom d-sgov-slovník-pro-účely-školení-jakoby-56-2001-pojem:technický-průkaz
+    ], [ a owl:Restriction;
+      owl:allValuesFrom d-sgov-slovník-pro-účely-školení-jakoby-56-2001-pojem:technický-průkaz;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass d-sgov-slovník-pro-účely-školení-jakoby-56-2001-pojem:technický-průkaz;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ] .
+
+[] owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2> .
+
+[] owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2> .
+
+[] owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2> .
+
+[] owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2> .
