@@ -1,0 +1,698 @@
+@prefix a-popis-dat-pojem: <http://onto.fel.cvut.cz/ontologies/slovník/agendový/popis-dat/pojem/> .
+@prefix a-sgov-vesm-r-p-klad: <https://slovník.gov.cz/agendový/vesm-r-p-klad/> .
+@prefix a-sgov-vesm-r-p-klad-pojem: <https://slovník.gov.cz/agendový/vesm-r-p-klad/pojem/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+a-sgov-vesm-r-p-klad:model a a-popis-dat-pojem:model, owl:Ontology;
+  dcterms:created "2022-11-30T11:55:33.932Z"^^xsd:dateTime;
+  dcterms:rights <https://creativecommons.org/licenses/by-sa/4.0>;
+  dcterms:title "Vesmír (příklad) - model"@cs;
+  vann:preferredNamespacePrefix "a-sgov-vesm-r-p-klad-pojem";
+  vann:preferredNamespaceUri "https://slovník.gov.cz/agendový/vesm-r-p-klad/pojem/";
+  owl:imports a-sgov-vesm-r-p-klad:glosář;
+  owl:versionIRI "https://slovník.gov.cz/agendový/vesm-r-p-klad/model/verze/1.0.0" .
+
+a-sgov-vesm-r-p-klad-pojem:kapitánská-zkouška a <https://slovník.gov.cz/základní/pojem/typ-události>;
+  <http://onto.fel.cvut.cz/ontologies/application/termit/pojem/je-draft> true .
+
+a-sgov-vesm-r-p-klad-pojem:průkaz-kapitána a <https://slovník.gov.cz/základní/pojem/typ-objektu>;
+  <http://onto.fel.cvut.cz/ontologies/application/termit/pojem/je-draft> true;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+      owl:someValuesFrom a-sgov-vesm-r-p-klad-pojem:jméno-osoby
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-vesm-r-p-klad-pojem:jméno-osoby;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-vesm-r-p-klad-pojem:jméno-osoby;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+      owl:someValuesFrom a-sgov-vesm-r-p-klad-pojem:příjmení
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-vesm-r-p-klad-pojem:příjmení;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-vesm-r-p-klad-pojem:příjmení;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+      owl:someValuesFrom a-sgov-vesm-r-p-klad-pojem:vojenské-číslo-důstojníka
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-vesm-r-p-klad-pojem:vojenské-číslo-důstojníka;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-vesm-r-p-klad-pojem:vojenské-číslo-důstojníka;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+      owl:someValuesFrom a-sgov-vesm-r-p-klad-pojem:datum-přidělení-funkce-kapitána
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-vesm-r-p-klad-pojem:datum-přidělení-funkce-kapitána;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-vesm-r-p-klad-pojem:datum-přidělení-funkce-kapitána;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ] .
+
+a-sgov-vesm-r-p-klad-pojem:seznam-držitelů-kapitánské-funkce a <https://slovník.gov.cz/základní/pojem/typ-objektu>;
+  <http://onto.fel.cvut.cz/ontologies/application/termit/pojem/je-draft> true .
+
+a-sgov-vesm-r-p-klad-pojem:ohlášení-vesmírného-letu a <https://slovník.gov.cz/základní/pojem/typ-objektu>;
+  <http://onto.fel.cvut.cz/ontologies/application/termit/pojem/je-draft> true .
+
+a-sgov-vesm-r-p-klad-pojem:kapitán a <https://slovník.gov.cz/základní/pojem/typ-objektu>;
+  <http://onto.fel.cvut.cz/ontologies/application/termit/pojem/je-draft> true;
+  rdfs:subClassOf a-sgov-vesm-r-p-klad-pojem:důstojník, [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
+        ];
+      owl:someValuesFrom a-sgov-vesm-r-p-klad-pojem:řízení-vesmírné-lodi
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-vesm-r-p-klad-pojem:řízení-vesmírné-lodi;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
+        ]
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-vesm-r-p-klad-pojem:řízení-vesmírné-lodi;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
+        ]
+    ] .
+
+a-sgov-vesm-r-p-klad-pojem:žádost-o-vykonání-kapitánské-zkoušky a <https://slovník.gov.cz/základní/pojem/typ-objektu>;
+  <http://onto.fel.cvut.cz/ontologies/application/termit/pojem/je-draft> true;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+      owl:someValuesFrom a-sgov-vesm-r-p-klad-pojem:jméno-osoby
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-vesm-r-p-klad-pojem:jméno-osoby;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-vesm-r-p-klad-pojem:jméno-osoby;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+      owl:someValuesFrom a-sgov-vesm-r-p-klad-pojem:příjmení
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-vesm-r-p-klad-pojem:příjmení;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-vesm-r-p-klad-pojem:příjmení;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+      owl:someValuesFrom a-sgov-vesm-r-p-klad-pojem:vojenské-číslo-důstojníka
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-vesm-r-p-klad-pojem:vojenské-číslo-důstojníka;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-vesm-r-p-klad-pojem:vojenské-číslo-důstojníka;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+      owl:someValuesFrom a-sgov-vesm-r-p-klad-pojem:průměrný-plat
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-vesm-r-p-klad-pojem:průměrný-plat;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-vesm-r-p-klad-pojem:průměrný-plat;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ] .
+
+a-sgov-vesm-r-p-klad-pojem:důstojník a <https://slovník.gov.cz/základní/pojem/typ-objektu>;
+  <http://onto.fel.cvut.cz/ontologies/application/termit/pojem/je-draft> true;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+      owl:someValuesFrom a-sgov-vesm-r-p-klad-pojem:datum-získání-hodnosti-důstojníka
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-vesm-r-p-klad-pojem:datum-získání-hodnosti-důstojníka;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-vesm-r-p-klad-pojem:datum-získání-hodnosti-důstojníka;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+      owl:someValuesFrom a-sgov-vesm-r-p-klad-pojem:jméno-osoby
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-vesm-r-p-klad-pojem:jméno-osoby;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-vesm-r-p-klad-pojem:jméno-osoby;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+      owl:someValuesFrom a-sgov-vesm-r-p-klad-pojem:příjmení
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-vesm-r-p-klad-pojem:příjmení;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-vesm-r-p-klad-pojem:příjmení;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+      owl:someValuesFrom a-sgov-vesm-r-p-klad-pojem:vojenské-číslo-důstojníka
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-vesm-r-p-klad-pojem:vojenské-číslo-důstojníka;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-vesm-r-p-klad-pojem:vojenské-číslo-důstojníka;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ] .
+
+a-sgov-vesm-r-p-klad-pojem:vojenské-číslo-důstojníka a <https://slovník.gov.cz/základní/pojem/typ-vlastnosti>;
+  <http://onto.fel.cvut.cz/ontologies/application/termit/pojem/je-draft> true;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ];
+      owl:someValuesFrom a-sgov-vesm-r-p-klad-pojem:voják
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-vesm-r-p-klad-pojem:voják;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-vesm-r-p-klad-pojem:voják;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ], [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ];
+      owl:someValuesFrom a-sgov-vesm-r-p-klad-pojem:důstojník
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-vesm-r-p-klad-pojem:důstojník;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-vesm-r-p-klad-pojem:důstojník;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ], [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ];
+      owl:someValuesFrom a-sgov-vesm-r-p-klad-pojem:průkaz-kapitána
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-vesm-r-p-klad-pojem:průkaz-kapitána;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-vesm-r-p-klad-pojem:průkaz-kapitána;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ], [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ];
+      owl:someValuesFrom a-sgov-vesm-r-p-klad-pojem:žádost-o-vykonání-kapitánské-zkoušky
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-vesm-r-p-klad-pojem:žádost-o-vykonání-kapitánské-zkoušky;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-vesm-r-p-klad-pojem:žádost-o-vykonání-kapitánské-zkoušky;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ] .
+
+a-sgov-vesm-r-p-klad-pojem:datum-získání-hodnosti-důstojníka a <https://slovník.gov.cz/základní/pojem/typ-vlastnosti>;
+  <http://onto.fel.cvut.cz/ontologies/application/termit/pojem/je-draft> true;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ];
+      owl:someValuesFrom a-sgov-vesm-r-p-klad-pojem:důstojník
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-vesm-r-p-klad-pojem:důstojník;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-vesm-r-p-klad-pojem:důstojník;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ] .
+
+a-sgov-vesm-r-p-klad-pojem:průměrný-plat a <https://slovník.gov.cz/základní/pojem/typ-vlastnosti>;
+  <http://onto.fel.cvut.cz/ontologies/application/termit/pojem/je-draft> true;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ];
+      owl:someValuesFrom a-sgov-vesm-r-p-klad-pojem:žádost-o-vykonání-kapitánské-zkoušky
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-vesm-r-p-klad-pojem:žádost-o-vykonání-kapitánské-zkoušky;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-vesm-r-p-klad-pojem:žádost-o-vykonání-kapitánské-zkoušky;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ] .
+
+a-sgov-vesm-r-p-klad-pojem:vesmírná-loď a <https://slovník.gov.cz/základní/pojem/typ-objektu>;
+  <http://onto.fel.cvut.cz/ontologies/application/termit/pojem/je-draft> true;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+      owl:someValuesFrom a-sgov-vesm-r-p-klad-pojem:název-vesmírné-lodi
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-vesm-r-p-klad-pojem:název-vesmírné-lodi;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-vesm-r-p-klad-pojem:název-vesmírné-lodi;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+      owl:someValuesFrom a-sgov-vesm-r-p-klad-pojem:číslo-vesmírné-lodi
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-vesm-r-p-klad-pojem:číslo-vesmírné-lodi;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-vesm-r-p-klad-pojem:číslo-vesmírné-lodi;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+        ];
+      owl:someValuesFrom a-sgov-vesm-r-p-klad-pojem:řízení-vesmírné-lodi
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-vesm-r-p-klad-pojem:řízení-vesmírné-lodi;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+        ]
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-vesm-r-p-klad-pojem:řízení-vesmírné-lodi;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+        ]
+    ] .
+
+a-sgov-vesm-r-p-klad-pojem:řízení-vesmírné-lodi a <https://slovník.gov.cz/základní/pojem/typ-vztahu>;
+  <http://onto.fel.cvut.cz/ontologies/application/termit/pojem/je-draft> true;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>;
+      owl:someValuesFrom a-sgov-vesm-r-p-klad-pojem:vesmírná-loď
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-vesm-r-p-klad-pojem:vesmírná-loď;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-vesm-r-p-klad-pojem:vesmírná-loď;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+    ], [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>;
+      owl:someValuesFrom a-sgov-vesm-r-p-klad-pojem:kapitán
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-vesm-r-p-klad-pojem:kapitán;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-vesm-r-p-klad-pojem:kapitán;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
+    ] .
+
+a-sgov-vesm-r-p-klad-pojem:výsledek-kapitánské-zkoušky a <https://slovník.gov.cz/základní/pojem/typ-objektu>;
+  <http://onto.fel.cvut.cz/ontologies/application/termit/pojem/je-draft> true;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+      owl:someValuesFrom a-sgov-vesm-r-p-klad-pojem:datum-přidělení-funkce-kapitána
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-vesm-r-p-klad-pojem:datum-přidělení-funkce-kapitána;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-vesm-r-p-klad-pojem:datum-přidělení-funkce-kapitána;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ] .
+
+a-sgov-vesm-r-p-klad-pojem:datum-přidělení-funkce-kapitána a <https://slovník.gov.cz/základní/pojem/typ-vlastnosti>;
+  <http://onto.fel.cvut.cz/ontologies/application/termit/pojem/je-draft> true;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ];
+      owl:someValuesFrom a-sgov-vesm-r-p-klad-pojem:průkaz-kapitána
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-vesm-r-p-klad-pojem:průkaz-kapitána;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-vesm-r-p-klad-pojem:průkaz-kapitána;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ], [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ];
+      owl:someValuesFrom a-sgov-vesm-r-p-klad-pojem:výsledek-kapitánské-zkoušky
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-vesm-r-p-klad-pojem:výsledek-kapitánské-zkoušky;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-vesm-r-p-klad-pojem:výsledek-kapitánské-zkoušky;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ] .
+
+a-sgov-vesm-r-p-klad-pojem:fyzická-osoba a <https://slovník.gov.cz/základní/pojem/typ-objektu>;
+  <http://onto.fel.cvut.cz/ontologies/application/termit/pojem/je-draft> true;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+      owl:someValuesFrom a-sgov-vesm-r-p-klad-pojem:jméno-osoby
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-vesm-r-p-klad-pojem:jméno-osoby;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-vesm-r-p-klad-pojem:jméno-osoby;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+      owl:someValuesFrom a-sgov-vesm-r-p-klad-pojem:příjmení
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-vesm-r-p-klad-pojem:příjmení;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-vesm-r-p-klad-pojem:příjmení;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+        ];
+      owl:someValuesFrom a-sgov-vesm-r-p-klad-pojem:je-vojákem
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-vesm-r-p-klad-pojem:je-vojákem;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+        ]
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-vesm-r-p-klad-pojem:je-vojákem;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+        ]
+    ], [ a owl:Restriction;
+      owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-vesm-r-p-klad-pojem:je-vojákem;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+        ]
+    ] .
+
+a-sgov-vesm-r-p-klad-pojem:jméno-osoby a <https://slovník.gov.cz/základní/pojem/typ-vlastnosti>;
+  <http://onto.fel.cvut.cz/ontologies/application/termit/pojem/je-draft> true;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ];
+      owl:someValuesFrom a-sgov-vesm-r-p-klad-pojem:fyzická-osoba
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-vesm-r-p-klad-pojem:fyzická-osoba;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-vesm-r-p-klad-pojem:fyzická-osoba;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ], [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ];
+      owl:someValuesFrom a-sgov-vesm-r-p-klad-pojem:důstojník
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-vesm-r-p-klad-pojem:důstojník;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-vesm-r-p-klad-pojem:důstojník;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ], [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ];
+      owl:someValuesFrom a-sgov-vesm-r-p-klad-pojem:průkaz-kapitána
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-vesm-r-p-klad-pojem:průkaz-kapitána;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-vesm-r-p-klad-pojem:průkaz-kapitána;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ], [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ];
+      owl:someValuesFrom a-sgov-vesm-r-p-klad-pojem:žádost-o-vykonání-kapitánské-zkoušky
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-vesm-r-p-klad-pojem:žádost-o-vykonání-kapitánské-zkoušky;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-vesm-r-p-klad-pojem:žádost-o-vykonání-kapitánské-zkoušky;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ] .
+
+a-sgov-vesm-r-p-klad-pojem:příjmení a <https://slovník.gov.cz/základní/pojem/typ-vlastnosti>;
+  <http://onto.fel.cvut.cz/ontologies/application/termit/pojem/je-draft> true;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ];
+      owl:someValuesFrom a-sgov-vesm-r-p-klad-pojem:fyzická-osoba
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-vesm-r-p-klad-pojem:fyzická-osoba;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-vesm-r-p-klad-pojem:fyzická-osoba;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ], [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ];
+      owl:someValuesFrom a-sgov-vesm-r-p-klad-pojem:důstojník
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-vesm-r-p-klad-pojem:důstojník;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-vesm-r-p-klad-pojem:důstojník;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ], [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ];
+      owl:someValuesFrom a-sgov-vesm-r-p-klad-pojem:průkaz-kapitána
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-vesm-r-p-klad-pojem:průkaz-kapitána;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-vesm-r-p-klad-pojem:průkaz-kapitána;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ], [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ];
+      owl:someValuesFrom a-sgov-vesm-r-p-klad-pojem:žádost-o-vykonání-kapitánské-zkoušky
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-vesm-r-p-klad-pojem:žádost-o-vykonání-kapitánské-zkoušky;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-vesm-r-p-klad-pojem:žádost-o-vykonání-kapitánské-zkoušky;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ] .
+
+a-sgov-vesm-r-p-klad-pojem:název-vesmírné-lodi a <https://slovník.gov.cz/základní/pojem/typ-vlastnosti>;
+  <http://onto.fel.cvut.cz/ontologies/application/termit/pojem/je-draft> true;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ];
+      owl:someValuesFrom a-sgov-vesm-r-p-klad-pojem:vesmírná-loď
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-vesm-r-p-klad-pojem:vesmírná-loď;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-vesm-r-p-klad-pojem:vesmírná-loď;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ] .
+
+a-sgov-vesm-r-p-klad-pojem:číslo-vesmírné-lodi a <https://slovník.gov.cz/základní/pojem/typ-vlastnosti>;
+  <http://onto.fel.cvut.cz/ontologies/application/termit/pojem/je-draft> true;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ];
+      owl:someValuesFrom a-sgov-vesm-r-p-klad-pojem:vesmírná-loď
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-vesm-r-p-klad-pojem:vesmírná-loď;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-vesm-r-p-klad-pojem:vesmírná-loď;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ] .
+
+[] a owl:Restriction;
+  owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+  owl:someValuesFrom a-sgov-vesm-r-p-klad-pojem:vojenské-číslo-důstojníka .
+
+[] a owl:Restriction;
+  owl:allValuesFrom a-sgov-vesm-r-p-klad-pojem:vojenské-číslo-důstojníka;
+  owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost> .
+
+[] a owl:Restriction;
+  owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+  owl:onClass a-sgov-vesm-r-p-klad-pojem:vojenské-číslo-důstojníka;
+  owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost> .
+
+[] a owl:Restriction;
+  owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>;
+  owl:someValuesFrom a-sgov-vesm-r-p-klad-pojem:fyzická-osoba .
+
+[] a owl:Restriction;
+  owl:allValuesFrom a-sgov-vesm-r-p-klad-pojem:fyzická-osoba;
+  owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1> .
+
+[] a owl:Restriction;
+  owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+  owl:onClass a-sgov-vesm-r-p-klad-pojem:fyzická-osoba;
+  owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1> .
+
+[] a owl:Restriction;
+  owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger;
+  owl:onClass a-sgov-vesm-r-p-klad-pojem:fyzická-osoba;
+  owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1> .
+
+[] a owl:Restriction;
+  owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>;
+  owl:someValuesFrom a-sgov-vesm-r-p-klad-pojem:voják .
+
+[] a owl:Restriction;
+  owl:onProperty [
+      owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
+    ];
+  owl:someValuesFrom a-sgov-vesm-r-p-klad-pojem:je-vojákem .
+
+[] a owl:Restriction;
+  owl:allValuesFrom a-sgov-vesm-r-p-klad-pojem:voják;
+  owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2> .
+
+[] a owl:Restriction;
+  owl:allValuesFrom a-sgov-vesm-r-p-klad-pojem:je-vojákem;
+  owl:onProperty [
+      owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
+    ] .
+
+[] a owl:Restriction;
+  owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger;
+  owl:onClass a-sgov-vesm-r-p-klad-pojem:voják;
+  owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2> .
+
+[] a owl:Restriction;
+  owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+  owl:onClass a-sgov-vesm-r-p-klad-pojem:je-vojákem;
+  owl:onProperty [
+      owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
+    ] .
+
+[] a owl:Restriction;
+  owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger;
+  owl:onClass a-sgov-vesm-r-p-klad-pojem:voják;
+  owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2> .
+
+[] a owl:Restriction;
+  owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger;
+  owl:onClass a-sgov-vesm-r-p-klad-pojem:je-vojákem;
+  owl:onProperty [
+      owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
+    ] .
