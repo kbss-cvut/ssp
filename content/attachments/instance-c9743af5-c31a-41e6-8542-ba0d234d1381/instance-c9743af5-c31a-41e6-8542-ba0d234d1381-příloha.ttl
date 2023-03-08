@@ -1,0 +1,1030 @@
+@prefix a-popis-dat-pojem: <http://onto.fel.cvut.cz/ontologies/slovník/agendový/popis-dat/pojem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://slovník.gov.cz/datový/zákon-číslo-56-2001-sbírky/pojem/silniční-vozidlo>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/element>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/hidden> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "29";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "31" .
+
+<https://slovník.gov.cz/datový/zákon-číslo-56-2001-sbírky/pojem/typ-silničního-vozidla>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/element>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/hidden> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "212";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "180" .
+
+<https://slovník.gov.cz/datový/pracovní-prostor/pojem/příloha/instance-c9743af5-c31a-41e6-8542-ba0d234d1381>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/diagram>, a-popis-dat-pojem:příloha,
+    <https://slovník.gov.cz/datový/pracovní-prostor/pojem/příloha>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "c9743af5-c31a-41e6-8542-ba0d234d1381";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/index> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/name> "Untitled diagram";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/representation> "1" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-f8792c5c-8da9-4300-a3f0-fff9b0c1dc76>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "f8792c5c-8da9-4300-a3f0-fff9b0c1dc76";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/je-prováděna>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/správce-nebo-provozovatel-nebo-uživatel-informačního-systému-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-c5851979-e24b-4fe7-8df9-fa5b0c605fb6>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "c5851979-e24b-4fe7-8df9-fa5b0c605fb6";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/je-prováděna>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/informační-činnost>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-a56bc012-f9c5-41bb-bc97-a112a39771b8>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "a56bc012-f9c5-41bb-bc97-a112a39771b8";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/je-vazbou-informačního-systému-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/informační-systém-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-f03f84c0-4170-493f-9fb0-5e3ee42a2fbb>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "f03f84c0-4170-493f-9fb0-5e3ee42a2fbb";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/je-vazbou-informačního-systému-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/vazba-mezi-informačními-systémy-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-24f6a472-a265-4d8a-a13c-99c1de29f8a6>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "24f6a472-a265-4d8a-a13c-99c1de29f8a6";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/má-poskytovanou-službu>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/vazba-mezi-informačními-systémy-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-01748281-b498-49a1-bd4a-a460aa0fa5ac>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "01748281-b498-49a1-bd4a-a460aa0fa5ac";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/má-poskytovanou-službu>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/služba-informačního-systému-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-b2043004-7ecb-495e-9147-740d978b1fd1>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "b2043004-7ecb-495e-9147-740d978b1fd1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/odpovídá-za-informační-systém-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/správce-informačního-systému-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-bfd344a1-d437-4b9e-aebb-85feb9c3fef4>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "bfd344a1-d437-4b9e-aebb-85feb9c3fef4";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/odpovídá-za-informační-systém-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/informační-systém-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-557278fe-a8f9-4b7e-a77b-b85f3737b61b>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "557278fe-a8f9-4b7e-a77b-b85f3737b61b";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/poskytuje-službu>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/správce-informačního-systému-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-c6194f62-3730-46ef-ba1b-9f2393085d64>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "c6194f62-3730-46ef-ba1b-9f2393085d64";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/poskytuje-službu>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/služba-informačního-systému-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-13baace9-ab5f-4dfa-9276-def14b47e179>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "13baace9-ab5f-4dfa-9276-def14b47e179";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/poskytuje-službu-referenčního-rozhraní>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/referenční-rozhraní>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-b6f02115-831b-41a0-ad84-249574f1a695>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "b6f02115-831b-41a0-ad84-249574f1a695";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/poskytuje-službu-referenčního-rozhraní>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/společná-služba-informačních-systémů-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-fe833635-cae5-4d11-be56-27851337d0db>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "fe833635-cae5-4d11-be56-27851337d0db";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/pověřil-provozovatele-informačního-systému-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/pověřený-provozovatel-informačního-systému-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-b4bf2622-6902-4978-a2ef-fb808f700581>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "b4bf2622-6902-4978-a2ef-fb808f700581";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/pověřil-provozovatele-informačního-systému-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/správce-informačního-systému-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-de9f0241-6a76-47ff-abb4-83a1181c4213>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "de9f0241-6a76-47ff-abb4-83a1181c4213";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-účastníka>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/rozvoj-informačního-systému-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/informační-systém-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-a3dd9313-9f67-46e5-b439-c6368464821a>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "a3dd9313-9f67-46e5-b439-c6368464821a";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/umožňuje-přístup-k-datům-informačního-systému-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/data>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-a4e75c02-9363-44e5-be09-d7f7001822af>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "a4e75c02-9363-44e5-be09-d7f7001822af";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/umožňuje-přístup-k-datům-informačního-systému-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/sdílení-dat>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-b1738bdf-4428-42c5-b81c-c9669f374a59>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "b1738bdf-4428-42c5-b81c-c9669f374a59";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/umožňuje-přístup-uživateli-informačního-systému-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/uživatel-informačního-systému-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-ffa5a8eb-5fd7-4aa4-8c28-f4cd20cd6520>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "ffa5a8eb-5fd7-4aa4-8c28-f4cd20cd6520";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/umožňuje-přístup-uživateli-informačního-systému-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/sdílení-dat>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-7e7ea541-e5e4-49ee-9193-30b54b94e40a>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "7e7ea541-e5e4-49ee-9193-30b54b94e40a";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/uspokojuje-požadavky>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/oprávněná-osoba-nebo-její-součást>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-ad2bee29-fdb1-49d5-b1db-14f2b51806e1>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "ad2bee29-fdb1-49d5-b1db-14f2b51806e1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/uspokojuje-požadavky>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/služba-informačního-systému-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-5c09c7b3-69e9-4391-a1b7-13046b7eebf1>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "5c09c7b3-69e9-4391-a1b7-13046b7eebf1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-účastníka>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/vytvoření-informačního-systému-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/informační-systém-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-a141792f-eaa2-4a64-a349-85b0b1f43c6b>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "a141792f-eaa2-4a64-a349-85b0b1f43c6b";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/využívá-data-z-informačního-systému-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/informační-systém-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-6a614331-1c01-45d9-a0d6-05b932171fff>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "6a614331-1c01-45d9-a0d6-05b932171fff";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/využívá-data-z-informačního-systému-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/uživatel-informačního-systému-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-2b287e37-3f94-4ecc-b7d4-6b51f2b7b67d>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "2b287e37-3f94-4ecc-b7d4-6b51f2b7b67d";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/zabezpečuje-informační-činnost>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/informační-systém-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-83a27836-0f95-4065-b854-c668b258c5bd>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "83a27836-0f95-4065-b854-c668b258c5bd";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/zabezpečuje-informační-činnost>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/informační-činnost>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-b5a2f3eb-bcda-4cbb-908f-d9455c6288cd>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "b5a2f3eb-bcda-4cbb-908f-d9455c6288cd";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/zahrnuje>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/informační-systém-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-f3a09ce1-b093-44e1-b9b5-1021bfaab97f>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "f3a09ce1-b093-44e1-b9b5-1021bfaab97f";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/zajišťuje-funkčnost-informačního-systému-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/provozovatel-informačního-systému-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-2cfed614-3209-43e9-a923-909d6b7588c5>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "2cfed614-3209-43e9-a923-909d6b7588c5";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/zajišťuje-funkčnost-informačního-systému-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/informační-systém-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-06243966-819f-423f-b527-8d70524fb38e>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "06243966-819f-423f-b527-8d70524fb38e";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/zapisuje-data-do-informačního-systému-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/uživatel-informačního-systému-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-d1a2be14-d252-40e1-8a3b-c5af1b73919e>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "d1a2be14-d252-40e1-8a3b-c5af1b73919e";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/zapisuje-data-do-informačního-systému-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/informační-systém-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-5c4ba36d-0596-4cb7-bb65-4c26d46c69e6>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "5c4ba36d-0596-4cb7-bb65-4c26d46c69e6";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/je-prováděna>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/informační-činnost>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/správce-nebo-provozovatel-nebo-uživatel-informačního-systému-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-83e6f57d-cbd3-4ebf-b2ef-bd72c61ff5e4>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "83e6f57d-cbd3-4ebf-b2ef-bd72c61ff5e4";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/je-vazbou-informačního-systému-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/vazba-mezi-informačními-systémy-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/informační-systém-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-a6f659c4-0b2f-42fd-add9-fe36fbe1842b>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "a6f659c4-0b2f-42fd-add9-fe36fbe1842b";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/uml/generalization>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/má-jednostranně-poskytovanou-službu>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/má-poskytovanou-službu>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "generalization" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-b0d715e7-ba16-47bf-98ae-acad57503bd7>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "b0d715e7-ba16-47bf-98ae-acad57503bd7";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/má-poskytovanou-službu>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/vazba-mezi-informačními-systémy-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/služba-informačního-systému-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-a3ac810c-46a2-47a1-92f7-b62c2831350d>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "a3ac810c-46a2-47a1-92f7-b62c2831350d";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/uml/generalization>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/má-vzájemně-poskytovanou-službu>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/má-poskytovanou-službu>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "generalization" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-331e1efb-68f1-47f1-917c-466d283a6065>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "331e1efb-68f1-47f1-917c-466d283a6065";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/odpovídá-za-informační-systém-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/správce-informačního-systému-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/informační-systém-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-d98d906d-343c-45ed-b2a5-762c5b73ef82>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "d98d906d-343c-45ed-b2a5-762c5b73ef82";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/uml/generalization>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/oprávněná-osoba>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/oprávněná-osoba-nebo-její-součást>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "generalization" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-a56d843e-ebe8-4fc5-8c9a-2907eae7556c>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "a56d843e-ebe8-4fc5-8c9a-2907eae7556c";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/uml/generalization>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/oprávněná-osoba>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/osoba>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "generalization" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-9bb81f47-a0d1-4e70-b360-b09eba710820>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "9bb81f47-a0d1-4e70-b360-b09eba710820";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/uml/generalization>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/oprávněná-osoba-nebo-její-součást>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/správce-nebo-provozovatel-nebo-uživatel-informačního-systému-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "generalization" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-f89b1a0a-b8d3-4c63-847c-b147f4940060>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "f89b1a0a-b8d3-4c63-847c-b147f4940060";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/poskytuje-službu>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/správce-informačního-systému-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/služba-informačního-systému-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-10f77c35-6c87-454a-8ecb-c7742fcf2c19>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "10f77c35-6c87-454a-8ecb-c7742fcf2c19";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/poskytuje-službu-referenčního-rozhraní>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/referenční-rozhraní>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/společná-služba-informačních-systémů-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-784f6d06-2fc1-4985-8dd9-5c0f76273ee0>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "784f6d06-2fc1-4985-8dd9-5c0f76273ee0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/uml/generalization>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/pověřený-provozovatel-informačního-systému-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/provozovatel-informačního-systému-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "generalization" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-b9a15366-8105-47c7-b2ca-d7ee200c7e36>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "b9a15366-8105-47c7-b2ca-d7ee200c7e36";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/uml/generalization>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/provozovatel-informačního-systému-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/správce-nebo-provozovatel-nebo-uživatel-informačního-systému-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "generalization" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-23dffce5-5328-492a-8026-906b4046d947>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "23dffce5-5328-492a-8026-906b4046d947";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/pověřil-provozovatele-informačního-systému-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/správce-informačního-systému-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/pověřený-provozovatel-informačního-systému-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-0433dd38-1e9e-4054-8ce6-ab8ec2510047>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "0433dd38-1e9e-4054-8ce6-ab8ec2510047";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/uml/generalization>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/provozní-informační-systém>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/informační-systém-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "generalization" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-3ec10c4c-bef9-40be-9c6d-2f78de6f6ebe>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "3ec10c4c-bef9-40be-9c6d-2f78de6f6ebe";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/uml/generalization>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/provozovatel-informačního-systému-veřejné-správy-jako-osoba>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/osoba>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "generalization" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-153fe28d-02e3-4adb-8614-dc8c0fd1b7f3>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "153fe28d-02e3-4adb-8614-dc8c0fd1b7f3";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/uml/generalization>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/provozovatel-informačního-systému-veřejné-správy-jako-osoba>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/provozovatel-informačního-systému-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "generalization" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-3f56df6a-e174-4995-87e2-bf034b318862>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "3f56df6a-e174-4995-87e2-bf034b318862";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/uml/generalization>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/provozovatel-informačního-systému-veřejné-správy-jako-součást-osoby>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/provozovatel-informačního-systému-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "generalization" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-fcdefc25-ba69-429a-9ade-fcdb20186f0b>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "fcdefc25-ba69-429a-9ade-fcdb20186f0b";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/uml/generalization>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/provozovatel-informačního-systému-veřejné-správy-jako-součást-osoby>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/součást-osoby>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "generalization" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-29b522ff-dcdb-4692-b084-7a7b197dfd64>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "29b522ff-dcdb-4692-b084-7a7b197dfd64";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/uml/generalization>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/sdílení-dat>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/vazba-mezi-informačními-systémy-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "generalization" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-ba00d87a-eb0f-4107-b1ee-82d22bab77d2>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "ba00d87a-eb0f-4107-b1ee-82d22bab77d2";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/uml/generalization>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/služba-informačního-systému-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/informační-činnost>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "generalization" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-53acff23-201f-4744-9812-1354a4fc898b>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "53acff23-201f-4744-9812-1354a4fc898b";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/uml/generalization>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/součást-oprávněné-osoby>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/oprávněná-osoba-nebo-její-součást>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "generalization" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-8057c482-95cb-4123-92bc-2fb422423675>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "8057c482-95cb-4123-92bc-2fb422423675";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/uml/generalization>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/součást-oprávněné-osoby>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/součást-osoby>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "generalization" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-981904cc-88a3-4b5c-aff0-78086e3acabe>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "981904cc-88a3-4b5c-aff0-78086e3acabe";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/uml/generalization>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/společná-služba-informačních-systémů-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/služba-informačního-systému-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "generalization" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-06f50178-e1ad-47bb-be73-8c98bfca52c2>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "06f50178-e1ad-47bb-be73-8c98bfca52c2";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/uml/generalization>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/správce-informačního-systému-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/správce-nebo-provozovatel-nebo-uživatel-informačního-systému-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "generalization" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-02b01eb0-314e-45eb-844b-8fbf4161866b>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "02b01eb0-314e-45eb-844b-8fbf4161866b";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/uml/generalization>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/správce-informačního-systému-veřejné-správy-jako-osoba>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/osoba>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "generalization" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-24a5c783-036d-4e67-887f-3bb2f1dffd12>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "24a5c783-036d-4e67-887f-3bb2f1dffd12";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/uml/generalization>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/správce-informačního-systému-veřejné-správy-jako-osoba>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/správce-informačního-systému-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "generalization" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-7e95f3c8-8adb-4f65-a55d-2053319e4078>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "7e95f3c8-8adb-4f65-a55d-2053319e4078";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/uml/generalization>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/správce-informačního-systému-veřejné-správy-jako-součást-osoby>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/součást-osoby>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "generalization" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-0c979ae0-21c9-4328-b8dc-f26589e26f88>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "0c979ae0-21c9-4328-b8dc-f26589e26f88";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/uml/generalization>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/správce-informačního-systému-veřejné-správy-jako-součást-osoby>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/správce-informačního-systému-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "generalization" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-66605d8a-bfac-4dbe-92be-02172dea5c8f>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "66605d8a-bfac-4dbe-92be-02172dea5c8f";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/umožňuje-přístup-k-datům-informačního-systému-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/sdílení-dat>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/data>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-d90de138-eebd-4335-ba79-85e5c0e7636c>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "d90de138-eebd-4335-ba79-85e5c0e7636c";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/umožňuje-přístup-uživateli-informačního-systému-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/sdílení-dat>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/uživatel-informačního-systému-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-40031983-dbb9-47e8-a87e-c535fc5a872e>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "40031983-dbb9-47e8-a87e-c535fc5a872e";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/uml/generalization>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/určený-informační-systém-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/informační-systém-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "generalization" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-e596031d-9880-4854-bd1c-4f9ba9d93c96>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "e596031d-9880-4854-bd1c-4f9ba9d93c96";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/uspokojuje-požadavky>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/služba-informačního-systému-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/oprávněná-osoba-nebo-její-součást>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-67e92a16-a231-4f85-87c0-1dc4b9304abd>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "67e92a16-a231-4f85-87c0-1dc4b9304abd";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/uml/generalization>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/uživatel-informačního-systému-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/správce-nebo-provozovatel-nebo-uživatel-informačního-systému-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "generalization" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-611bbdee-291f-45b5-bb52-a50a0f472032>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "611bbdee-291f-45b5-bb52-a50a0f472032";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/uml/generalization>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/uživatel-informačního-systému-veřejné-správy-jako-osoba>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/osoba>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "generalization" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-b6f807ad-0a82-427a-b433-df5b98474a8f>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "b6f807ad-0a82-427a-b433-df5b98474a8f";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/uml/generalization>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/uživatel-informačního-systému-veřejné-správy-jako-osoba>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/uživatel-informačního-systému-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "generalization" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-049ca878-2960-4622-bc2b-a12831650414>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "049ca878-2960-4622-bc2b-a12831650414";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/uml/generalization>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/uživatel-informačního-systému-veřejné-správy-jako-součást-osoby>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/součást-osoby>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "generalization" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-ea5b3ffa-4db7-4e85-b973-81dacda9c603>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "ea5b3ffa-4db7-4e85-b973-81dacda9c603";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/uml/generalization>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/uživatel-informačního-systému-veřejné-správy-jako-součást-osoby>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/uživatel-informačního-systému-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "generalization" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-66cc5514-5371-4ae5-926f-03776e7251d2>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "66cc5514-5371-4ae5-926f-03776e7251d2";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/využívá-data-z-informačního-systému-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/uživatel-informačního-systému-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/informační-systém-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-6e2c9d5a-c445-4a6e-bb56-5778709912e7>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "6e2c9d5a-c445-4a6e-bb56-5778709912e7";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/uml/generalization>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/výměna-oprávněně-vyžadovaných-informací>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/společná-služba-informačních-systémů-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "generalization" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-13d42de5-7101-40d5-bbec-fb3ca21a55ec>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "13d42de5-7101-40d5-bbec-fb3ca21a55ec";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/zabezpečuje-informační-činnost>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/informační-systém-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/informační-činnost>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-8dc7e09c-6c01-40b0-b4fb-902487f0fa87>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "8dc7e09c-6c01-40b0-b4fb-902487f0fa87";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/zajišťuje-funkčnost-informačního-systému-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/provozovatel-informačního-systému-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/informační-systém-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-279f7a5e-cf1b-4d7a-82ce-95c29fc92012>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "279f7a5e-cf1b-4d7a-82ce-95c29fc92012";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/zapisuje-data-do-informačního-systému-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/uživatel-informačního-systému-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/informační-systém-veřejné-správy>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<https://slovník.gov.cz/datový/zákon-číslo-56-2001-sbírky/pojem/má-typ-silničního-vozidla>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/element>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/hidden> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "-75";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "-7" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-a7b5b5fb-ad98-4f64-9077-85087e181f27>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "a7b5b5fb-ad98-4f64-9077-85087e181f27";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/datový/zákon-číslo-56-2001-sbírky/pojem/má-typ-silničního-vozidla>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/datový/zákon-číslo-56-2001-sbírky/pojem/silniční-vozidlo>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/datový/zákon-číslo-56-2001-sbírky/pojem/typ-silničního-vozidla>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-8d34b43c-2b93-41ab-90d2-1ac4644918bb>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "8d34b43c-2b93-41ab-90d2-1ac4644918bb";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/datový/zákon-číslo-56-2001-sbírky/pojem/má-typ-silničního-vozidla>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/datový/zákon-číslo-56-2001-sbírky/pojem/silniční-vozidlo>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-da27a36b-4d53-4c2e-9245-07de3093b84a>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "da27a36b-4d53-4c2e-9245-07de3093b84a";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/datový/zákon-číslo-56-2001-sbírky/pojem/má-typ-silničního-vozidla>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/datový/zákon-číslo-56-2001-sbírky/pojem/typ-silničního-vozidla>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
