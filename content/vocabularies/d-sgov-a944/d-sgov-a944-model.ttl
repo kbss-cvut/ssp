@@ -1,0 +1,502 @@
+@prefix a-popis-dat-pojem: <http://onto.fel.cvut.cz/ontologies/slovník/agendový/popis-dat/pojem/> .
+@prefix d-sgov-a944: <https://slovník.gov.cz/datový/a944/> .
+@prefix d-sgov-a944-pojem: <https://slovník.gov.cz/datový/a944/pojem/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+d-sgov-a944:model a a-popis-dat-pojem:model, owl:Ontology;
+  dcterms:created "2023-03-01T09:30:13.466Z"^^xsd:dateTime;
+  dcterms:rights <https://creativecommons.org/licenses/by-sa/4.0>;
+  dcterms:title "A944 - model"@cs;
+  vann:preferredNamespacePrefix "d-sgov-a944-pojem";
+  vann:preferredNamespaceUri "https://slovník.gov.cz/datový/a944/pojem/";
+  owl:imports d-sgov-a944:glosář;
+  owl:versionIRI "https://slovník.gov.cz/datový/a944/model/verze/1.0.0" .
+
+d-sgov-a944-pojem:zemědělský-podnikatel a <https://slovník.gov.cz/základní/pojem/role>,
+    <https://slovník.gov.cz/základní/pojem/typ-objektu>;
+  <http://onto.fel.cvut.cz/ontologies/application/termit/pojem/je-draft> true;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+      owl:someValuesFrom d-sgov-a944-pojem:blalbla
+    ], [ a owl:Restriction;
+      owl:allValuesFrom d-sgov-a944-pojem:blalbla;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass d-sgov-a944-pojem:blalbla;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ] .
+
+d-sgov-a944-pojem:osobní-jméno <http://onto.fel.cvut.cz/ontologies/application/termit/pojem/je-draft>
+    true .
+
+d-sgov-a944-pojem:ičo <http://onto.fel.cvut.cz/ontologies/application/termit/pojem/je-draft>
+    true .
+
+d-sgov-a944-pojem:jméno-člena-statutárního-orgánu <http://onto.fel.cvut.cz/ontologies/application/termit/pojem/je-draft>
+    true .
+
+d-sgov-a944-pojem:uživatel-půdy <http://onto.fel.cvut.cz/ontologies/application/termit/pojem/je-draft>
+    true;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+      owl:someValuesFrom d-sgov-a944-pojem:hranice
+    ], [ a owl:Restriction;
+      owl:allValuesFrom d-sgov-a944-pojem:hranice;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass d-sgov-a944-pojem:hranice;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+      owl:someValuesFrom d-sgov-a944-pojem:výměra
+    ], [ a owl:Restriction;
+      owl:allValuesFrom d-sgov-a944-pojem:výměra;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass d-sgov-a944-pojem:výměra;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ] .
+
+d-sgov-a944-pojem:díl-půdy a <https://slovník.gov.cz/základní/pojem/typ-objektu>;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+      owl:someValuesFrom d-sgov-a944-pojem:identifikátor-dílu
+    ], [ a owl:Restriction;
+      owl:allValuesFrom d-sgov-a944-pojem:identifikátor-dílu;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass d-sgov-a944-pojem:identifikátor-dílu;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+      owl:someValuesFrom d-sgov-a944-pojem:výměra
+    ], [ a owl:Restriction;
+      owl:allValuesFrom d-sgov-a944-pojem:výměra;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass d-sgov-a944-pojem:výměra;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+        ];
+      owl:someValuesFrom d-sgov-a944-pojem:užívá-půdu
+    ], [ a owl:Restriction;
+      owl:allValuesFrom d-sgov-a944-pojem:užívá-půdu;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+        ]
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger;
+      owl:onClass d-sgov-a944-pojem:užívá-půdu;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+        ]
+    ] .
+
+d-sgov-a944-pojem:identifikátor-dílu a <https://slovník.gov.cz/základní/pojem/typ-vlastnosti>;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ];
+      owl:someValuesFrom d-sgov-a944-pojem:díl-půdy
+    ], [ a owl:Restriction;
+      owl:allValuesFrom d-sgov-a944-pojem:díl-půdy;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass d-sgov-a944-pojem:díl-půdy;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ] .
+
+d-sgov-a944-pojem:výměra a <https://slovník.gov.cz/základní/pojem/typ-vlastnosti>;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ];
+      owl:someValuesFrom d-sgov-a944-pojem:díl-půdy
+    ], [ a owl:Restriction;
+      owl:allValuesFrom d-sgov-a944-pojem:díl-půdy;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass d-sgov-a944-pojem:díl-půdy;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ], [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ];
+      owl:someValuesFrom d-sgov-a944-pojem:uživatel-půdy
+    ], [ a owl:Restriction;
+      owl:allValuesFrom d-sgov-a944-pojem:uživatel-půdy;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass d-sgov-a944-pojem:uživatel-půdy;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ] .
+
+d-sgov-a944-pojem:vlastník a <https://slovník.gov.cz/základní/pojem/typ-objektu>;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+      owl:someValuesFrom d-sgov-a944-pojem:příjmení-vlastníka
+    ], [ a owl:Restriction;
+      owl:allValuesFrom d-sgov-a944-pojem:příjmení-vlastníka;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass d-sgov-a944-pojem:příjmení-vlastníka;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+      owl:someValuesFrom d-sgov-a944-pojem:jméno-vlastníka
+    ], [ a owl:Restriction;
+      owl:allValuesFrom d-sgov-a944-pojem:jméno-vlastníka;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass d-sgov-a944-pojem:jméno-vlastníka;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+        ];
+      owl:someValuesFrom d-sgov-a944-pojem:podniká-s-půdou
+    ], [ a owl:Restriction;
+      owl:allValuesFrom d-sgov-a944-pojem:podniká-s-půdou;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+        ]
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass d-sgov-a944-pojem:podniká-s-půdou;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+        ]
+    ] .
+
+d-sgov-a944-pojem:jméno-vlastníka a <https://slovník.gov.cz/základní/pojem/typ-vlastnosti>;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ];
+      owl:someValuesFrom d-sgov-a944-pojem:vlastník
+    ], [ a owl:Restriction;
+      owl:allValuesFrom d-sgov-a944-pojem:vlastník;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass d-sgov-a944-pojem:vlastník;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ] .
+
+d-sgov-a944-pojem:příjmení-vlastníka a <https://slovník.gov.cz/základní/pojem/typ-vlastnosti>;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ];
+      owl:someValuesFrom d-sgov-a944-pojem:vlastník
+    ], [ a owl:Restriction;
+      owl:allValuesFrom d-sgov-a944-pojem:vlastník;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass d-sgov-a944-pojem:vlastník;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ] .
+
+d-sgov-a944-pojem:vlastní-půdu a <https://slovník.gov.cz/základní/pojem/typ-vztahu>;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>;
+      owl:someValuesFrom d-sgov-a944-pojem:díl-půdy
+    ], [ a owl:Restriction;
+      owl:allValuesFrom d-sgov-a944-pojem:díl-půdy;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass d-sgov-a944-pojem:díl-půdy;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
+    ], [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>;
+      owl:someValuesFrom d-sgov-a944-pojem:vlastník
+    ], [ a owl:Restriction;
+      owl:allValuesFrom d-sgov-a944-pojem:vlastník;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass d-sgov-a944-pojem:vlastník;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+    ], [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>;
+      owl:someValuesFrom d-sgov-a944-pojem:uživatel
+    ], [ a owl:Restriction;
+      owl:allValuesFrom d-sgov-a944-pojem:uživatel;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass d-sgov-a944-pojem:uživatel;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+    ], [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>;
+      owl:someValuesFrom d-sgov-a944-pojem:vlastník
+    ], [ a owl:Restriction;
+      owl:allValuesFrom d-sgov-a944-pojem:vlastník;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass d-sgov-a944-pojem:vlastník;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
+    ] .
+
+d-sgov-a944-pojem:půdní-blok rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+        ];
+      owl:someValuesFrom d-sgov-a944-pojem:blalbla
+    ], [ a owl:Restriction;
+      owl:allValuesFrom d-sgov-a944-pojem:blalbla;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+        ]
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger;
+      owl:onClass d-sgov-a944-pojem:blalbla;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+        ]
+    ] .
+
+d-sgov-a944-pojem:část-půdního-bloku a <https://slovník.gov.cz/základní/pojem/typ-vztahu> .
+
+d-sgov-a944-pojem:blalbla a <https://slovník.gov.cz/základní/pojem/typ-vlastnosti>;
+  <http://onto.fel.cvut.cz/ontologies/application/termit/pojem/je-draft> true;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>;
+      owl:someValuesFrom d-sgov-a944-pojem:půdní-blok
+    ], [ a owl:Restriction;
+      owl:allValuesFrom d-sgov-a944-pojem:půdní-blok;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger;
+      owl:onClass d-sgov-a944-pojem:půdní-blok;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+    ], [ a owl:Restriction;
+      owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger;
+      owl:onClass d-sgov-a944-pojem:půdní-blok;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+    ], [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>;
+      owl:someValuesFrom d-sgov-a944-pojem:díl-půdy
+    ], [ a owl:Restriction;
+      owl:allValuesFrom d-sgov-a944-pojem:díl-půdy;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger;
+      owl:onClass d-sgov-a944-pojem:díl-půdy;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
+    ], [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ];
+      owl:someValuesFrom d-sgov-a944-pojem:zemědělský-podnikatel
+    ], [ a owl:Restriction;
+      owl:allValuesFrom d-sgov-a944-pojem:zemědělský-podnikatel;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass d-sgov-a944-pojem:zemědělský-podnikatel;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ] .
+
+d-sgov-a944-pojem:uživatel rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+        ];
+      owl:someValuesFrom d-sgov-a944-pojem:vlastní-půdu
+    ], [ a owl:Restriction;
+      owl:allValuesFrom d-sgov-a944-pojem:vlastní-půdu;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+        ]
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass d-sgov-a944-pojem:vlastní-půdu;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+        ]
+    ] .
+
+d-sgov-a944-pojem:užívá-půdu a <https://slovník.gov.cz/základní/pojem/typ-vztahu>;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>;
+      owl:someValuesFrom d-sgov-a944-pojem:díl-půdy
+    ], [ a owl:Restriction;
+      owl:allValuesFrom d-sgov-a944-pojem:díl-půdy;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger;
+      owl:onClass d-sgov-a944-pojem:díl-půdy;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+    ], [ a owl:Restriction;
+      owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger;
+      owl:onClass d-sgov-a944-pojem:díl-půdy;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+    ], [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>;
+      owl:someValuesFrom d-sgov-a944-pojem:uživatel-půdy
+    ], [ a owl:Restriction;
+      owl:allValuesFrom d-sgov-a944-pojem:uživatel-půdy;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger;
+      owl:onClass d-sgov-a944-pojem:uživatel-půdy;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
+    ] .
+
+d-sgov-a944-pojem:podniká-s-půdou a <https://slovník.gov.cz/základní/pojem/typ-vztahu>;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>;
+      owl:someValuesFrom d-sgov-a944-pojem:vlastník
+    ], [ a owl:Restriction;
+      owl:allValuesFrom d-sgov-a944-pojem:vlastník;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass d-sgov-a944-pojem:vlastník;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+    ], [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>;
+      owl:someValuesFrom d-sgov-a944-pojem:zemědělský-podnikatel
+    ], [ a owl:Restriction;
+      owl:allValuesFrom d-sgov-a944-pojem:zemědělský-podnikatel;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass d-sgov-a944-pojem:zemědělský-podnikatel;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
+    ] .
+
+d-sgov-a944-pojem:hranice a <https://slovník.gov.cz/základní/pojem/typ-vlastnosti>;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ];
+      owl:someValuesFrom d-sgov-a944-pojem:uživatel-půdy
+    ], [ a owl:Restriction;
+      owl:allValuesFrom d-sgov-a944-pojem:uživatel-půdy;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass d-sgov-a944-pojem:uživatel-půdy;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ] .
+
+d-sgov-a944-pojem:vinice a <https://slovník.gov.cz/základní/pojem/typ-objektu>;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+      owl:someValuesFrom d-sgov-a944-pojem:id-vinice
+    ], [ a owl:Restriction;
+      owl:allValuesFrom d-sgov-a944-pojem:id-vinice;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass d-sgov-a944-pojem:id-vinice;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ] .
+
+d-sgov-a944-pojem:id-vinice a <https://slovník.gov.cz/základní/pojem/typ-vlastnosti>;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ];
+      owl:someValuesFrom d-sgov-a944-pojem:vinice
+    ], [ a owl:Restriction;
+      owl:allValuesFrom d-sgov-a944-pojem:vinice;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass d-sgov-a944-pojem:vinice;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ] .
+
+[] owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2> .
+
+[] owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2> .
+
+[] owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2> .
+
+[] owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2> .
+
+[] owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2> .
+
+[] owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2> .
+
+[] owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2> .
+
+[] owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1> .
+
+[] owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1> .
+
+[] owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1> .
+
+[] owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2> .
+
+[] owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2> .
+
+[] owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2> .
+
+[] owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2> .
+
+[] owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2> .
+
+[] owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2> .
+
+[] owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2> .
+
+[] owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2> .
+
+[] owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2> .
+
+[] owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2> .
