@@ -1,0 +1,272 @@
+@prefix a-popis-dat-pojem: <http://onto.fel.cvut.cz/ontologies/slovník/agendový/popis-dat/pojem/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix l-sgov-sbírka-25-2008: <https://slovník.gov.cz/legislativní/sbírka/25/2008/> .
+@prefix l-sgov-sbírka-25-2008-pojem: <https://slovník.gov.cz/legislativní/sbírka/25/2008/pojem/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+l-sgov-sbírka-25-2008:model a a-popis-dat-pojem:model, owl:Ontology;
+  dcterms:created "2022-10-19T12:13:00.522Z"^^xsd:dateTime;
+  dcterms:rights <https://creativecommons.org/licenses/by-sa/4.0>;
+  dcterms:title "Zákon č. 25/2008 - model"@cs;
+  vann:preferredNamespacePrefix "l-sgov-sbírka-25-2008-pojem";
+  vann:preferredNamespaceUri "https://slovník.gov.cz/legislativní/sbírka/25/2008/pojem/";
+  owl:imports l-sgov-sbírka-25-2008:glosář;
+  owl:versionIRI "https://slovník.gov.cz/legislativní/sbírka/25/2008/model/verze/1.0.0" .
+
+l-sgov-sbírka-25-2008-pojem:integrovaný-registr-znečišťování-životního-prostředí a
+    <https://slovník.gov.cz/základní/pojem/objekt>, <https://slovník.gov.cz/základní/pojem/typ-objektu>;
+  <http://onto.fel.cvut.cz/ontologies/application/termit/pojem/je-draft> true;
+  rdfs:subClassOf l-sgov-sbírka-25-2008-pojem:integrovaný-systém-plnění-ohlašovacích-povinností-v-oblasti-životního-prostředí .
+
+l-sgov-sbírka-25-2008-pojem:integrovaný-systém-plnění-ohlašovacích-povinností-v-oblasti-životního-prostředí
+  a <https://slovník.gov.cz/základní/pojem/objekt>, <https://slovník.gov.cz/základní/pojem/typ-objektu>;
+  <http://onto.fel.cvut.cz/ontologies/application/termit/pojem/je-draft> true;
+  rdfs:subClassOf l-sgov-sbírka-25-2008-pojem:hlášení .
+
+l-sgov-sbírka-25-2008-pojem:datový-standard a <https://slovník.gov.cz/základní/pojem/typ-objektu> .
+
+l-sgov-sbírka-25-2008-pojem:hlášení a <https://slovník.gov.cz/základní/pojem/typ-objektu>;
+  rdfs:subClassOf l-sgov-sbírka-25-2008-pojem:datový-standard, [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/je-vykonána>
+        ];
+      owl:someValuesFrom l-sgov-sbírka-25-2008-pojem:ohlášení
+    ], [ a owl:Restriction;
+      owl:allValuesFrom l-sgov-sbírka-25-2008-pojem:ohlášení;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/je-vykonána>
+        ]
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass l-sgov-sbírka-25-2008-pojem:ohlášení;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/je-vykonána>
+        ]
+    ] .
+
+l-sgov-sbírka-25-2008-pojem:provozovna-irz a <https://slovník.gov.cz/základní/pojem/typ-objektu>;
+  rdfs:subClassOf l-sgov-sbírka-25-2008-pojem:hlášení, [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/je-ve-vztahu>
+        ];
+      owl:someValuesFrom l-sgov-sbírka-25-2008-pojem:provozovatel
+    ], [ a owl:Restriction;
+      owl:allValuesFrom l-sgov-sbírka-25-2008-pojem:provozovatel;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/je-ve-vztahu>
+        ]
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass l-sgov-sbírka-25-2008-pojem:provozovatel;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/je-ve-vztahu>
+        ]
+    ] .
+
+l-sgov-sbírka-25-2008-pojem:provozovatel a <https://slovník.gov.cz/základní/pojem/typ-objektu>;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/je-ve-vztahu>;
+      owl:someValuesFrom l-sgov-sbírka-25-2008-pojem:provozovna-irz
+    ], [ a owl:Restriction;
+      owl:allValuesFrom l-sgov-sbírka-25-2008-pojem:provozovna-irz;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/je-ve-vztahu>
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass l-sgov-sbírka-25-2008-pojem:provozovna-irz;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/je-ve-vztahu>
+    ], [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/je-ve-vztahu>;
+      owl:someValuesFrom l-sgov-sbírka-25-2008-pojem:provozovna-e-prtr
+    ], [ a owl:Restriction;
+      owl:allValuesFrom l-sgov-sbírka-25-2008-pojem:provozovna-e-prtr;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/je-ve-vztahu>
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass l-sgov-sbírka-25-2008-pojem:provozovna-e-prtr;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/je-ve-vztahu>
+    ], [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/je-ve-vztahu>;
+      owl:someValuesFrom l-sgov-sbírka-25-2008-pojem:provozovna
+    ], [ a owl:Restriction;
+      owl:allValuesFrom l-sgov-sbírka-25-2008-pojem:provozovna;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/je-ve-vztahu>
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass l-sgov-sbírka-25-2008-pojem:provozovna;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/je-ve-vztahu>
+    ], [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/je-vlastností>
+        ];
+      owl:someValuesFrom l-sgov-sbírka-25-2008-pojem:ičo
+    ], [ a owl:Restriction;
+      owl:allValuesFrom l-sgov-sbírka-25-2008-pojem:ičo;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/je-vlastností>
+        ]
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass l-sgov-sbírka-25-2008-pojem:ičo;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/je-vlastností>
+        ]
+    ] .
+
+l-sgov-sbírka-25-2008-pojem:provozovna-e-prtr a <https://slovník.gov.cz/základní/pojem/typ-objektu>;
+  rdfs:subClassOf l-sgov-sbírka-25-2008-pojem:hlášení, [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/je-ve-vztahu>
+        ];
+      owl:someValuesFrom l-sgov-sbírka-25-2008-pojem:provozovatel
+    ], [ a owl:Restriction;
+      owl:allValuesFrom l-sgov-sbírka-25-2008-pojem:provozovatel;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/je-ve-vztahu>
+        ]
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass l-sgov-sbírka-25-2008-pojem:provozovatel;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/je-ve-vztahu>
+        ]
+    ] .
+
+l-sgov-sbírka-25-2008-pojem:ohlášení a <https://slovník.gov.cz/základní/pojem/typ-události>;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/je-vykonána>;
+      owl:someValuesFrom l-sgov-sbírka-25-2008-pojem:hlášení
+    ], [ a owl:Restriction;
+      owl:allValuesFrom l-sgov-sbírka-25-2008-pojem:hlášení;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/je-vykonána>
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass l-sgov-sbírka-25-2008-pojem:hlášení;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/je-vykonána>
+    ] .
+
+l-sgov-sbírka-25-2008-pojem:publikace-datového-standardu a <https://slovník.gov.cz/základní/pojem/typ-události> .
+
+l-sgov-sbírka-25-2008-pojem:publikace-ohlášených-údajů a <https://slovník.gov.cz/základní/pojem/typ-události> .
+
+l-sgov-sbírka-25-2008-pojem:provozovna a <https://slovník.gov.cz/základní/pojem/typ-objektu>;
+  rdfs:subClassOf l-sgov-sbírka-25-2008-pojem:hlášení, [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/je-ve-vztahu>
+        ];
+      owl:someValuesFrom l-sgov-sbírka-25-2008-pojem:provozovatel
+    ], [ a owl:Restriction;
+      owl:allValuesFrom l-sgov-sbírka-25-2008-pojem:provozovatel;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/je-ve-vztahu>
+        ]
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass l-sgov-sbírka-25-2008-pojem:provozovatel;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/je-ve-vztahu>
+        ]
+    ], [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/je-vlastností>
+        ];
+      owl:someValuesFrom l-sgov-sbírka-25-2008-pojem:e-prtr
+    ], [ a owl:Restriction;
+      owl:allValuesFrom l-sgov-sbírka-25-2008-pojem:e-prtr;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/je-vlastností>
+        ]
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass l-sgov-sbírka-25-2008-pojem:e-prtr;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/je-vlastností>
+        ]
+    ], [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/je-vlastností>
+        ];
+      owl:someValuesFrom <https://slovník.gov.cz/legislativní/sbírka/25/2008/pojem/e-prtr/irz>
+    ], [ a owl:Restriction;
+      owl:allValuesFrom <https://slovník.gov.cz/legislativní/sbírka/25/2008/pojem/e-prtr/irz>;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/je-vlastností>
+        ]
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass <https://slovník.gov.cz/legislativní/sbírka/25/2008/pojem/e-prtr/irz>;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/je-vlastností>
+        ]
+    ], [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/je-vlastností>
+        ];
+      owl:someValuesFrom l-sgov-sbírka-25-2008-pojem:identifikační-číslo-provozovny
+    ], [ a owl:Restriction;
+      owl:allValuesFrom l-sgov-sbírka-25-2008-pojem:identifikační-číslo-provozovny;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/je-vlastností>
+        ]
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass l-sgov-sbírka-25-2008-pojem:identifikační-číslo-provozovny;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/je-vlastností>
+        ]
+    ] .
+
+l-sgov-sbírka-25-2008-pojem:e-prtr a <https://slovník.gov.cz/základní/pojem/typ-vlastnosti>;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/je-vlastností>;
+      owl:someValuesFrom l-sgov-sbírka-25-2008-pojem:provozovna
+    ], [ a owl:Restriction;
+      owl:allValuesFrom l-sgov-sbírka-25-2008-pojem:provozovna;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/je-vlastností>
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass l-sgov-sbírka-25-2008-pojem:provozovna;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/je-vlastností>
+    ] .
+
+<https://slovník.gov.cz/legislativní/sbírka/25/2008/pojem/e-prtr/irz> a <https://slovník.gov.cz/základní/pojem/typ-vlastnosti>;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/je-vlastností>;
+      owl:someValuesFrom l-sgov-sbírka-25-2008-pojem:provozovna
+    ], [ a owl:Restriction;
+      owl:allValuesFrom l-sgov-sbírka-25-2008-pojem:provozovna;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/je-vlastností>
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass l-sgov-sbírka-25-2008-pojem:provozovna;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/je-vlastností>
+    ] .
+
+l-sgov-sbírka-25-2008-pojem:ičo a <https://slovník.gov.cz/základní/pojem/typ-vlastnosti>;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/je-vlastností>;
+      owl:someValuesFrom l-sgov-sbírka-25-2008-pojem:provozovatel
+    ], [ a owl:Restriction;
+      owl:allValuesFrom l-sgov-sbírka-25-2008-pojem:provozovatel;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/je-vlastností>
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass l-sgov-sbírka-25-2008-pojem:provozovatel;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/je-vlastností>
+    ] .
+
+l-sgov-sbírka-25-2008-pojem:identifikační-číslo-provozovny a <https://slovník.gov.cz/základní/pojem/typ-vlastnosti>;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/je-vlastností>;
+      owl:someValuesFrom l-sgov-sbírka-25-2008-pojem:provozovna
+    ], [ a owl:Restriction;
+      owl:allValuesFrom l-sgov-sbírka-25-2008-pojem:provozovna;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/je-vlastností>
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass l-sgov-sbírka-25-2008-pojem:provozovna;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/je-vlastností>
+    ] .
