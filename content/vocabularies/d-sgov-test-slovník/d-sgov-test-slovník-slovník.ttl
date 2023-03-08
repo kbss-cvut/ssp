@@ -1,0 +1,18 @@
+@prefix a-popis-dat-pojem: <http://onto.fel.cvut.cz/ontologies/slovník/agendový/popis-dat/pojem/> .
+@prefix d-sgov-test-slovník: <https://slovník.gov.cz/datový/test-slovník/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://slovník.gov.cz/datový/test-slovník> a a-popis-dat-pojem:slovník, owl:Ontology;
+  a-popis-dat-pojem:má-glosář d-sgov-test-slovník:glosář;
+  a-popis-dat-pojem:má-model d-sgov-test-slovník:model;
+  dcterms:created "2022-10-19T10:11:44.009Z"^^xsd:dateTime;
+  dcterms:rights <https://creativecommons.org/licenses/by-sa/4.0>;
+  dcterms:title "Test slovník"@cs;
+  vann:preferredNamespacePrefix "d-sgov-test-slovník-pojem";
+  vann:preferredNamespaceUri "https://slovník.gov.cz/datový/test-slovník/pojem/";
+  owl:imports d-sgov-test-slovník:glosář, d-sgov-test-slovník:model;
+  owl:versionIRI "https://slovník.gov.cz/datový/test-slovník/verze/1.0.0" .
