@@ -8,6 +8,12 @@
 @prefix vann: <http://purl.org/vocab/vann/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+g-sgov-evaluace-3-směrnice-rady-1999-37-es-pojem:vozidlo a skos:Concept;
+  skos:definition ""@cs;
+  skos:inScheme g-sgov-evaluace-3-směrnice-rady-1999-37-es:glosář;
+  skos:prefLabel "vozidlo"@cs;
+  skos:scopeNote ""@cs .
+
 g-sgov-evaluace-3-směrnice-rady-1999-37-es:glosář a a-popis-dat-pojem:glosář, owl:Ontology,
     skos:ConceptScheme;
   dcterms:created "2022-04-07T14:50:37.670Z"^^xsd:dateTime;
@@ -19,16 +25,10 @@ g-sgov-evaluace-3-směrnice-rady-1999-37-es:glosář a a-popis-dat-pojem:glosá�
   skos:hasTopConcept g-sgov-evaluace-3-směrnice-rady-1999-37-es-pojem:hmotnost, g-sgov-evaluace-3-směrnice-rady-1999-37-es-pojem:identifikační-číslo-vozidla,
     g-sgov-evaluace-3-směrnice-rady-1999-37-es-pojem:počet-míst-k-sezení, g-sgov-evaluace-3-směrnice-rady-1999-37-es-pojem:vozidlo .
 
-g-sgov-evaluace-3-směrnice-rady-1999-37-es-pojem:vozidlo a skos:Concept;
+g-sgov-evaluace-3-směrnice-rady-1999-37-es-pojem:počet-míst-k-sezení a skos:Concept;
   skos:definition ""@cs;
   skos:inScheme g-sgov-evaluace-3-směrnice-rady-1999-37-es:glosář;
-  skos:prefLabel "vozidlo"@cs;
-  skos:scopeNote ""@cs .
-
-g-sgov-evaluace-3-směrnice-rady-1999-37-es-pojem:identifikační-číslo-vozidla a skos:Concept;
-  skos:definition ""@cs;
-  skos:inScheme g-sgov-evaluace-3-směrnice-rady-1999-37-es:glosář;
-  skos:prefLabel "identifikační číslo vozidla"@cs;
+  skos:prefLabel "počet míst k sezení"@cs;
   skos:scopeNote ""@cs .
 
 g-sgov-evaluace-3-směrnice-rady-1999-37-es-pojem:hmotnost a skos:Concept;
@@ -37,8 +37,8 @@ g-sgov-evaluace-3-směrnice-rady-1999-37-es-pojem:hmotnost a skos:Concept;
   skos:prefLabel "hmotnost"@cs;
   skos:scopeNote ""@cs .
 
-g-sgov-evaluace-3-směrnice-rady-1999-37-es-pojem:počet-míst-k-sezení a skos:Concept;
+g-sgov-evaluace-3-směrnice-rady-1999-37-es-pojem:identifikační-číslo-vozidla a skos:Concept;
   skos:definition ""@cs;
   skos:inScheme g-sgov-evaluace-3-směrnice-rady-1999-37-es:glosář;
-  skos:prefLabel "počet míst k sezení"@cs;
+  skos:prefLabel "identifikační číslo vozidla"@cs;
   skos:scopeNote ""@cs .
