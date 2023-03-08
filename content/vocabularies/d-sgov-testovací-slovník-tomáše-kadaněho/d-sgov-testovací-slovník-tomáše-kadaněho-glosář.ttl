@@ -1,0 +1,52 @@
+@prefix a-popis-dat-pojem: <http://onto.fel.cvut.cz/ontologies/slovník/agendový/popis-dat/pojem/> .
+@prefix d-sgov-testovací-slovník-tomáše-kadaněho: <https://slovník.gov.cz/datový/testovací-slovník-tomáše-kadaněho/> .
+@prefix d-sgov-testovací-slovník-tomáše-kadaněho-pojem: <https://slovník.gov.cz/datový/testovací-slovník-tomáše-kadaněho/pojem/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+d-sgov-testovací-slovník-tomáše-kadaněho:glosář a a-popis-dat-pojem:glosář, owl:Ontology,
+    skos:ConceptScheme;
+  dcterms:created "2022-11-29T20:47:25.584Z"^^xsd:dateTime;
+  dcterms:rights <https://creativecommons.org/licenses/by-sa/4.0>;
+  dcterms:title "Testovací slovník Tomáše Kadaněho - glosář"@cs;
+  vann:preferredNamespacePrefix "d-sgov-testovací-slovník-tomáše-kadaněho-pojem";
+  vann:preferredNamespaceUri "https://slovník.gov.cz/datový/testovací-slovník-tomáše-kadaněho/pojem/";
+  owl:versionIRI "https://slovník.gov.cz/datový/testovací-slovník-tomáše-kadaněho/glosář/verze/1.0.0";
+  skos:hasTopConcept d-sgov-testovací-slovník-tomáše-kadaněho-pojem:motorové-vozidlo,
+    d-sgov-testovací-slovník-tomáše-kadaněho-pojem:má-typ-silničního-vozidla, d-sgov-testovací-slovník-tomáše-kadaněho-pojem:silniční-vozidlo,
+    d-sgov-testovací-slovník-tomáše-kadaněho-pojem:technický-průkaz, d-sgov-testovací-slovník-tomáše-kadaněho-pojem:typ-silničního-vozidlo,
+    d-sgov-testovací-slovník-tomáše-kadaněho-pojem:číslo-technického-průkazu .
+
+d-sgov-testovací-slovník-tomáše-kadaněho-pojem:silniční-vozidlo a skos:Concept;
+  dcterms:source <https://www.zakonyprolidi.cz/cs/2001-56#p1-1>;
+  skos:definition "Silniční vozidlo je vozidlo, které jezdí po silnici"@cs;
+  skos:inScheme d-sgov-testovací-slovník-tomáše-kadaněho:glosář;
+  skos:prefLabel "Silniční vozidlo"@cs;
+  skos:scopeNote ""@cs .
+
+d-sgov-testovací-slovník-tomáše-kadaněho-pojem:typ-silničního-vozidlo a skos:Concept;
+  dcterms:source <https://www.zakonyprolidi.cz/cs/2001-56#p2-10>;
+  skos:definition "Typem silničního vozidla se rozumí silniční vozidla určité kategorie, jež se shodují alespoň v základních znacích. Typ vozidla může zahrnovat varianty a verze. Základní znaky pro určení typů vozidel, variant a verzí stanoví pro jednotlivé kategorie prováděcí právní předpis."@cs;
+  skos:inScheme d-sgov-testovací-slovník-tomáše-kadaněho:glosář;
+  skos:prefLabel "Typ silničního vozidlo"@cs;
+  skos:scopeNote ""@cs .
+
+d-sgov-testovací-slovník-tomáše-kadaněho-pojem:má-typ-silničního-vozidla a skos:Concept;
+  skos:inScheme d-sgov-testovací-slovník-tomáše-kadaněho:glosář;
+  skos:prefLabel "má typ silničního vozidla"@cs .
+
+d-sgov-testovací-slovník-tomáše-kadaněho-pojem:motorové-vozidlo a skos:Concept;
+  skos:inScheme d-sgov-testovací-slovník-tomáše-kadaněho:glosář;
+  skos:prefLabel "Motorové vozidlo"@cs .
+
+d-sgov-testovací-slovník-tomáše-kadaněho-pojem:technický-průkaz a skos:Concept;
+  skos:inScheme d-sgov-testovací-slovník-tomáše-kadaněho:glosář;
+  skos:prefLabel "Technický průkaz"@cs .
+
+d-sgov-testovací-slovník-tomáše-kadaněho-pojem:číslo-technického-průkazu a skos:Concept;
+  skos:inScheme d-sgov-testovací-slovník-tomáše-kadaněho:glosář;
+  skos:prefLabel "číslo technického průkazu"@cs .

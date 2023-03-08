@@ -1,0 +1,19 @@
+@prefix a-popis-dat-pojem: <http://onto.fel.cvut.cz/ontologies/slovník/agendový/popis-dat/pojem/> .
+@prefix d-sgov-testovací-slovník-tomáše-kadaněho: <https://slovník.gov.cz/datový/testovací-slovník-tomáše-kadaněho/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://slovník.gov.cz/datový/testovací-slovník-tomáše-kadaněho> a a-popis-dat-pojem:slovník,
+    owl:Ontology;
+  a-popis-dat-pojem:má-glosář d-sgov-testovací-slovník-tomáše-kadaněho:glosář;
+  a-popis-dat-pojem:má-model d-sgov-testovací-slovník-tomáše-kadaněho:model;
+  dcterms:created "2022-11-29T20:47:25.591Z"^^xsd:dateTime;
+  dcterms:rights <https://creativecommons.org/licenses/by-sa/4.0>;
+  dcterms:title "Testovací slovník Tomáše Kadaněho"@cs;
+  vann:preferredNamespacePrefix "d-sgov-testovací-slovník-tomáše-kadaněho-pojem";
+  vann:preferredNamespaceUri "https://slovník.gov.cz/datový/testovací-slovník-tomáše-kadaněho/pojem/";
+  owl:imports d-sgov-testovací-slovník-tomáše-kadaněho:glosář, d-sgov-testovací-slovník-tomáše-kadaněho:model;
+  owl:versionIRI "https://slovník.gov.cz/datový/testovací-slovník-tomáše-kadaněho/verze/1.0.0" .
