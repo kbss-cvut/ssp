@@ -7,6 +7,18 @@
 @prefix vann: <http://purl.org/vocab/vann/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+g-sgov-evaluace-3-směrnice-rady-1999-37-es-pojem:vozidlo <http://onto.fel.cvut.cz/ontologies/application/termit/pojem/je-draft>
+    true .
+
+g-sgov-evaluace-3-směrnice-rady-1999-37-es-pojem:počet-míst-k-sezení <http://onto.fel.cvut.cz/ontologies/application/termit/pojem/je-draft>
+    true .
+
+g-sgov-evaluace-3-směrnice-rady-1999-37-es-pojem:hmotnost <http://onto.fel.cvut.cz/ontologies/application/termit/pojem/je-draft>
+    true .
+
+g-sgov-evaluace-3-směrnice-rady-1999-37-es-pojem:identifikační-číslo-vozidla <http://onto.fel.cvut.cz/ontologies/application/termit/pojem/je-draft>
+    true .
+
 g-sgov-evaluace-3-směrnice-rady-1999-37-es:model a a-popis-dat-pojem:model, owl:Ontology;
   dcterms:created "2022-04-07T14:50:37.670Z"^^xsd:dateTime;
   dcterms:rights <https://creativecommons.org/licenses/by-sa/4.0>;
@@ -15,15 +27,3 @@ g-sgov-evaluace-3-směrnice-rady-1999-37-es:model a a-popis-dat-pojem:model, owl
   vann:preferredNamespaceUri "https://slovník.gov.cz/generický/evaluace-3-směrnice-rady-1999-37-es/pojem/";
   owl:imports g-sgov-evaluace-3-směrnice-rady-1999-37-es:glosář;
   owl:versionIRI "https://slovník.gov.cz/generický/evaluace-3-směrnice-rady-1999-37-es/model/verze/1.0.0" .
-
-g-sgov-evaluace-3-směrnice-rady-1999-37-es-pojem:vozidlo <http://onto.fel.cvut.cz/ontologies/application/termit/pojem/je-draft>
-    true .
-
-g-sgov-evaluace-3-směrnice-rady-1999-37-es-pojem:identifikační-číslo-vozidla <http://onto.fel.cvut.cz/ontologies/application/termit/pojem/je-draft>
-    true .
-
-g-sgov-evaluace-3-směrnice-rady-1999-37-es-pojem:hmotnost <http://onto.fel.cvut.cz/ontologies/application/termit/pojem/je-draft>
-    true .
-
-g-sgov-evaluace-3-směrnice-rady-1999-37-es-pojem:počet-míst-k-sezení <http://onto.fel.cvut.cz/ontologies/application/termit/pojem/je-draft>
-    true .

@@ -17,14 +17,14 @@ g-sgov-evaluace-3-semiceu-vehicle-registration-certificate-evidence:model a a-po
   owl:imports g-sgov-evaluace-3-semiceu-vehicle-registration-certificate-evidence:glosář;
   owl:versionIRI "https://slovník.gov.cz/generický/evaluace-3-semiceu-vehicle-registration-certificate-evidence/model/verze/1.0.0" .
 
-g-sgov-evaluace-3-semiceu-vehicle-registration-certificate-evidence-pojem:vehicle
-  <http://onto.fel.cvut.cz/ontologies/application/termit/pojem/je-draft> true .
+g-sgov-evaluace-3-semiceu-vehicle-registration-certificate-evidence-pojem:seats <http://onto.fel.cvut.cz/ontologies/application/termit/pojem/je-draft>
+    true .
 
-g-sgov-evaluace-3-semiceu-vehicle-registration-certificate-evidence-pojem:identification-number
+g-sgov-evaluace-3-semiceu-vehicle-registration-certificate-evidence-pojem:vehicle
   <http://onto.fel.cvut.cz/ontologies/application/termit/pojem/je-draft> true .
 
 g-sgov-evaluace-3-semiceu-vehicle-registration-certificate-evidence-pojem:actual-mass
   <http://onto.fel.cvut.cz/ontologies/application/termit/pojem/je-draft> true .
 
-g-sgov-evaluace-3-semiceu-vehicle-registration-certificate-evidence-pojem:seats <http://onto.fel.cvut.cz/ontologies/application/termit/pojem/je-draft>
-    true .
+g-sgov-evaluace-3-semiceu-vehicle-registration-certificate-evidence-pojem:identification-number
+  <http://onto.fel.cvut.cz/ontologies/application/termit/pojem/je-draft> true .
