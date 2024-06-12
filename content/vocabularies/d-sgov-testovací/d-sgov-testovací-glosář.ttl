@@ -1,0 +1,54 @@
+@prefix a-popis-dat-pojem: <http://onto.fel.cvut.cz/ontologies/slovník/agendový/popis-dat/pojem/> .
+@prefix d-sgov-testovací: <https://slovník.gov.cz/datový/testovací/> .
+@prefix d-sgov-testovací-pojem: <https://slovník.gov.cz/datový/testovací/pojem/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+d-sgov-testovací:glosář a a-popis-dat-pojem:glosář, owl:Ontology, skos:ConceptScheme;
+  dcterms:created "2022-10-19T10:11:39.621Z"^^xsd:dateTime;
+  dcterms:rights <https://creativecommons.org/licenses/by-sa/4.0>;
+  dcterms:title "Testovací - glosář"@cs;
+  vann:preferredNamespacePrefix "d-sgov-testovací-pojem";
+  vann:preferredNamespaceUri "https://slovník.gov.cz/datový/testovací/pojem/";
+  owl:versionIRI "https://slovník.gov.cz/datový/testovací/glosář/verze/1.0.0";
+  skos:hasTopConcept d-sgov-testovací-pojem:dřevo-hůlky, d-sgov-testovací-pojem:jádro-hůlky,
+    d-sgov-testovací-pojem:kouzelná-hůlka, d-sgov-testovací-pojem:kouzelník, d-sgov-testovací-pojem:má-hůlku,
+    d-sgov-testovací-pojem:typ-jádra, d-sgov-testovací-pojem:člověk .
+
+d-sgov-testovací-pojem:kouzelná-hůlka a skos:Concept;
+  dcterms:source "Vyhláška ministerstva čar a kouzel 234/2020 odst. b)";
+  skos:definition "Hůlka, která kouzlí (třeba wingárdijum levijósa)"@cs;
+  skos:inScheme d-sgov-testovací:glosář;
+  skos:prefLabel "Kouzelná hůlka"@cs;
+  skos:scopeNote ""@cs .
+
+d-sgov-testovací-pojem:kouzelník a skos:Concept;
+  dcterms:source "Vyhláška ministerstva čar a kouzel 234/2020 odst. c)";
+  skos:definition "Člověk, který kouzlí nebo čaruje"@cs;
+  skos:inScheme d-sgov-testovací:glosář;
+  skos:prefLabel "Kouzelník"@cs;
+  skos:scopeNote ""@cs .
+
+d-sgov-testovací-pojem:má-hůlku a skos:Concept;
+  skos:inScheme d-sgov-testovací:glosář;
+  skos:prefLabel "má hůlku"@cs .
+
+d-sgov-testovací-pojem:jádro-hůlky a skos:Concept;
+  skos:inScheme d-sgov-testovací:glosář;
+  skos:prefLabel "Jádro hůlky"@cs .
+
+d-sgov-testovací-pojem:dřevo-hůlky a skos:Concept;
+  skos:inScheme d-sgov-testovací:glosář;
+  skos:prefLabel "Dřevo hůlky"@cs .
+
+d-sgov-testovací-pojem:typ-jádra a skos:Concept;
+  skos:inScheme d-sgov-testovací:glosář;
+  skos:prefLabel "Typ jádra"@cs .
+
+d-sgov-testovací-pojem:člověk a skos:Concept;
+  skos:inScheme d-sgov-testovací:glosář;
+  skos:prefLabel "Člověk"@cs .
