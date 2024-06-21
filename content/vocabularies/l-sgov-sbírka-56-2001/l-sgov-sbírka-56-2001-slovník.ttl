@@ -11,6 +11,9 @@
     owl:Ontology;
   a-popis-dat-pojem:má-glosář l-sgov-sbírka-56-2001:glosář;
   a-popis-dat-pojem:má-model l-sgov-sbírka-56-2001:model;
+  a-popis-dat-pojem:má-přílohu <https://slovník.gov.cz/příloha/instance-26de7d7b-1960-48ba-86a9-eb7bada8023c>,
+    <https://slovník.gov.cz/příloha/instance-4f7e9460-aaa5-4ecc-9ed0-03248fc20475>, <https://slovník.gov.cz/příloha/instance-75e92855-e427-4448-b656-50386d50aca5>;
+  a-popis-dat-pojem:popisuje-dokument <http://onto.fel.cvut.cz/ontologies/zdroj/text-zákona-č.-56-2001-sb.>;
   dcterms:created "2020-07-28";
   dcterms:title "Slovník zákona č. 56/2001 Sb. o podmínkách provozu vozidel na pozemních komunikacích a o změně zákona č. 168/1999 Sb., o pojištění odpovědnosti za škodu způsobenou provozem vozidla a o změně některých souvisejících zákonů (zákon o pojištění odpovědnosti z provozu vozidla), ve znění zákona č. 307/1999 Sb. - slovník"@cs;
   bibo:status "Specification"@en, "Specifikace"@cs;
