@@ -1,0 +1,133 @@
+@prefix a-popis-dat-pojem: <http://onto.fel.cvut.cz/ontologies/slovník/agendový/popis-dat/pojem/> .
+@prefix d-sgov-a944: <https://slovník.gov.cz/datový/a944/> .
+@prefix d-sgov-a944-pojem: <https://slovník.gov.cz/datový/a944/pojem/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+d-sgov-a944:glosář a a-popis-dat-pojem:glosář, owl:Ontology, skos:ConceptScheme;
+  dcterms:created "2023-03-01T09:30:13.466Z"^^xsd:dateTime;
+  dcterms:rights <https://creativecommons.org/licenses/by-sa/4.0>;
+  dcterms:title "A944 - glosář"@cs;
+  vann:preferredNamespacePrefix "d-sgov-a944-pojem";
+  vann:preferredNamespaceUri "https://slovník.gov.cz/datový/a944/pojem/";
+  owl:versionIRI "https://slovník.gov.cz/datový/a944/glosář/verze/1.0.0";
+  skos:hasTopConcept d-sgov-a944-pojem:blalbla, d-sgov-a944-pojem:díl-půdy, d-sgov-a944-pojem:evidence-objektů,
+    d-sgov-a944-pojem:hranice, d-sgov-a944-pojem:id-vinice, d-sgov-a944-pojem:identifikátor-dílu,
+    d-sgov-a944-pojem:jméno-vlastníka, d-sgov-a944-pojem:podniká-s-půdou, d-sgov-a944-pojem:příjmení-vlastníka,
+    d-sgov-a944-pojem:půdní-blok, d-sgov-a944-pojem:uživatel, d-sgov-a944-pojem:uživatel-půdy,
+    d-sgov-a944-pojem:užívá-půdu, d-sgov-a944-pojem:vinice, d-sgov-a944-pojem:vlastní-půdu,
+    d-sgov-a944-pojem:vlastník, d-sgov-a944-pojem:výměra, d-sgov-a944-pojem:zemědělský-podnikatel,
+    d-sgov-a944-pojem:část-půdního-bloku .
+
+d-sgov-a944-pojem:zemědělský-podnikatel a skos:Concept;
+  dcterms:source "právní předpis č. 252/1997 - Zákon o zemědělství paragraf 2f, odstavec 1";
+  skos:definition "Fyzická nebo právnická osoba, která hodlá podnikat v zemědělství, vyjma fyzické osoby podle § 2e odst. 2 a osoby podle § 2e odst. 4 zákona č. 252/1991 Sb., pokud poskytuje dočasně nebo příležitostně služby podle Smlouvy o fungování Evropské unie."@cs;
+  skos:inScheme d-sgov-a944:glosář;
+  skos:prefLabel "Zemědělský podnikatel"@cs;
+  skos:scopeNote ""@cs .
+
+d-sgov-a944-pojem:osobní-jméno a skos:Concept;
+  dcterms:source "právní předpis č. 252/1997 - Zákon o zemědělství paragraf 2fa, odstavec 1";
+  skos:broader d-sgov-a944-pojem:zemědělský-podnikatel;
+  skos:definition ""@cs;
+  skos:inScheme d-sgov-a944:glosář;
+  skos:prefLabel "osobní jméno"@cs;
+  skos:scopeNote ""@cs .
+
+d-sgov-a944-pojem:ičo a skos:Concept;
+  dcterms:source "právní předpis č. 252/1997 - Zákon o zemědělství paragraf 2fa, odstavec 1";
+  skos:broader d-sgov-a944-pojem:zemědělský-podnikatel;
+  skos:definition ""@cs;
+  skos:inScheme d-sgov-a944:glosář;
+  skos:prefLabel "IČO"@cs;
+  skos:scopeNote ""@cs .
+
+d-sgov-a944-pojem:jméno-člena-statutárního-orgánu a skos:Concept;
+  dcterms:source "právní předpis č. 252/1997 - Zákon o zemědělství paragraf 2fa, odstavec 2";
+  skos:broader d-sgov-a944-pojem:zemědělský-podnikatel;
+  skos:definition ""@cs;
+  skos:inScheme d-sgov-a944:glosář;
+  skos:prefLabel "jméno člena statutárního orgánu"@cs;
+  skos:scopeNote ""@cs .
+
+d-sgov-a944-pojem:uživatel-půdy a skos:Concept;
+  dcterms:source "právní předpis č. 252/1997 - Zákon o zemědělství paragraf 3a, odstavec 4";
+  skos:definition ""@cs;
+  skos:inScheme d-sgov-a944:glosář;
+  skos:prefLabel "uživatel půdy"@cs;
+  skos:scopeNote ""@cs .
+
+d-sgov-a944-pojem:díl-půdy a skos:Concept;
+  skos:inScheme d-sgov-a944:glosář;
+  skos:prefLabel "Díl půdy"@cs .
+
+d-sgov-a944-pojem:identifikátor-dílu a skos:Concept;
+  skos:inScheme d-sgov-a944:glosář;
+  skos:prefLabel "identifikátor dílu"@cs .
+
+d-sgov-a944-pojem:výměra a skos:Concept;
+  skos:inScheme d-sgov-a944:glosář;
+  skos:prefLabel "výměra"@cs .
+
+d-sgov-a944-pojem:vlastník a skos:Concept;
+  skos:inScheme d-sgov-a944:glosář;
+  skos:prefLabel "Vlastník"@cs .
+
+d-sgov-a944-pojem:jméno-vlastníka a skos:Concept;
+  skos:inScheme d-sgov-a944:glosář;
+  skos:prefLabel "jméno vlastníka"@cs .
+
+d-sgov-a944-pojem:příjmení-vlastníka a skos:Concept;
+  skos:inScheme d-sgov-a944:glosář;
+  skos:prefLabel "příjmení vlastníka"@cs .
+
+d-sgov-a944-pojem:vlastní-půdu a skos:Concept;
+  skos:inScheme d-sgov-a944:glosář;
+  skos:prefLabel "vlastní půdu"@cs .
+
+d-sgov-a944-pojem:půdní-blok a skos:Concept;
+  skos:inScheme d-sgov-a944:glosář;
+  skos:prefLabel "Půdní blok"@cs .
+
+d-sgov-a944-pojem:část-půdního-bloku a skos:Concept;
+  skos:inScheme d-sgov-a944:glosář;
+  skos:prefLabel "Část půdního bloku"@cs .
+
+d-sgov-a944-pojem:blalbla a skos:Concept;
+  dcterms:source "zákon č. 252/1997 Sb.";
+  skos:definition "blblblb"@cs;
+  skos:exactMatch <https://slovník.gov.cz/legislativní/sbírka/82/2018/pojem/uživatel>;
+  skos:inScheme d-sgov-a944:glosář;
+  skos:prefLabel "blalbla2"@cs .
+
+d-sgov-a944-pojem:uživatel a skos:Concept;
+  skos:inScheme d-sgov-a944:glosář;
+  skos:prefLabel "uživatel"@cs .
+
+d-sgov-a944-pojem:evidence-objektů a skos:Concept;
+  skos:inScheme d-sgov-a944:glosář;
+  skos:prefLabel "evidence objektů"@cs .
+
+d-sgov-a944-pojem:užívá-půdu a skos:Concept;
+  skos:inScheme d-sgov-a944:glosář;
+  skos:prefLabel "Užívá půdu"@cs .
+
+d-sgov-a944-pojem:podniká-s-půdou a skos:Concept;
+  skos:inScheme d-sgov-a944:glosář;
+  skos:prefLabel "Podniká s půdou"@cs .
+
+d-sgov-a944-pojem:hranice a skos:Concept;
+  skos:inScheme d-sgov-a944:glosář;
+  skos:prefLabel "hranice"@cs .
+
+d-sgov-a944-pojem:vinice a skos:Concept;
+  skos:inScheme d-sgov-a944:glosář;
+  skos:prefLabel "vinice"@cs .
+
+d-sgov-a944-pojem:id-vinice a skos:Concept;
+  skos:inScheme d-sgov-a944:glosář;
+  skos:prefLabel "id vinice"@cs .
