@@ -1,0 +1,151 @@
+@prefix a-popis-dat-pojem: <http://onto.fel.cvut.cz/ontologies/slovník/agendový/popis-dat/pojem/> .
+@prefix a-sgov-slovn-k-agendy-a11494: <https://slovník.gov.cz/agendový/slovn-k-agendy-a11494/> .
+@prefix a-sgov-slovn-k-agendy-a11494-pojem: <https://slovník.gov.cz/agendový/slovn-k-agendy-a11494/pojem/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+a-sgov-slovn-k-agendy-a11494:glosář a a-popis-dat-pojem:glosář, owl:Ontology, skos:ConceptScheme;
+  dcterms:created "2023-01-31T12:52:51.735Z"^^xsd:dateTime;
+  dcterms:rights <https://creativecommons.org/licenses/by-sa/4.0>;
+  dcterms:title "Slovník agendy A11494 - glosář"@cs;
+  vann:preferredNamespacePrefix "a-sgov-slovn-k-agendy-a11494-pojem";
+  vann:preferredNamespaceUri "https://slovník.gov.cz/agendový/slovn-k-agendy-a11494/pojem/";
+  owl:versionIRI "https://slovník.gov.cz/agendový/slovn-k-agendy-a11494/glosář/verze/1.0.0";
+  skos:hasTopConcept <https://slovník.gov.cz/agendový/slovn-k-agendy-a11494/pojem/adresa-trvalého/hlášeného-pobytu>,
+    <https://slovník.gov.cz/agendový/slovn-k-agendy-a11494/pojem/akademický-titul,-vědecká-hodnost>,
+    a-sgov-slovn-k-agendy-a11494-pojem:datum-narození, a-sgov-slovn-k-agendy-a11494-pojem:druh-identifikačního-dokladu,
+    a-sgov-slovn-k-agendy-a11494-pojem:identifikační-údaj-uznávacího-orgánu, <https://slovník.gov.cz/agendový/slovn-k-agendy-a11494/pojem/identifikační-údaje-poskytovatelů-zs,-kde-je-v-pracovněprávním-vztahu>,
+    a-sgov-slovn-k-agendy-a11494-pojem:identifikátor, <https://slovník.gov.cz/agendový/slovn-k-agendy-a11494/pojem/jméno/a>,
+    a-sgov-slovn-k-agendy-a11494-pojem:místo-nareození, a-sgov-slovn-k-agendy-a11494-pojem:místo-narození,
+    <https://slovník.gov.cz/agendový/slovn-k-agendy-a11494/pojem/obor,-druh-a-forma-zdravotní-péče,-ve-které-vykonává-povolání-u-poskytovatelů-zs>,
+    <https://slovník.gov.cz/agendový/slovn-k-agendy-a11494/pojem/označení-odborné/specializované-způsobilosti>,
+    a-sgov-slovn-k-agendy-a11494-pojem:pohlaví, a-sgov-slovn-k-agendy-a11494-pojem:příjmení,
+    a-sgov-slovn-k-agendy-a11494-pojem:rodné-příjmení, a-sgov-slovn-k-agendy-a11494-pojem:státní-občanství,
+    a-sgov-slovn-k-agendy-a11494-pojem:zdravotnický-pracovník, a-sgov-slovn-k-agendy-a11494-pojem:zákaz-výkonu-zdravotnického-povolání,
+    <https://slovník.gov.cz/agendový/slovn-k-agendy-a11494/pojem/zápis-do-člk,-čsk,-člnk-a-vyloučení-z-člk,-čsk,-člnk>,
+    a-sgov-slovn-k-agendy-a11494-pojem:údaj-o-ztotožnení, <https://slovník.gov.cz/agendový/slovn-k-agendy-a11494/pojem/údaje-o-absolvování-odborné/specializované-způsobilosti>,
+    a-sgov-slovn-k-agendy-a11494-pojem:údaje-o-absolvování-základního-kmene-specializačního-vzdělávání,
+    a-sgov-slovn-k-agendy-a11494-pojem:údaje-o-zařazení-do-specializačního-vzdělávání,
+    <https://slovník.gov.cz/agendový/slovn-k-agendy-a11494/pojem/údaje-o-zařízení,-které-o-zařazení-do-spec.-vzdelání-rozhodlo>,
+    a-sgov-slovn-k-agendy-a11494-pojem:číslo-a-druh-identifikačního-dokladu, a-sgov-slovn-k-agendy-a11494-pojem:číslo-identifikačního-dokladu .
+
+a-sgov-slovn-k-agendy-a11494-pojem:zdravotnický-pracovník a skos:Concept;
+  dcterms:source "písmeno b §2 zákonů 95/2004 Sb. a 96/2004 Sb.";
+  skos:definition "fyzická osoba, která vykonává zdravotnické povolání podle zákonů 95/2004 Sb. a 96/2004 Sb.  "@cs;
+  skos:inScheme a-sgov-slovn-k-agendy-a11494:glosář;
+  skos:prefLabel "Zdravotnický pracovník"@cs;
+  skos:scopeNote ""@cs .
+
+a-sgov-slovn-k-agendy-a11494-pojem:identifikátor a skos:Concept;
+  skos:inScheme a-sgov-slovn-k-agendy-a11494:glosář;
+  skos:prefLabel "Identifikátor"@cs .
+
+a-sgov-slovn-k-agendy-a11494-pojem:údaj-o-ztotožnení a skos:Concept;
+  skos:inScheme a-sgov-slovn-k-agendy-a11494:glosář;
+  skos:prefLabel "Údaj o ztotožnení"@cs .
+
+a-sgov-slovn-k-agendy-a11494-pojem:číslo-a-druh-identifikačního-dokladu a skos:Concept;
+  skos:inScheme a-sgov-slovn-k-agendy-a11494:glosář;
+  skos:prefLabel "Číslo a druh identifikačního dokladu"@cs .
+
+a-sgov-slovn-k-agendy-a11494-pojem:číslo-identifikačního-dokladu a skos:Concept;
+  skos:inScheme a-sgov-slovn-k-agendy-a11494:glosář;
+  skos:prefLabel "Číslo identifikačního dokladu"@cs .
+
+a-sgov-slovn-k-agendy-a11494-pojem:druh-identifikačního-dokladu a skos:Concept;
+  skos:inScheme a-sgov-slovn-k-agendy-a11494:glosář;
+  skos:prefLabel "Druh identifikačního dokladu"@cs .
+
+<https://slovník.gov.cz/agendový/slovn-k-agendy-a11494/pojem/jméno/a> a skos:Concept;
+  skos:inScheme a-sgov-slovn-k-agendy-a11494:glosář;
+  skos:prefLabel "Jméno/a"@cs .
+
+a-sgov-slovn-k-agendy-a11494-pojem:příjmení a skos:Concept;
+  skos:inScheme a-sgov-slovn-k-agendy-a11494:glosář;
+  skos:prefLabel "Příjmení"@cs .
+
+a-sgov-slovn-k-agendy-a11494-pojem:rodné-příjmení a skos:Concept;
+  skos:inScheme a-sgov-slovn-k-agendy-a11494:glosář;
+  skos:prefLabel "Rodné příjmení"@cs .
+
+a-sgov-slovn-k-agendy-a11494-pojem:datum-narození a skos:Concept;
+  skos:inScheme a-sgov-slovn-k-agendy-a11494:glosář;
+  skos:prefLabel "Datum narození"@cs .
+
+a-sgov-slovn-k-agendy-a11494-pojem:místo-nareození a skos:Concept;
+  skos:inScheme a-sgov-slovn-k-agendy-a11494:glosář;
+  skos:prefLabel "Místo nareození"@cs .
+
+a-sgov-slovn-k-agendy-a11494-pojem:pohlaví a skos:Concept;
+  skos:inScheme a-sgov-slovn-k-agendy-a11494:glosář;
+  skos:prefLabel "Pohlaví"@cs .
+
+a-sgov-slovn-k-agendy-a11494-pojem:státní-občanství a skos:Concept;
+  skos:inScheme a-sgov-slovn-k-agendy-a11494:glosář;
+  skos:prefLabel "Státní občanství"@cs .
+
+<https://slovník.gov.cz/agendový/slovn-k-agendy-a11494/pojem/akademický-titul,-vědecká-hodnost>
+  a skos:Concept;
+  skos:inScheme a-sgov-slovn-k-agendy-a11494:glosář;
+  skos:prefLabel "Akademický titul, vědecká hodnost"@cs .
+
+a-sgov-slovn-k-agendy-a11494-pojem:místo-narození a skos:Concept;
+  skos:inScheme a-sgov-slovn-k-agendy-a11494:glosář;
+  skos:prefLabel "Místo narození"@cs .
+
+a-sgov-slovn-k-agendy-a11494-pojem:údaje-o-zařazení-do-specializačního-vzdělávání
+  a skos:Concept;
+  skos:inScheme a-sgov-slovn-k-agendy-a11494:glosář;
+  skos:prefLabel "Údaje o zařazení do specializačního vzdělávání"@cs .
+
+<https://slovník.gov.cz/agendový/slovn-k-agendy-a11494/pojem/údaje-o-zařízení,-které-o-zařazení-do-spec.-vzdelání-rozhodlo>
+  a skos:Concept;
+  skos:inScheme a-sgov-slovn-k-agendy-a11494:glosář;
+  skos:prefLabel "Údaje o zařízení, které o zařazení do spec. vzdelání rozhodlo"@cs .
+
+a-sgov-slovn-k-agendy-a11494-pojem:údaje-o-absolvování-základního-kmene-specializačního-vzdělávání
+  a skos:Concept;
+  skos:inScheme a-sgov-slovn-k-agendy-a11494:glosář;
+  skos:prefLabel "Údaje o absolvování základního kmene specializačního vzdělávání"@cs .
+
+<https://slovník.gov.cz/agendový/slovn-k-agendy-a11494/pojem/označení-odborné/specializované-způsobilosti>
+  a skos:Concept;
+  skos:inScheme a-sgov-slovn-k-agendy-a11494:glosář;
+  skos:prefLabel "Označení odborné/specializované způsobilosti"@cs .
+
+<https://slovník.gov.cz/agendový/slovn-k-agendy-a11494/pojem/údaje-o-absolvování-odborné/specializované-způsobilosti>
+  a skos:Concept;
+  skos:inScheme a-sgov-slovn-k-agendy-a11494:glosář;
+  skos:prefLabel "Údaje o absolvování odborné/specializované způsobilosti"@cs .
+
+a-sgov-slovn-k-agendy-a11494-pojem:identifikační-údaj-uznávacího-orgánu a skos:Concept;
+  skos:inScheme a-sgov-slovn-k-agendy-a11494:glosář;
+  skos:prefLabel "Identifikační údaj uznávacího orgánu"@cs .
+
+<https://slovník.gov.cz/agendový/slovn-k-agendy-a11494/pojem/identifikační-údaje-poskytovatelů-zs,-kde-je-v-pracovněprávním-vztahu>
+  a skos:Concept;
+  skos:inScheme a-sgov-slovn-k-agendy-a11494:glosář;
+  skos:prefLabel "identifikační údaje poskytovatelů ZS, kde je v pracovněprávním vztahu"@cs .
+
+<https://slovník.gov.cz/agendový/slovn-k-agendy-a11494/pojem/obor,-druh-a-forma-zdravotní-péče,-ve-které-vykonává-povolání-u-poskytovatelů-zs>
+  a skos:Concept;
+  skos:inScheme a-sgov-slovn-k-agendy-a11494:glosář;
+  skos:prefLabel "Obor, druh a forma zdravotní péče, ve které vykonává povolání u poskytovatelů ZS"@cs .
+
+a-sgov-slovn-k-agendy-a11494-pojem:zákaz-výkonu-zdravotnického-povolání a skos:Concept;
+  skos:inScheme a-sgov-slovn-k-agendy-a11494:glosář;
+  skos:prefLabel "Zákaz výkonu zdravotnického povolání"@cs .
+
+<https://slovník.gov.cz/agendový/slovn-k-agendy-a11494/pojem/zápis-do-člk,-čsk,-člnk-a-vyloučení-z-člk,-čsk,-člnk>
+  a skos:Concept;
+  skos:inScheme a-sgov-slovn-k-agendy-a11494:glosář;
+  skos:prefLabel "Zápis do ČLK, ČSK, ČLnK a vyloučení z ČLK, ČSK, ČLnK"@cs .
+
+<https://slovník.gov.cz/agendový/slovn-k-agendy-a11494/pojem/adresa-trvalého/hlášeného-pobytu>
+  a skos:Concept;
+  skos:inScheme a-sgov-slovn-k-agendy-a11494:glosář;
+  skos:prefLabel "Adresa trvalého/hlášeného pobytu"@cs .

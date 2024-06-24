@@ -1,0 +1,569 @@
+@prefix a-popis-dat-pojem: <http://onto.fel.cvut.cz/ontologies/slovník/agendový/popis-dat/pojem/> .
+@prefix a-sgov-slovn-k-agendy-a11494: <https://slovník.gov.cz/agendový/slovn-k-agendy-a11494/> .
+@prefix a-sgov-slovn-k-agendy-a11494-pojem: <https://slovník.gov.cz/agendový/slovn-k-agendy-a11494/pojem/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+a-sgov-slovn-k-agendy-a11494:model a a-popis-dat-pojem:model, owl:Ontology;
+  dcterms:created "2023-01-31T12:52:51.735Z"^^xsd:dateTime;
+  dcterms:rights <https://creativecommons.org/licenses/by-sa/4.0>;
+  dcterms:title "Slovník agendy A11494 - model"@cs;
+  vann:preferredNamespacePrefix "a-sgov-slovn-k-agendy-a11494-pojem";
+  vann:preferredNamespaceUri "https://slovník.gov.cz/agendový/slovn-k-agendy-a11494/pojem/";
+  owl:imports a-sgov-slovn-k-agendy-a11494:glosář;
+  owl:versionIRI "https://slovník.gov.cz/agendový/slovn-k-agendy-a11494/model/verze/1.0.0" .
+
+a-sgov-slovn-k-agendy-a11494-pojem:zdravotnický-pracovník a <https://slovník.gov.cz/základní/pojem/objekt>,
+    <https://slovník.gov.cz/základní/pojem/typ-objektu>;
+  <http://onto.fel.cvut.cz/ontologies/application/termit/pojem/je-draft> true;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+      owl:someValuesFrom a-sgov-slovn-k-agendy-a11494-pojem:údaje-o-absolvování-základního-kmene-specializačního-vzdělávání
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-agendy-a11494-pojem:údaje-o-absolvování-základního-kmene-specializačního-vzdělávání;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-slovn-k-agendy-a11494-pojem:údaje-o-absolvování-základního-kmene-specializačního-vzdělávání;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+      owl:someValuesFrom <https://slovník.gov.cz/agendový/slovn-k-agendy-a11494/pojem/akademický-titul,-vědecká-hodnost>
+    ], [ a owl:Restriction;
+      owl:allValuesFrom <https://slovník.gov.cz/agendový/slovn-k-agendy-a11494/pojem/akademický-titul,-vědecká-hodnost>;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass <https://slovník.gov.cz/agendový/slovn-k-agendy-a11494/pojem/akademický-titul,-vědecká-hodnost>;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+      owl:someValuesFrom a-sgov-slovn-k-agendy-a11494-pojem:státní-občanství
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-agendy-a11494-pojem:státní-občanství;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-slovn-k-agendy-a11494-pojem:státní-občanství;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+      owl:someValuesFrom a-sgov-slovn-k-agendy-a11494-pojem:příjmení
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-agendy-a11494-pojem:příjmení;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-slovn-k-agendy-a11494-pojem:příjmení;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+      owl:someValuesFrom a-sgov-slovn-k-agendy-a11494-pojem:datum-narození
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-agendy-a11494-pojem:datum-narození;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-slovn-k-agendy-a11494-pojem:datum-narození;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+      owl:someValuesFrom a-sgov-slovn-k-agendy-a11494-pojem:číslo-identifikačního-dokladu
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-agendy-a11494-pojem:číslo-identifikačního-dokladu;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-slovn-k-agendy-a11494-pojem:číslo-identifikačního-dokladu;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+      owl:someValuesFrom a-sgov-slovn-k-agendy-a11494-pojem:rodné-příjmení
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-agendy-a11494-pojem:rodné-příjmení;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-slovn-k-agendy-a11494-pojem:rodné-příjmení;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+      owl:someValuesFrom <https://slovník.gov.cz/agendový/slovn-k-agendy-a11494/pojem/údaje-o-zařízení,-které-o-zařazení-do-spec.-vzdelání-rozhodlo>
+    ], [ a owl:Restriction;
+      owl:allValuesFrom <https://slovník.gov.cz/agendový/slovn-k-agendy-a11494/pojem/údaje-o-zařízení,-které-o-zařazení-do-spec.-vzdelání-rozhodlo>;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass <https://slovník.gov.cz/agendový/slovn-k-agendy-a11494/pojem/údaje-o-zařízení,-které-o-zařazení-do-spec.-vzdelání-rozhodlo>;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+      owl:someValuesFrom a-sgov-slovn-k-agendy-a11494-pojem:údaje-o-zařazení-do-specializačního-vzdělávání
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-agendy-a11494-pojem:údaje-o-zařazení-do-specializačního-vzdělávání;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-slovn-k-agendy-a11494-pojem:údaje-o-zařazení-do-specializačního-vzdělávání;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+      owl:someValuesFrom <https://slovník.gov.cz/agendový/slovn-k-agendy-a11494/pojem/identifikační-údaje-poskytovatelů-zs,-kde-je-v-pracovněprávním-vztahu>
+    ], [ a owl:Restriction;
+      owl:allValuesFrom <https://slovník.gov.cz/agendový/slovn-k-agendy-a11494/pojem/identifikační-údaje-poskytovatelů-zs,-kde-je-v-pracovněprávním-vztahu>;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass <https://slovník.gov.cz/agendový/slovn-k-agendy-a11494/pojem/identifikační-údaje-poskytovatelů-zs,-kde-je-v-pracovněprávním-vztahu>;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+      owl:someValuesFrom a-sgov-slovn-k-agendy-a11494-pojem:pohlaví
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-agendy-a11494-pojem:pohlaví;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-slovn-k-agendy-a11494-pojem:pohlaví;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+      owl:someValuesFrom <https://slovník.gov.cz/agendový/slovn-k-agendy-a11494/pojem/jméno/a>
+    ], [ a owl:Restriction;
+      owl:allValuesFrom <https://slovník.gov.cz/agendový/slovn-k-agendy-a11494/pojem/jméno/a>;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass <https://slovník.gov.cz/agendový/slovn-k-agendy-a11494/pojem/jméno/a>;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+      owl:someValuesFrom <https://slovník.gov.cz/agendový/slovn-k-agendy-a11494/pojem/obor,-druh-a-forma-zdravotní-péče,-ve-které-vykonává-povolání-u-poskytovatelů-zs>
+    ], [ a owl:Restriction;
+      owl:allValuesFrom <https://slovník.gov.cz/agendový/slovn-k-agendy-a11494/pojem/obor,-druh-a-forma-zdravotní-péče,-ve-které-vykonává-povolání-u-poskytovatelů-zs>;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass <https://slovník.gov.cz/agendový/slovn-k-agendy-a11494/pojem/obor,-druh-a-forma-zdravotní-péče,-ve-které-vykonává-povolání-u-poskytovatelů-zs>;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+      owl:someValuesFrom a-sgov-slovn-k-agendy-a11494-pojem:místo-narození
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-agendy-a11494-pojem:místo-narození;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-slovn-k-agendy-a11494-pojem:místo-narození;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+      owl:someValuesFrom a-sgov-slovn-k-agendy-a11494-pojem:identifikátor
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-agendy-a11494-pojem:identifikátor;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-slovn-k-agendy-a11494-pojem:identifikátor;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+      owl:someValuesFrom <https://slovník.gov.cz/agendový/slovn-k-agendy-a11494/pojem/údaje-o-absolvování-odborné/specializované-způsobilosti>
+    ], [ a owl:Restriction;
+      owl:allValuesFrom <https://slovník.gov.cz/agendový/slovn-k-agendy-a11494/pojem/údaje-o-absolvování-odborné/specializované-způsobilosti>;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass <https://slovník.gov.cz/agendový/slovn-k-agendy-a11494/pojem/údaje-o-absolvování-odborné/specializované-způsobilosti>;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+      owl:someValuesFrom a-sgov-slovn-k-agendy-a11494-pojem:druh-identifikačního-dokladu
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-agendy-a11494-pojem:druh-identifikačního-dokladu;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-slovn-k-agendy-a11494-pojem:druh-identifikačního-dokladu;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+      owl:someValuesFrom a-sgov-slovn-k-agendy-a11494-pojem:identifikační-údaj-uznávacího-orgánu
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-agendy-a11494-pojem:identifikační-údaj-uznávacího-orgánu;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-slovn-k-agendy-a11494-pojem:identifikační-údaj-uznávacího-orgánu;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ] .
+
+a-sgov-slovn-k-agendy-a11494-pojem:identifikátor a <https://slovník.gov.cz/základní/pojem/typ-vlastnosti>;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ];
+      owl:someValuesFrom a-sgov-slovn-k-agendy-a11494-pojem:zdravotnický-pracovník
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-agendy-a11494-pojem:zdravotnický-pracovník;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-slovn-k-agendy-a11494-pojem:zdravotnický-pracovník;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ] .
+
+a-sgov-slovn-k-agendy-a11494-pojem:údaj-o-ztotožnení a <https://slovník.gov.cz/základní/pojem/typ-vlastnosti> .
+
+a-sgov-slovn-k-agendy-a11494-pojem:číslo-a-druh-identifikačního-dokladu a <https://slovník.gov.cz/základní/pojem/typ-vlastnosti> .
+
+a-sgov-slovn-k-agendy-a11494-pojem:číslo-identifikačního-dokladu a <https://slovník.gov.cz/základní/pojem/typ-vlastnosti>;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ];
+      owl:someValuesFrom a-sgov-slovn-k-agendy-a11494-pojem:zdravotnický-pracovník
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-agendy-a11494-pojem:zdravotnický-pracovník;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-slovn-k-agendy-a11494-pojem:zdravotnický-pracovník;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ] .
+
+a-sgov-slovn-k-agendy-a11494-pojem:druh-identifikačního-dokladu a <https://slovník.gov.cz/základní/pojem/typ-vlastnosti>;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ];
+      owl:someValuesFrom a-sgov-slovn-k-agendy-a11494-pojem:zdravotnický-pracovník
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-agendy-a11494-pojem:zdravotnický-pracovník;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-slovn-k-agendy-a11494-pojem:zdravotnický-pracovník;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ] .
+
+<https://slovník.gov.cz/agendový/slovn-k-agendy-a11494/pojem/jméno/a> a <https://slovník.gov.cz/základní/pojem/typ-vlastnosti>;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ];
+      owl:someValuesFrom a-sgov-slovn-k-agendy-a11494-pojem:zdravotnický-pracovník
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-agendy-a11494-pojem:zdravotnický-pracovník;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-slovn-k-agendy-a11494-pojem:zdravotnický-pracovník;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ] .
+
+a-sgov-slovn-k-agendy-a11494-pojem:příjmení a <https://slovník.gov.cz/základní/pojem/typ-vlastnosti>;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ];
+      owl:someValuesFrom a-sgov-slovn-k-agendy-a11494-pojem:zdravotnický-pracovník
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-agendy-a11494-pojem:zdravotnický-pracovník;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-slovn-k-agendy-a11494-pojem:zdravotnický-pracovník;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ] .
+
+a-sgov-slovn-k-agendy-a11494-pojem:rodné-příjmení a <https://slovník.gov.cz/základní/pojem/typ-vlastnosti>;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ];
+      owl:someValuesFrom a-sgov-slovn-k-agendy-a11494-pojem:zdravotnický-pracovník
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-agendy-a11494-pojem:zdravotnický-pracovník;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-slovn-k-agendy-a11494-pojem:zdravotnický-pracovník;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ] .
+
+a-sgov-slovn-k-agendy-a11494-pojem:datum-narození a <https://slovník.gov.cz/základní/pojem/typ-vlastnosti>;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ];
+      owl:someValuesFrom a-sgov-slovn-k-agendy-a11494-pojem:zdravotnický-pracovník
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-agendy-a11494-pojem:zdravotnický-pracovník;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-slovn-k-agendy-a11494-pojem:zdravotnický-pracovník;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ] .
+
+a-sgov-slovn-k-agendy-a11494-pojem:místo-nareození a <https://slovník.gov.cz/základní/pojem/typ-vlastnosti> .
+
+a-sgov-slovn-k-agendy-a11494-pojem:pohlaví a <https://slovník.gov.cz/základní/pojem/typ-vlastnosti>;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ];
+      owl:someValuesFrom a-sgov-slovn-k-agendy-a11494-pojem:zdravotnický-pracovník
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-agendy-a11494-pojem:zdravotnický-pracovník;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-slovn-k-agendy-a11494-pojem:zdravotnický-pracovník;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ] .
+
+a-sgov-slovn-k-agendy-a11494-pojem:státní-občanství a <https://slovník.gov.cz/základní/pojem/typ-vlastnosti>;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ];
+      owl:someValuesFrom a-sgov-slovn-k-agendy-a11494-pojem:zdravotnický-pracovník
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-agendy-a11494-pojem:zdravotnický-pracovník;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-slovn-k-agendy-a11494-pojem:zdravotnický-pracovník;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ] .
+
+<https://slovník.gov.cz/agendový/slovn-k-agendy-a11494/pojem/akademický-titul,-vědecká-hodnost>
+  a <https://slovník.gov.cz/základní/pojem/typ-vlastnosti>;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ];
+      owl:someValuesFrom a-sgov-slovn-k-agendy-a11494-pojem:zdravotnický-pracovník
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-agendy-a11494-pojem:zdravotnický-pracovník;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-slovn-k-agendy-a11494-pojem:zdravotnický-pracovník;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ] .
+
+a-sgov-slovn-k-agendy-a11494-pojem:místo-narození a <https://slovník.gov.cz/základní/pojem/typ-vlastnosti>;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ];
+      owl:someValuesFrom a-sgov-slovn-k-agendy-a11494-pojem:zdravotnický-pracovník
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-agendy-a11494-pojem:zdravotnický-pracovník;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-slovn-k-agendy-a11494-pojem:zdravotnický-pracovník;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ] .
+
+a-sgov-slovn-k-agendy-a11494-pojem:údaje-o-zařazení-do-specializačního-vzdělávání
+  a <https://slovník.gov.cz/základní/pojem/typ-vlastnosti>;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ];
+      owl:someValuesFrom a-sgov-slovn-k-agendy-a11494-pojem:zdravotnický-pracovník
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-agendy-a11494-pojem:zdravotnický-pracovník;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-slovn-k-agendy-a11494-pojem:zdravotnický-pracovník;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ] .
+
+<https://slovník.gov.cz/agendový/slovn-k-agendy-a11494/pojem/údaje-o-zařízení,-které-o-zařazení-do-spec.-vzdelání-rozhodlo>
+  a <https://slovník.gov.cz/základní/pojem/typ-vlastnosti>;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ];
+      owl:someValuesFrom a-sgov-slovn-k-agendy-a11494-pojem:zdravotnický-pracovník
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-agendy-a11494-pojem:zdravotnický-pracovník;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-slovn-k-agendy-a11494-pojem:zdravotnický-pracovník;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ] .
+
+a-sgov-slovn-k-agendy-a11494-pojem:údaje-o-absolvování-základního-kmene-specializačního-vzdělávání
+  a <https://slovník.gov.cz/základní/pojem/typ-vlastnosti>;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ];
+      owl:someValuesFrom a-sgov-slovn-k-agendy-a11494-pojem:zdravotnický-pracovník
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-agendy-a11494-pojem:zdravotnický-pracovník;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-slovn-k-agendy-a11494-pojem:zdravotnický-pracovník;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ] .
+
+<https://slovník.gov.cz/agendový/slovn-k-agendy-a11494/pojem/označení-odborné/specializované-způsobilosti>
+  a <https://slovník.gov.cz/základní/pojem/typ-vlastnosti> .
+
+<https://slovník.gov.cz/agendový/slovn-k-agendy-a11494/pojem/údaje-o-absolvování-odborné/specializované-způsobilosti>
+  a <https://slovník.gov.cz/základní/pojem/typ-vlastnosti>;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ];
+      owl:someValuesFrom a-sgov-slovn-k-agendy-a11494-pojem:zdravotnický-pracovník
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-agendy-a11494-pojem:zdravotnický-pracovník;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-slovn-k-agendy-a11494-pojem:zdravotnický-pracovník;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ] .
+
+a-sgov-slovn-k-agendy-a11494-pojem:identifikační-údaj-uznávacího-orgánu a <https://slovník.gov.cz/základní/pojem/typ-vlastnosti>;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ];
+      owl:someValuesFrom a-sgov-slovn-k-agendy-a11494-pojem:zdravotnický-pracovník
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-agendy-a11494-pojem:zdravotnický-pracovník;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-slovn-k-agendy-a11494-pojem:zdravotnický-pracovník;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ] .
+
+<https://slovník.gov.cz/agendový/slovn-k-agendy-a11494/pojem/identifikační-údaje-poskytovatelů-zs,-kde-je-v-pracovněprávním-vztahu>
+  a <https://slovník.gov.cz/základní/pojem/typ-vlastnosti>;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ];
+      owl:someValuesFrom a-sgov-slovn-k-agendy-a11494-pojem:zdravotnický-pracovník
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-agendy-a11494-pojem:zdravotnický-pracovník;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-slovn-k-agendy-a11494-pojem:zdravotnický-pracovník;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ] .
+
+<https://slovník.gov.cz/agendový/slovn-k-agendy-a11494/pojem/obor,-druh-a-forma-zdravotní-péče,-ve-které-vykonává-povolání-u-poskytovatelů-zs>
+  a <https://slovník.gov.cz/základní/pojem/typ-vlastnosti>;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ];
+      owl:someValuesFrom a-sgov-slovn-k-agendy-a11494-pojem:zdravotnický-pracovník
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-agendy-a11494-pojem:zdravotnický-pracovník;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-slovn-k-agendy-a11494-pojem:zdravotnický-pracovník;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ] .
+
+a-sgov-slovn-k-agendy-a11494-pojem:zákaz-výkonu-zdravotnického-povolání a <https://slovník.gov.cz/základní/pojem/typ-vlastnosti> .
+
+<https://slovník.gov.cz/agendový/slovn-k-agendy-a11494/pojem/zápis-do-člk,-čsk,-člnk-a-vyloučení-z-člk,-čsk,-člnk>
+  a <https://slovník.gov.cz/základní/pojem/typ-vlastnosti> .
+
+<https://slovník.gov.cz/agendový/slovn-k-agendy-a11494/pojem/adresa-trvalého/hlášeného-pobytu>
+  a <https://slovník.gov.cz/základní/pojem/typ-vlastnosti> .
