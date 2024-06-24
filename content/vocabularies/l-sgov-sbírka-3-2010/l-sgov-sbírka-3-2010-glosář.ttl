@@ -1,0 +1,22 @@
+@prefix a-popis-dat-pojem: <http://onto.fel.cvut.cz/ontologies/slovník/agendový/popis-dat/pojem/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix l-sgov-sbírka-3-2010: <https://slovník.gov.cz/legislativní/sbírka/3/2010/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+l-sgov-sbírka-3-2010:glosář a a-popis-dat-pojem:glosář, owl:Ontology, skos:ConceptScheme;
+  dcterms:created "2022-10-19T10:41:02.908Z"^^xsd:dateTime;
+  dcterms:rights <https://creativecommons.org/licenses/by-sa/4.0>;
+  dcterms:title "Zákon NIPI - glosář"@cs;
+  vann:preferredNamespacePrefix "l-sgov-sbírka-3-2010-pojem";
+  vann:preferredNamespaceUri "https://slovník.gov.cz/legislativní/sbírka/3/2010/pojem/";
+  owl:versionIRI "https://slovník.gov.cz/legislativní/sbírka/3/2010/glosář/verze/1.0.0" .
+
+<http://onto.fel.cvut.cz/ontologies/zdroj/zákon-č.-3-2010> dcterms:description "https://www.slov-lex.sk/pravne-predpisy/SK/ZZ/2010/3/"@cs;
+  dcterms:title "Zákon č. 3/2010"@cs .
+
+<http://onto.fel.cvut.cz/ontologies/zdroj/zákon-č.-3-2010/soubor/3_2010-z.-z.-zákon-o-národnej-infraštruktúre-pre-priestorové-informácie-aktuálne-znenie.htm>
+  dcterms:title "3_2010 Z. z. Zákon o národnej infraštruktúre pre priestorové informácie Aktuálne znenie.htm"@cs .
