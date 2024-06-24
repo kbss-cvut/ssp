@@ -1,0 +1,20 @@
+@prefix a-popis-dat-pojem: <http://onto.fel.cvut.cz/ontologies/slovník/agendový/popis-dat/pojem/> .
+@prefix a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch: <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch>
+  a a-popis-dat-pojem:slovník, owl:Ontology;
+  a-popis-dat-pojem:má-glosář a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch:glosář;
+  a-popis-dat-pojem:má-model a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch:model;
+  dcterms:created "2023-02-07T14:37:45.353Z"^^xsd:dateTime;
+  dcterms:rights <https://creativecommons.org/licenses/by-sa/4.0>;
+  dcterms:title "slovník zákona č. 255/1946 Sb., o příslušnících československé armády a o některých jiných účastnících"@cs;
+  vann:preferredNamespacePrefix "a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem";
+  vann:preferredNamespaceUri "https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/";
+  owl:imports a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch:glosář,
+    a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch:model;
+  owl:versionIRI "https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/verze/1.0.0" .

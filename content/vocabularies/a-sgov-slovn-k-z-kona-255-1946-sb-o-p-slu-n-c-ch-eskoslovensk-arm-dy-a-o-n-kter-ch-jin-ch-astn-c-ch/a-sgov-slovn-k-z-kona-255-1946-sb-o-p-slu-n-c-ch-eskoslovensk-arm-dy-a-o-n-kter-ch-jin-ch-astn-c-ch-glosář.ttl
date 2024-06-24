@@ -1,0 +1,207 @@
+@prefix a-popis-dat-pojem: <http://onto.fel.cvut.cz/ontologies/slovník/agendový/popis-dat/pojem/> .
+@prefix a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch: <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/> .
+@prefix a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem: <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch:glosář
+  a a-popis-dat-pojem:glosář, owl:Ontology, skos:ConceptScheme;
+  dcterms:created "2023-02-07T14:37:45.353Z"^^xsd:dateTime;
+  dcterms:rights <https://creativecommons.org/licenses/by-sa/4.0>;
+  dcterms:title "slovník zákona č. 255/1946 Sb., o příslušnících československé armády a o některých jiných účastnících - glosář"@cs;
+  vann:preferredNamespacePrefix "a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem";
+  vann:preferredNamespaceUri "https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/";
+  owl:versionIRI "https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/glosář/verze/1.0.0";
+  skos:hasTopConcept a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:doba-strávená-ve-vlastnosti-účastníka-národního-boje-za-osvobození,
+    a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:dítě,
+    a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:je-uváděna-na-osvědčení,
+    a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:jméno-a-příjmení,
+    <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/manžel,-manželka>,
+    a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:oprávněná-osoba-k-podání-žádosti,
+    <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/osoba,-která-konala-vojenskou-službu-v-československé-armádě-v-zahraničí>,
+    <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/osoba,-na-níž-přechází-práva>,
+    a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:osvojenec,
+    a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:osvědčení-o-účasti-na-národním-boji-za-osvobození,
+    a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:podává-žádost,
+    a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:při-splnění-podmíne,
+    a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:při-splnění-podmínek-zákona,
+    a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:při-splnění-podmínek-zákona-se-vydává,
+    a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:při-úmrtí,
+    a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:příslušník-1.-čs.-armády-na-slovensku,
+    a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:příslušník-stráže-obrany-státu,
+    a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:příslušník-československé-armády-v-zahraničí,
+    a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:rodič,
+    a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:sourozenec,
+    a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:vyvíjí,
+    a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:údaj-o-osobě,
+    a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:účast-na-národním-boji-za-osvobození,
+    a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:účastník-domácího-hnutí,
+    a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:účastník-národního-boje-za-osvobození,
+    a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:účastník-povstání-v-květnu-1945,
+    a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:účastník-snp,
+    a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:účastník-zahraničního-hnutí,
+    a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:čs.-dobrovolník-ve-španělsku,
+    a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:čs.-politický-vězeň,
+    a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:žádost-o-vydání-osvědčení-o-účasti-na-národním-boji-za-osvobození .
+
+a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:účastník-národního-boje-za-osvobození
+  a skos:Concept;
+  skos:inScheme a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch:glosář;
+  skos:prefLabel "účastník národního boje za osvobození"@cs;
+  skos:scopeNote ""@cs .
+
+a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:oprávněná-osoba-k-podání-žádosti
+  a skos:Concept;
+  dcterms:source "Paragraf 8 odst. 2 zákona č. 255/1946 Sb.";
+  skos:inScheme a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch:glosář;
+  skos:prefLabel "oprávněná osoba k podání žádosti"@cs;
+  skos:scopeNote ""@cs .
+
+a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:jméno-a-příjmení
+  a skos:Concept;
+  skos:inScheme a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch:glosář;
+  skos:prefLabel "jméno a příjmení"@cs .
+
+<https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/osoba,-na-níž-přechází-práva>
+  a skos:Concept;
+  skos:inScheme a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch:glosář;
+  skos:prefLabel "osoba, na níž přechází práva"@cs .
+
+a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:při-úmrtí
+  a skos:Concept;
+  skos:inScheme a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch:glosář;
+  skos:prefLabel "při úmrtí"@cs .
+
+a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:žádost-o-vydání-osvědčení-o-účasti-na-národním-boji-za-osvobození
+  a skos:Concept;
+  skos:inScheme a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch:glosář;
+  skos:prefLabel "žádost o vydání osvědčení o účasti na národním boji za osvobození"@cs .
+
+a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:osvědčení-o-účasti-na-národním-boji-za-osvobození
+  a skos:Concept;
+  skos:inScheme a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch:glosář;
+  skos:prefLabel "osvědčení o účasti na národním boji za osvobození"@cs .
+
+a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:podává-žádost
+  a skos:Concept;
+  skos:inScheme a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch:glosář;
+  skos:prefLabel "podává žádost"@cs .
+
+a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:při-splnění-podmínek-zákona
+  a skos:Concept;
+  skos:inScheme a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch:glosář;
+  skos:prefLabel "při splnění podmínek zákona"@cs .
+
+a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:údaj-o-osobě
+  a skos:Concept;
+  skos:inScheme a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch:glosář;
+  skos:prefLabel "údaj o osobě"@cs .
+
+a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:doba-strávená-ve-vlastnosti-účastníka-národního-boje-za-osvobození
+  a skos:Concept;
+  skos:inScheme a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch:glosář;
+  skos:prefLabel "doba strávená ve vlastnosti účastníka národního boje za osvobození"@cs .
+
+a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:při-splnění-podmínek-zákona-se-vydává
+  a skos:Concept;
+  skos:inScheme a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch:glosář;
+  skos:prefLabel "při splnění podmínek zákona se vydává"@cs .
+
+a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:účast-na-národním-boji-za-osvobození
+  a skos:Concept;
+  skos:inScheme a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch:glosář;
+  skos:prefLabel "účast na národním boji za osvobození"@cs .
+
+a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:příslušník-československé-armády-v-zahraničí
+  a skos:Concept;
+  skos:definition """Příslušníkem československé armády v zahraničí, t.j. československých vojenských jednotek zřízených v letech 1939 až 1945 mimo území republiky Československé: kdo dobrovolně vstoupil do této armády nejpozději dne 6. října 1944,
+
+a) učinil-li tak při první příležitosti vyjímajíc případy, kdy ke vstupu došlo do 31. prosince 1941 nebo zúčastnil se bojů v polním útvaru nebo byl v souvislosti s výkonem vojenské služby usmrcen nebo těžce raněn, a
+
+b) neopustil-li službu v této armádě, leč následkem demobilisace nebo po superarbitračním řízení nebo podle rozhodnutí orgánů československého zřízení v zahraničí uvolněním pro některý jiný jeho obor, avšak byl-li takto uvolněn jen tehdy, konal-li činnou službu alespoň šest měsíců nebo zúčastnil-li se bojů v polním útvaru,"""@cs;
+  skos:inScheme a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch:glosář;
+  skos:prefLabel "příslušník československé armády v zahraničí"@cs .
+
+<https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/osoba,-která-konala-vojenskou-službu-v-československé-armádě-v-zahraničí>
+  a skos:Concept;
+  skos:inScheme a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch:glosář;
+  skos:prefLabel "osoba, která konala vojenskou službu v československé armádě v zahraničí"@cs .
+
+a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:příslušník-1.-čs.-armády-na-slovensku
+  a skos:Concept;
+  skos:inScheme a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch:glosář;
+  skos:prefLabel "příslušník 1. čs. armády na Slovensku"@cs .
+
+a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:účastník-domácího-hnutí
+  a skos:Concept;
+  skos:inScheme a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch:glosář;
+  skos:prefLabel "účastník domácího hnutí"@cs .
+
+a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:účastník-zahraničního-hnutí
+  a skos:Concept;
+  skos:inScheme a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch:glosář;
+  skos:prefLabel "účastník zahraničního hnutí"@cs .
+
+a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:účastník-snp
+  a skos:Concept;
+  skos:inScheme a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch:glosář;
+  skos:prefLabel "účastník SNP"@cs .
+
+a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:účastník-povstání-v-květnu-1945
+  a skos:Concept;
+  skos:inScheme a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch:glosář;
+  skos:prefLabel "účastník povstání v květnu 1945"@cs .
+
+a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:čs.-politický-vězeň
+  a skos:Concept;
+  skos:inScheme a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch:glosář;
+  skos:prefLabel "čs. politický vězeň"@cs .
+
+a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:čs.-dobrovolník-ve-španělsku
+  a skos:Concept;
+  skos:inScheme a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch:glosář;
+  skos:prefLabel "čs. dobrovolník ve Španělsku"@cs .
+
+a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:příslušník-stráže-obrany-státu
+  a skos:Concept;
+  skos:inScheme a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch:glosář;
+  skos:prefLabel "příslušník Stráže obrany státu"@cs .
+
+a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:vyvíjí
+  a skos:Concept;
+  skos:inScheme a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch:glosář;
+  skos:prefLabel "vyvíjí"@cs .
+
+a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:je-uváděna-na-osvědčení
+  a skos:Concept;
+  skos:inScheme a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch:glosář;
+  skos:prefLabel "je uváděna na osvědčení"@cs .
+
+<https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/manžel,-manželka>
+  a skos:Concept;
+  skos:inScheme a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch:glosář;
+  skos:prefLabel "manžel, manželka"@cs .
+
+a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:dítě
+  a skos:Concept;
+  skos:inScheme a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch:glosář;
+  skos:prefLabel "dítě"@cs .
+
+a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:rodič
+  a skos:Concept;
+  skos:inScheme a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch:glosář;
+  skos:prefLabel "rodič"@cs .
+
+a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:sourozenec
+  a skos:Concept;
+  skos:inScheme a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch:glosář;
+  skos:prefLabel "sourozenec"@cs .
+
+a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:osvojenec
+  a skos:Concept;
+  skos:inScheme a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch:glosář;
+  skos:prefLabel "osvojenec"@cs .

@@ -1,0 +1,635 @@
+@prefix a-popis-dat-pojem: <http://onto.fel.cvut.cz/ontologies/slovník/agendový/popis-dat/pojem/> .
+@prefix a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch: <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/> .
+@prefix a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem: <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch:model
+  a a-popis-dat-pojem:model, owl:Ontology;
+  dcterms:created "2023-02-07T14:37:45.353Z"^^xsd:dateTime;
+  dcterms:rights <https://creativecommons.org/licenses/by-sa/4.0>;
+  dcterms:title "slovník zákona č. 255/1946 Sb., o příslušnících československé armády a o některých jiných účastnících - model"@cs;
+  vann:preferredNamespacePrefix "a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem";
+  vann:preferredNamespaceUri "https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/";
+  owl:imports a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch:glosář;
+  owl:versionIRI "https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/model/verze/1.0.0" .
+
+a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:účastník-národního-boje-za-osvobození
+  a <https://slovník.gov.cz/základní/pojem/role>, <https://slovník.gov.cz/základní/pojem/typ-objektu>;
+  <http://onto.fel.cvut.cz/ontologies/application/termit/pojem/je-draft> true;
+  rdfs:subClassOf a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:oprávněná-osoba-k-podání-žádosti .
+
+a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:oprávněná-osoba-k-podání-žádosti
+  a <https://slovník.gov.cz/základní/pojem/typ-objektu>;
+  <http://onto.fel.cvut.cz/ontologies/application/termit/pojem/je-draft> true;
+  rdfs:subClassOf <https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/subjekt-údajů-vedený-v-registru-obyvatel>,
+    [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+      owl:someValuesFrom a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:jméno-a-příjmení
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:jméno-a-příjmení;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:jméno-a-příjmení;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+        ];
+      owl:someValuesFrom a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:podává-žádost
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:podává-žádost;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+        ]
+    ] .
+
+a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:jméno-a-příjmení
+  a <https://slovník.gov.cz/základní/pojem/typ-vlastnosti>;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ];
+      owl:someValuesFrom a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:oprávněná-osoba-k-podání-žádosti
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:oprávněná-osoba-k-podání-žádosti;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:oprávněná-osoba-k-podání-žádosti;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ] .
+
+<https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/osoba,-na-níž-přechází-práva>
+  a <https://slovník.gov.cz/základní/pojem/role>, <https://slovník.gov.cz/základní/pojem/typ-objektu>;
+  rdfs:subClassOf a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:oprávněná-osoba-k-podání-žádosti,
+    [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
+        ];
+      owl:someValuesFrom a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:při-úmrtí
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:při-úmrtí;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
+        ]
+    ] .
+
+a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:při-úmrtí
+  a <https://slovník.gov.cz/základní/pojem/typ-vztahu>;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>;
+      owl:someValuesFrom a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:účastník-národního-boje-za-osvobození
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:účastník-národního-boje-za-osvobození;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+    ], [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>;
+      owl:someValuesFrom <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/osoba,-na-níž-přechází-práva>
+    ], [ a owl:Restriction;
+      owl:allValuesFrom <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/osoba,-na-níž-přechází-práva>;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
+    ] .
+
+a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:žádost-o-vydání-osvědčení-o-účasti-na-národním-boji-za-osvobození
+  a <https://slovník.gov.cz/základní/pojem/typ-objektu>;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+        ];
+      owl:someValuesFrom a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:při-splnění-podmínek-zákona-se-vydává
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:při-splnění-podmínek-zákona-se-vydává;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+        ]
+    ], [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
+        ];
+      owl:someValuesFrom a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:podává-žádost
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:podává-žádost;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
+        ]
+    ] .
+
+a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:osvědčení-o-účasti-na-národním-boji-za-osvobození
+  a <https://slovník.gov.cz/základní/pojem/typ-objektu>;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+      owl:someValuesFrom a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:údaj-o-osobě
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:údaj-o-osobě;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:údaj-o-osobě;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+      owl:someValuesFrom a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:doba-strávená-ve-vlastnosti-účastníka-národního-boje-za-osvobození
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:doba-strávená-ve-vlastnosti-účastníka-národního-boje-za-osvobození;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:doba-strávená-ve-vlastnosti-účastníka-národního-boje-za-osvobození;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
+        ];
+      owl:someValuesFrom a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:při-splnění-podmínek-zákona-se-vydává
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:při-splnění-podmínek-zákona-se-vydává;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
+        ]
+    ], [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
+        ];
+      owl:someValuesFrom a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:je-uváděna-na-osvědčení
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:je-uváděna-na-osvědčení;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
+        ]
+    ] .
+
+a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:podává-žádost
+  a <https://slovník.gov.cz/základní/pojem/typ-vztahu>;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>;
+      owl:someValuesFrom a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:oprávněná-osoba-k-podání-žádosti
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:oprávněná-osoba-k-podání-žádosti;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+    ], [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>;
+      owl:someValuesFrom a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:žádost-o-vydání-osvědčení-o-účasti-na-národním-boji-za-osvobození
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:žádost-o-vydání-osvědčení-o-účasti-na-národním-boji-za-osvobození;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
+    ] .
+
+a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:při-splnění-podmínek-zákona
+  a <https://slovník.gov.cz/základní/pojem/typ-vztahu> .
+
+a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:údaj-o-osobě
+  a <https://slovník.gov.cz/základní/pojem/typ-vlastnosti>;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ];
+      owl:someValuesFrom a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:osvědčení-o-účasti-na-národním-boji-za-osvobození
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:osvědčení-o-účasti-na-národním-boji-za-osvobození;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:osvědčení-o-účasti-na-národním-boji-za-osvobození;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ] .
+
+a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:doba-strávená-ve-vlastnosti-účastníka-národního-boje-za-osvobození
+  a <https://slovník.gov.cz/základní/pojem/typ-vlastnosti>;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ];
+      owl:someValuesFrom a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:osvědčení-o-účasti-na-národním-boji-za-osvobození
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:osvědčení-o-účasti-na-národním-boji-za-osvobození;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:osvědčení-o-účasti-na-národním-boji-za-osvobození;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ] .
+
+a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:při-splnění-podmínek-zákona-se-vydává
+  a <https://slovník.gov.cz/základní/pojem/typ-vztahu>;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>;
+      owl:someValuesFrom a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:žádost-o-vydání-osvědčení-o-účasti-na-národním-boji-za-osvobození
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:žádost-o-vydání-osvědčení-o-účasti-na-národním-boji-za-osvobození;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+    ], [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>;
+      owl:someValuesFrom a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:osvědčení-o-účasti-na-národním-boji-za-osvobození
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:osvědčení-o-účasti-na-národním-boji-za-osvobození;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
+    ] .
+
+a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:účast-na-národním-boji-za-osvobození
+  a <https://slovník.gov.cz/základní/pojem/typ-události>;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+      owl:someValuesFrom a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:příslušník-československé-armády-v-zahraničí
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:příslušník-československé-armády-v-zahraničí;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:příslušník-československé-armády-v-zahraničí;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+      owl:someValuesFrom <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/osoba,-která-konala-vojenskou-službu-v-československé-armádě-v-zahraničí>
+    ], [ a owl:Restriction;
+      owl:allValuesFrom <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/osoba,-která-konala-vojenskou-službu-v-československé-armádě-v-zahraničí>;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/osoba,-která-konala-vojenskou-službu-v-československé-armádě-v-zahraničí>;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+      owl:someValuesFrom a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:příslušník-1.-čs.-armády-na-slovensku
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:příslušník-1.-čs.-armády-na-slovensku;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:příslušník-1.-čs.-armády-na-slovensku;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+      owl:someValuesFrom a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:účastník-domácího-hnutí
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:účastník-domácího-hnutí;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:účastník-domácího-hnutí;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+      owl:someValuesFrom a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:účastník-zahraničního-hnutí
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:účastník-zahraničního-hnutí;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:účastník-zahraničního-hnutí;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+      owl:someValuesFrom a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:účastník-snp
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:účastník-snp;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:účastník-snp;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+      owl:someValuesFrom a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:účastník-povstání-v-květnu-1945
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:účastník-povstání-v-květnu-1945;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:účastník-povstání-v-květnu-1945;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+      owl:someValuesFrom a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:čs.-politický-vězeň
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:čs.-politický-vězeň;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:čs.-politický-vězeň;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+      owl:someValuesFrom a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:čs.-dobrovolník-ve-španělsku
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:čs.-dobrovolník-ve-španělsku;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:čs.-dobrovolník-ve-španělsku;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+      owl:someValuesFrom a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:příslušník-stráže-obrany-státu
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:příslušník-stráže-obrany-státu;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:příslušník-stráže-obrany-státu;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+        ];
+      owl:someValuesFrom a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:je-uváděna-na-osvědčení
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:je-uváděna-na-osvědčení;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+        ]
+    ] .
+
+a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:příslušník-československé-armády-v-zahraničí
+  a <https://slovník.gov.cz/základní/pojem/typ-vlastnosti>;
+  <http://onto.fel.cvut.cz/ontologies/application/termit/pojem/je-draft> true;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ];
+      owl:someValuesFrom a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:účast-na-národním-boji-za-osvobození
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:účast-na-národním-boji-za-osvobození;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:účast-na-národním-boji-za-osvobození;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ] .
+
+<https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/osoba,-která-konala-vojenskou-službu-v-československé-armádě-v-zahraničí>
+  a <https://slovník.gov.cz/základní/pojem/typ-vlastnosti>;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ];
+      owl:someValuesFrom a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:účast-na-národním-boji-za-osvobození
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:účast-na-národním-boji-za-osvobození;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:účast-na-národním-boji-za-osvobození;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ] .
+
+a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:příslušník-1.-čs.-armády-na-slovensku
+  a <https://slovník.gov.cz/základní/pojem/typ-vlastnosti>;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ];
+      owl:someValuesFrom a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:účast-na-národním-boji-za-osvobození
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:účast-na-národním-boji-za-osvobození;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:účast-na-národním-boji-za-osvobození;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ] .
+
+a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:účastník-domácího-hnutí
+  a <https://slovník.gov.cz/základní/pojem/typ-vlastnosti>;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ];
+      owl:someValuesFrom a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:účast-na-národním-boji-za-osvobození
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:účast-na-národním-boji-za-osvobození;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:účast-na-národním-boji-za-osvobození;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ] .
+
+a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:účastník-zahraničního-hnutí
+  a <https://slovník.gov.cz/základní/pojem/typ-vlastnosti>;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ];
+      owl:someValuesFrom a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:účast-na-národním-boji-za-osvobození
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:účast-na-národním-boji-za-osvobození;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:účast-na-národním-boji-za-osvobození;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ] .
+
+a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:účastník-snp
+  a <https://slovník.gov.cz/základní/pojem/typ-vlastnosti>;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ];
+      owl:someValuesFrom a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:účast-na-národním-boji-za-osvobození
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:účast-na-národním-boji-za-osvobození;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:účast-na-národním-boji-za-osvobození;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ] .
+
+a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:účastník-povstání-v-květnu-1945
+  a <https://slovník.gov.cz/základní/pojem/typ-vlastnosti>;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ];
+      owl:someValuesFrom a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:účast-na-národním-boji-za-osvobození
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:účast-na-národním-boji-za-osvobození;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:účast-na-národním-boji-za-osvobození;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ] .
+
+a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:čs.-politický-vězeň
+  a <https://slovník.gov.cz/základní/pojem/typ-vlastnosti>;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ];
+      owl:someValuesFrom a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:účast-na-národním-boji-za-osvobození
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:účast-na-národním-boji-za-osvobození;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:účast-na-národním-boji-za-osvobození;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ] .
+
+a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:čs.-dobrovolník-ve-španělsku
+  a <https://slovník.gov.cz/základní/pojem/typ-vlastnosti>;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ];
+      owl:someValuesFrom a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:účast-na-národním-boji-za-osvobození
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:účast-na-národním-boji-za-osvobození;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:účast-na-národním-boji-za-osvobození;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ] .
+
+a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:příslušník-stráže-obrany-státu
+  a <https://slovník.gov.cz/základní/pojem/typ-vlastnosti>;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ];
+      owl:someValuesFrom a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:účast-na-národním-boji-za-osvobození
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:účast-na-národním-boji-za-osvobození;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:účast-na-národním-boji-za-osvobození;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ] .
+
+a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:vyvíjí
+  a <https://slovník.gov.cz/základní/pojem/typ-vztahu>;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>;
+      owl:someValuesFrom a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:účastník-národního-boje-za-osvobození
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:účastník-národního-boje-za-osvobození;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+    ], [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>;
+      owl:someValuesFrom a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:účast-na-národním-boji-za-osvobození
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:účast-na-národním-boji-za-osvobození;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
+    ] .
+
+a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:je-uváděna-na-osvědčení
+  a <https://slovník.gov.cz/základní/pojem/typ-vztahu>;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>;
+      owl:someValuesFrom a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:účast-na-národním-boji-za-osvobození
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:účast-na-národním-boji-za-osvobození;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+    ], [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>;
+      owl:someValuesFrom a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:osvědčení-o-účasti-na-národním-boji-za-osvobození
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:osvědčení-o-účasti-na-národním-boji-za-osvobození;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
+    ] .
+
+<https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/manžel,-manželka>
+  a <https://slovník.gov.cz/základní/pojem/role>, <https://slovník.gov.cz/základní/pojem/typ-objektu>;
+  rdfs:subClassOf <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/osoba,-na-níž-přechází-práva> .
+
+a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:dítě
+  a <https://slovník.gov.cz/základní/pojem/role>, <https://slovník.gov.cz/základní/pojem/typ-objektu>;
+  rdfs:subClassOf <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/osoba,-na-níž-přechází-práva> .
+
+a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:rodič
+  a <https://slovník.gov.cz/základní/pojem/role>, <https://slovník.gov.cz/základní/pojem/typ-objektu>;
+  rdfs:subClassOf <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/osoba,-na-níž-přechází-práva> .
+
+a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:sourozenec
+  a <https://slovník.gov.cz/základní/pojem/role>, <https://slovník.gov.cz/základní/pojem/typ-objektu>;
+  rdfs:subClassOf <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/osoba,-na-níž-přechází-práva> .
+
+a-sgov-slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch-pojem:osvojenec
+  a <https://slovník.gov.cz/základní/pojem/role>, <https://slovník.gov.cz/základní/pojem/typ-objektu>;
+  rdfs:subClassOf <https://slovník.gov.cz/agendový/slovn-k-z-kona-255-1946-sb-o-p-slu-n-c-ch-eskoslovensk-arm-dy-a-o-n-kter-ch-jin-ch-astn-c-ch/pojem/osoba,-na-níž-přechází-práva> .
+
+[] owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1> .
+
+[] owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1> .
+
+[] owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1> .
+
+[] owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1> .
+
+[] owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2> .
+
+[] owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2> .
+
+[] owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2> .
+
+[] owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2> .
+
+[] owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1> .
+
+[] owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1> .
+
+[] owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2> .
+
+[] owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2> .
