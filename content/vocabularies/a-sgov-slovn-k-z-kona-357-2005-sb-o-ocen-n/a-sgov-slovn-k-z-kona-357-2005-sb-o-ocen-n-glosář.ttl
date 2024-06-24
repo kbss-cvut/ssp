@@ -1,0 +1,123 @@
+@prefix a-popis-dat-pojem: <http://onto.fel.cvut.cz/ontologies/slovník/agendový/popis-dat/pojem/> .
+@prefix a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n: <https://slovník.gov.cz/agendový/slovn-k-z-kona-357-2005-sb-o-ocen-n/> .
+@prefix a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem: <https://slovník.gov.cz/agendový/slovn-k-z-kona-357-2005-sb-o-ocen-n/pojem/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n:glosář a a-popis-dat-pojem:glosář, owl:Ontology,
+    skos:ConceptScheme;
+  dcterms:created "2023-02-07T13:33:43.515Z"^^xsd:dateTime;
+  dcterms:rights <https://creativecommons.org/licenses/by-sa/4.0>;
+  dcterms:title "slovník zákona č. 357/2005 Sb., o ocenění - glosář"@cs;
+  vann:preferredNamespacePrefix "a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem";
+  vann:preferredNamespaceUri "https://slovník.gov.cz/agendový/slovn-k-z-kona-357-2005-sb-o-ocen-n/pojem/";
+  owl:versionIRI "https://slovník.gov.cz/agendový/slovn-k-z-kona-357-2005-sb-o-ocen-n/glosář/verze/1.0.0";
+  skos:hasTopConcept <https://slovník.gov.cz/agendový/slovn-k-z-kona-357-2005-sb-o-ocen-n/pojem/,-jenž-se-zapojil>,
+    a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:boj-se-zbraní, a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:bojová-účast,
+    a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:je-přílohou-žádosti, a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:jenž-se-zúčastnil,
+    a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:jiný-způsob-uznaný-ministerstvem,
+    a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:jméno-a-příjmení, a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:jsou-li-splněny-zákonné-podmínky,
+    a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:má-tento-charakter, a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:ověřené-potvrzení,
+    a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:ověřené-svědecké-prohlášení, a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:podává-žádost,
+    a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:potvrzení-o-účasti-v-povstání-v-květnu-1945,
+    a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:státní-občan-české-republiky, a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:zdravotní-a-spojovací-činnost,
+    a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:zdravotní-a-zásobovací-služba, a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:účast-v-povstání-v-květnu-1945,
+    a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:členství-povstaleckého-velitelství,
+    a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:členství-v-revoluční-české-národní-radě,
+    a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:žádost-o-vydání-potvrzení-o-účasti-v-povstání-v-květnu-1945 .
+
+a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:účast-v-povstání-v-květnu-1945 a
+    skos:Concept;
+  skos:inScheme a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n:glosář;
+  skos:prefLabel "účast v povstání v květnu 1945"@cs;
+  skos:scopeNote ""@cs .
+
+a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:žádost-o-vydání-potvrzení-o-účasti-v-povstání-v-květnu-1945
+  a skos:Concept;
+  skos:inScheme a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n:glosář;
+  skos:prefLabel "žádost o vydání potvrzení o účasti v povstání v květnu 1945"@cs;
+  skos:scopeNote ""@cs .
+
+a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:státní-občan-české-republiky a skos:Concept;
+  skos:inScheme a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n:glosář;
+  skos:prefLabel "státní občan České republiky"@cs;
+  skos:scopeNote ""@cs .
+
+a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:potvrzení-o-účasti-v-povstání-v-květnu-1945
+  a skos:Concept;
+  skos:inScheme a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n:glosář;
+  skos:prefLabel "potvrzení o účasti v povstání v květnu 1945"@cs;
+  skos:scopeNote ""@cs .
+
+a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:ověřené-potvrzení a skos:Concept;
+  skos:inScheme a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n:glosář;
+  skos:prefLabel "ověřené potvrzení"@cs;
+  skos:scopeNote ""@cs .
+
+a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:ověřené-svědecké-prohlášení a skos:Concept;
+  skos:inScheme a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n:glosář;
+  skos:prefLabel "ověřené svědecké prohlášení"@cs;
+  skos:scopeNote ""@cs .
+
+a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:jiný-způsob-uznaný-ministerstvem
+  a skos:Concept;
+  skos:inScheme a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n:glosář;
+  skos:prefLabel "jiný způsob uznaný ministerstvem"@cs;
+  skos:scopeNote ""@cs .
+
+a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:jméno-a-příjmení a skos:Concept;
+  skos:inScheme a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n:glosář;
+  skos:prefLabel "jméno a příjmení"@cs;
+  skos:scopeNote ""@cs .
+
+a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:jenž-se-zúčastnil a skos:Concept;
+  skos:inScheme a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n:glosář;
+  skos:prefLabel "jenž se zúčastnil"@cs .
+
+<https://slovník.gov.cz/agendový/slovn-k-z-kona-357-2005-sb-o-ocen-n/pojem/,-jenž-se-zapojil>
+  a skos:Concept;
+  skos:inScheme a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n:glosář;
+  skos:prefLabel ", jenž se zapojil"@cs .
+
+a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:podává-žádost a skos:Concept;
+  skos:inScheme a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n:glosář;
+  skos:prefLabel "podává žádost"@cs .
+
+a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:jsou-li-splněny-zákonné-podmínky
+  a skos:Concept;
+  skos:inScheme a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n:glosář;
+  skos:prefLabel "jsou-li splněny zákonné podmínky"@cs .
+
+a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:je-přílohou-žádosti a skos:Concept;
+  skos:inScheme a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n:glosář;
+  skos:prefLabel "je přílohou žádosti"@cs .
+
+a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:zdravotní-a-spojovací-činnost a skos:Concept;
+  skos:inScheme a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n:glosář;
+  skos:prefLabel "zdravotní a spojovací činnost"@cs .
+
+a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:zdravotní-a-zásobovací-služba a skos:Concept;
+  skos:inScheme a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n:glosář;
+  skos:prefLabel "zdravotní a zásobovací služba"@cs .
+
+a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:členství-v-revoluční-české-národní-radě
+  a skos:Concept;
+  skos:inScheme a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n:glosář;
+  skos:prefLabel "členství v Revoluční České národní radě"@cs .
+
+a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:boj-se-zbraní a skos:Concept;
+  skos:inScheme a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n:glosář;
+  skos:prefLabel "boj se zbraní"@cs .
+
+a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:členství-povstaleckého-velitelství
+  a skos:Concept;
+  skos:inScheme a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n:glosář;
+  skos:prefLabel "členství povstaleckého velitelství"@cs .
+
+a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:má-tento-charakter a skos:Concept;
+  skos:inScheme a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n:glosář;
+  skos:prefLabel "má tento charakter"@cs .

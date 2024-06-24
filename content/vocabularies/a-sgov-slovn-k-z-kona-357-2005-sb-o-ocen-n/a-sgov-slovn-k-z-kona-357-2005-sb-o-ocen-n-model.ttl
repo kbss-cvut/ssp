@@ -1,0 +1,377 @@
+@prefix a-popis-dat-pojem: <http://onto.fel.cvut.cz/ontologies/slovník/agendový/popis-dat/pojem/> .
+@prefix a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n: <https://slovník.gov.cz/agendový/slovn-k-z-kona-357-2005-sb-o-ocen-n/> .
+@prefix a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem: <https://slovník.gov.cz/agendový/slovn-k-z-kona-357-2005-sb-o-ocen-n/pojem/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n:model a a-popis-dat-pojem:model, owl:Ontology;
+  dcterms:created "2023-02-07T13:33:43.515Z"^^xsd:dateTime;
+  dcterms:rights <https://creativecommons.org/licenses/by-sa/4.0>;
+  dcterms:title "slovník zákona č. 357/2005 Sb., o ocenění - model"@cs;
+  vann:preferredNamespacePrefix "a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem";
+  vann:preferredNamespaceUri "https://slovník.gov.cz/agendový/slovn-k-z-kona-357-2005-sb-o-ocen-n/pojem/";
+  owl:imports a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n:glosář;
+  owl:versionIRI "https://slovník.gov.cz/agendový/slovn-k-z-kona-357-2005-sb-o-ocen-n/model/verze/1.0.0" .
+
+a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:účast-v-povstání-v-květnu-1945 a
+    <https://slovník.gov.cz/základní/pojem/typ-události>;
+  <http://onto.fel.cvut.cz/ontologies/application/termit/pojem/je-draft> true;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
+        ];
+      owl:someValuesFrom <https://slovník.gov.cz/agendový/slovn-k-z-kona-357-2005-sb-o-ocen-n/pojem/,-jenž-se-zapojil>
+    ], [ a owl:Restriction;
+      owl:allValuesFrom <https://slovník.gov.cz/agendový/slovn-k-z-kona-357-2005-sb-o-ocen-n/pojem/,-jenž-se-zapojil>;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
+        ]
+    ], [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
+        ];
+      owl:someValuesFrom a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:má-tento-charakter
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:má-tento-charakter;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
+        ]
+    ] .
+
+a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:žádost-o-vydání-potvrzení-o-účasti-v-povstání-v-květnu-1945
+  a <https://slovník.gov.cz/základní/pojem/typ-objektu>;
+  <http://onto.fel.cvut.cz/ontologies/application/termit/pojem/je-draft> true;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+        ];
+      owl:someValuesFrom a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:jsou-li-splněny-zákonné-podmínky
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:jsou-li-splněny-zákonné-podmínky;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+        ]
+    ], [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
+        ];
+      owl:someValuesFrom a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:je-přílohou-žádosti
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:je-přílohou-žádosti;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
+        ]
+    ] .
+
+a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:státní-občan-české-republiky a <https://slovník.gov.cz/základní/pojem/typ-objektu>;
+  <http://onto.fel.cvut.cz/ontologies/application/termit/pojem/je-draft> true;
+  rdfs:subClassOf <https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/subjekt-údajů-vedený-v-registru-obyvatel>,
+    [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+      owl:someValuesFrom a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:jméno-a-příjmení
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:jméno-a-příjmení;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:jméno-a-příjmení;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+        ];
+      owl:someValuesFrom a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:podává-žádost
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:podává-žádost;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+        ]
+    ], [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+        ];
+      owl:someValuesFrom <https://slovník.gov.cz/agendový/slovn-k-z-kona-357-2005-sb-o-ocen-n/pojem/,-jenž-se-zapojil>
+    ], [ a owl:Restriction;
+      owl:allValuesFrom <https://slovník.gov.cz/agendový/slovn-k-z-kona-357-2005-sb-o-ocen-n/pojem/,-jenž-se-zapojil>;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+        ]
+    ] .
+
+a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:potvrzení-o-účasti-v-povstání-v-květnu-1945
+  a <https://slovník.gov.cz/základní/pojem/typ-objektu>;
+  <http://onto.fel.cvut.cz/ontologies/application/termit/pojem/je-draft> true;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
+        ];
+      owl:someValuesFrom a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:jsou-li-splněny-zákonné-podmínky
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:jsou-li-splněny-zákonné-podmínky;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
+        ]
+    ] .
+
+a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:ověřené-potvrzení a <https://slovník.gov.cz/základní/pojem/typ-objektu>;
+  <http://onto.fel.cvut.cz/ontologies/application/termit/pojem/je-draft> true;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+        ];
+      owl:someValuesFrom a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:je-přílohou-žádosti
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:je-přílohou-žádosti;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+        ]
+    ] .
+
+a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:ověřené-svědecké-prohlášení a <https://slovník.gov.cz/základní/pojem/typ-objektu>;
+  <http://onto.fel.cvut.cz/ontologies/application/termit/pojem/je-draft> true;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+        ];
+      owl:someValuesFrom a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:je-přílohou-žádosti
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:je-přílohou-žádosti;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+        ]
+    ] .
+
+a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:jiný-způsob-uznaný-ministerstvem
+  a <https://slovník.gov.cz/základní/pojem/typ-objektu>;
+  <http://onto.fel.cvut.cz/ontologies/application/termit/pojem/je-draft> true;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+        ];
+      owl:someValuesFrom a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:je-přílohou-žádosti
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:je-přílohou-žádosti;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+        ]
+    ] .
+
+a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:jméno-a-příjmení a <https://slovník.gov.cz/základní/pojem/typ-vlastnosti>;
+  <http://onto.fel.cvut.cz/ontologies/application/termit/pojem/je-draft> true;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ];
+      owl:someValuesFrom a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:státní-občan-české-republiky
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:státní-občan-české-republiky;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:státní-občan-české-republiky;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ] .
+
+a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:jenž-se-zúčastnil a <https://slovník.gov.cz/základní/pojem/typ-vztahu> .
+
+<https://slovník.gov.cz/agendový/slovn-k-z-kona-357-2005-sb-o-ocen-n/pojem/,-jenž-se-zapojil>
+  a <https://slovník.gov.cz/základní/pojem/typ-vztahu>;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>;
+      owl:someValuesFrom a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:účast-v-povstání-v-květnu-1945
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:účast-v-povstání-v-květnu-1945;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
+    ], [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>;
+      owl:someValuesFrom a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:státní-občan-české-republiky
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:státní-občan-české-republiky;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+    ] .
+
+a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:podává-žádost a <https://slovník.gov.cz/základní/pojem/typ-vztahu>;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>;
+      owl:someValuesFrom a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:státní-občan-české-republiky
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:státní-občan-české-republiky;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+    ], [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>;
+      owl:someValuesFrom a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:žádost-o-vydání-potvrzení-o-účasti-v-povstání-v-květnu-1945
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:žádost-o-vydání-potvrzení-o-účasti-v-povstání-v-květnu-1945;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
+    ] .
+
+a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:jsou-li-splněny-zákonné-podmínky
+  a <https://slovník.gov.cz/základní/pojem/typ-vztahu>;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>;
+      owl:someValuesFrom a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:žádost-o-vydání-potvrzení-o-účasti-v-povstání-v-květnu-1945
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:žádost-o-vydání-potvrzení-o-účasti-v-povstání-v-květnu-1945;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+    ], [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>;
+      owl:someValuesFrom a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:potvrzení-o-účasti-v-povstání-v-květnu-1945
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:potvrzení-o-účasti-v-povstání-v-květnu-1945;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
+    ] .
+
+a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:je-přílohou-žádosti a <https://slovník.gov.cz/základní/pojem/typ-vztahu>;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>;
+      owl:someValuesFrom a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:ověřené-potvrzení
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:ověřené-potvrzení;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+    ], [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>;
+      owl:someValuesFrom a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:ověřené-svědecké-prohlášení
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:ověřené-svědecké-prohlášení;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+    ], [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>;
+      owl:someValuesFrom a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:žádost-o-vydání-potvrzení-o-účasti-v-povstání-v-květnu-1945
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:žádost-o-vydání-potvrzení-o-účasti-v-povstání-v-květnu-1945;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
+    ], [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>;
+      owl:someValuesFrom a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:jiný-způsob-uznaný-ministerstvem
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:jiný-způsob-uznaný-ministerstvem;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+    ] .
+
+a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:zdravotní-a-spojovací-činnost a <https://slovník.gov.cz/základní/pojem/typ-události>;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+        ];
+      owl:someValuesFrom a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:má-tento-charakter
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:má-tento-charakter;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+        ]
+    ] .
+
+a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:zdravotní-a-zásobovací-služba a <https://slovník.gov.cz/základní/pojem/typ-události>;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+        ];
+      owl:someValuesFrom a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:má-tento-charakter
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:má-tento-charakter;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+        ]
+    ] .
+
+a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:členství-v-revoluční-české-národní-radě
+  a <https://slovník.gov.cz/základní/pojem/typ-události>;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+        ];
+      owl:someValuesFrom a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:má-tento-charakter
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:má-tento-charakter;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+        ]
+    ] .
+
+a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:boj-se-zbraní a <https://slovník.gov.cz/základní/pojem/typ-události>;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+        ];
+      owl:someValuesFrom a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:má-tento-charakter
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:má-tento-charakter;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+        ]
+    ] .
+
+a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:členství-povstaleckého-velitelství
+  a <https://slovník.gov.cz/základní/pojem/typ-události>;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+        ];
+      owl:someValuesFrom a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:má-tento-charakter
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:má-tento-charakter;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+        ]
+    ] .
+
+a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:má-tento-charakter a <https://slovník.gov.cz/základní/pojem/typ-vztahu>;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>;
+      owl:someValuesFrom a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:účast-v-povstání-v-květnu-1945
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:účast-v-povstání-v-květnu-1945;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
+    ], [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>;
+      owl:someValuesFrom a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:členství-v-revoluční-české-národní-radě
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:členství-v-revoluční-české-národní-radě;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+    ], [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>;
+      owl:someValuesFrom a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:členství-povstaleckého-velitelství
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:členství-povstaleckého-velitelství;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+    ], [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>;
+      owl:someValuesFrom a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:zdravotní-a-zásobovací-služba
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:zdravotní-a-zásobovací-služba;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+    ], [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>;
+      owl:someValuesFrom a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:zdravotní-a-spojovací-činnost
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:zdravotní-a-spojovací-činnost;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+    ], [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>;
+      owl:someValuesFrom a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:boj-se-zbraní
+    ], [ a owl:Restriction;
+      owl:allValuesFrom a-sgov-slovn-k-z-kona-357-2005-sb-o-ocen-n-pojem:boj-se-zbraní;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+    ] .
+
+[] owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1> .
+
+[] owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1> .
+
+[] owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1> .
+
+[] owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1> .
+
+[] owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1> .
+
+[] owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2> .
+
+[] owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2> .
