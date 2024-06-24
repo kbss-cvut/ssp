@@ -1,0 +1,79 @@
+@prefix a-popis-dat-pojem: <http://onto.fel.cvut.cz/ontologies/slovník/agendový/popis-dat/pojem/> .
+@prefix a-sgov-pokus-daje-podnikatel-v-el-kom: <https://slovník.gov.cz/agendový/pokus-daje-podnikatel-v-el-kom/> .
+@prefix a-sgov-pokus-daje-podnikatel-v-el-kom-pojem: <https://slovník.gov.cz/agendový/pokus-daje-podnikatel-v-el-kom/pojem/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+a-sgov-pokus-daje-podnikatel-v-el-kom:model a a-popis-dat-pojem:model, owl:Ontology;
+  dcterms:created "2023-02-23T08:01:28.509Z"^^xsd:dateTime;
+  dcterms:rights <https://creativecommons.org/licenses/by-sa/4.0>;
+  dcterms:title "pokus údaje podnikatel v el.kom. - model"@cs;
+  vann:preferredNamespacePrefix "a-sgov-pokus-daje-podnikatel-v-el-kom-pojem";
+  vann:preferredNamespaceUri "https://slovník.gov.cz/agendový/pokus-daje-podnikatel-v-el-kom/pojem/";
+  owl:imports a-sgov-pokus-daje-podnikatel-v-el-kom:glosář;
+  owl:versionIRI "https://slovník.gov.cz/agendový/pokus-daje-podnikatel-v-el-kom/model/verze/1.0.0" .
+
+a-sgov-pokus-daje-podnikatel-v-el-kom-pojem:podnikatel-v-elektronických-komunikacích---fyzická-osoba
+  a <https://slovník.gov.cz/základní/pojem/typ-objektu>;
+  <http://onto.fel.cvut.cz/ontologies/application/termit/pojem/je-draft> true .
+
+a-sgov-pokus-daje-podnikatel-v-el-kom-pojem:podnikatel-v-elektronických-komunikacích---právnická-osoba
+  a <https://slovník.gov.cz/základní/pojem/typ-objektu>;
+  <http://onto.fel.cvut.cz/ontologies/application/termit/pojem/je-draft> true .
+
+a-sgov-pokus-daje-podnikatel-v-el-kom-pojem:osvědčení-podnikatele-v-elektronických-komunikacích
+  <http://onto.fel.cvut.cz/ontologies/application/termit/pojem/je-draft> true .
+
+a-sgov-pokus-daje-podnikatel-v-el-kom-pojem:odštěpný-závod <http://onto.fel.cvut.cz/ontologies/application/termit/pojem/je-draft>
+    true .
+
+a-sgov-pokus-daje-podnikatel-v-el-kom-pojem:držitel-individuálního-oprávnění---fyzická-osoba
+  <http://onto.fel.cvut.cz/ontologies/application/termit/pojem/je-draft> true .
+
+a-sgov-pokus-daje-podnikatel-v-el-kom-pojem:držitel-individuálního-oprávnění---právnická-osoba
+  <http://onto.fel.cvut.cz/ontologies/application/termit/pojem/je-draft> true .
+
+a-sgov-pokus-daje-podnikatel-v-el-kom-pojem:individuální-oprávnění <http://onto.fel.cvut.cz/ontologies/application/termit/pojem/je-draft>
+    true .
+
+a-sgov-pokus-daje-podnikatel-v-el-kom-pojem:žádost-o-udělení-oprávnění-k-využívání-rádiových-kmitočtů
+  <http://onto.fel.cvut.cz/ontologies/application/termit/pojem/je-draft> true .
+
+a-sgov-pokus-daje-podnikatel-v-el-kom-pojem:jméno <http://onto.fel.cvut.cz/ontologies/application/termit/pojem/je-draft>
+    true .
+
+a-sgov-pokus-daje-podnikatel-v-el-kom-pojem:příjmení <http://onto.fel.cvut.cz/ontologies/application/termit/pojem/je-draft>
+    true .
+
+a-sgov-pokus-daje-podnikatel-v-el-kom-pojem:adresa <http://onto.fel.cvut.cz/ontologies/application/termit/pojem/je-draft>
+    true .
+
+a-sgov-pokus-daje-podnikatel-v-el-kom-pojem:název <http://onto.fel.cvut.cz/ontologies/application/termit/pojem/je-draft>
+    true .
+
+a-sgov-pokus-daje-podnikatel-v-el-kom-pojem:adresa-místa-podnikání <http://onto.fel.cvut.cz/ontologies/application/termit/pojem/je-draft>
+    true .
+
+a-sgov-pokus-daje-podnikatel-v-el-kom-pojem:identifikační-číslo <http://onto.fel.cvut.cz/ontologies/application/termit/pojem/je-draft>
+    true .
+
+a-sgov-pokus-daje-podnikatel-v-el-kom-pojem:má-individuální-oprávnění <http://onto.fel.cvut.cz/ontologies/application/termit/pojem/je-draft>
+    true .
+
+a-sgov-pokus-daje-podnikatel-v-el-kom-pojem:adresa-sídla <http://onto.fel.cvut.cz/ontologies/application/termit/pojem/je-draft>
+    true .
+
+a-sgov-pokus-daje-podnikatel-v-el-kom-pojem:jméno-osoby-oprávněné-jednat-za-právnickou-osobu
+  <http://onto.fel.cvut.cz/ontologies/application/termit/pojem/je-draft> true .
+
+a-sgov-pokus-daje-podnikatel-v-el-kom-pojem:příjmení-osoby-oprávněné-jednat-za-právnickou-osobu
+  <http://onto.fel.cvut.cz/ontologies/application/termit/pojem/je-draft> true .
+
+a-sgov-pokus-daje-podnikatel-v-el-kom-pojem:bydliště-osoby-oprávněné-jednat-ze-právnickou-osobu
+  <http://onto.fel.cvut.cz/ontologies/application/termit/pojem/je-draft> true .
+
+a-sgov-pokus-daje-podnikatel-v-el-kom-pojem:má-odštěpný-závod <http://onto.fel.cvut.cz/ontologies/application/termit/pojem/je-draft>
+    true .

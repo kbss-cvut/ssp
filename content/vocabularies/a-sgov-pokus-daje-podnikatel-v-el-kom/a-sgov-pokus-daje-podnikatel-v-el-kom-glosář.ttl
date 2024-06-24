@@ -1,0 +1,181 @@
+@prefix a-popis-dat-pojem: <http://onto.fel.cvut.cz/ontologies/slovník/agendový/popis-dat/pojem/> .
+@prefix a-sgov-pokus-daje-podnikatel-v-el-kom: <https://slovník.gov.cz/agendový/pokus-daje-podnikatel-v-el-kom/> .
+@prefix a-sgov-pokus-daje-podnikatel-v-el-kom-pojem: <https://slovník.gov.cz/agendový/pokus-daje-podnikatel-v-el-kom/pojem/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+a-sgov-pokus-daje-podnikatel-v-el-kom:glosář a a-popis-dat-pojem:glosář, owl:Ontology,
+    skos:ConceptScheme;
+  dcterms:created "2023-02-23T08:01:28.509Z"^^xsd:dateTime;
+  dcterms:rights <https://creativecommons.org/licenses/by-sa/4.0>;
+  dcterms:title "pokus údaje podnikatel v el.kom. - glosář"@cs;
+  vann:preferredNamespacePrefix "a-sgov-pokus-daje-podnikatel-v-el-kom-pojem";
+  vann:preferredNamespaceUri "https://slovník.gov.cz/agendový/pokus-daje-podnikatel-v-el-kom/pojem/";
+  owl:versionIRI "https://slovník.gov.cz/agendový/pokus-daje-podnikatel-v-el-kom/glosář/verze/1.0.0";
+  skos:hasTopConcept a-sgov-pokus-daje-podnikatel-v-el-kom-pojem:adresa, a-sgov-pokus-daje-podnikatel-v-el-kom-pojem:adresa-místa-podnikání,
+    a-sgov-pokus-daje-podnikatel-v-el-kom-pojem:adresa-sídla, a-sgov-pokus-daje-podnikatel-v-el-kom-pojem:bydliště-osoby-oprávněné-jednat-ze-právnickou-osobu,
+    a-sgov-pokus-daje-podnikatel-v-el-kom-pojem:držitel-individuálního-oprávnění---fyzická-osoba,
+    a-sgov-pokus-daje-podnikatel-v-el-kom-pojem:držitel-individuálního-oprávnění---právnická-osoba,
+    a-sgov-pokus-daje-podnikatel-v-el-kom-pojem:identifikační-číslo, a-sgov-pokus-daje-podnikatel-v-el-kom-pojem:individuální-oprávnění,
+    a-sgov-pokus-daje-podnikatel-v-el-kom-pojem:jméno, a-sgov-pokus-daje-podnikatel-v-el-kom-pojem:jméno-osoby-oprávněné-jednat-za-právnickou-osobu,
+    a-sgov-pokus-daje-podnikatel-v-el-kom-pojem:má-individuální-oprávnění, a-sgov-pokus-daje-podnikatel-v-el-kom-pojem:má-odštěpný-závod,
+    a-sgov-pokus-daje-podnikatel-v-el-kom-pojem:název, a-sgov-pokus-daje-podnikatel-v-el-kom-pojem:odštěpný-závod,
+    a-sgov-pokus-daje-podnikatel-v-el-kom-pojem:osvědčení-podnikatele-v-elektronických-komunikacích,
+    a-sgov-pokus-daje-podnikatel-v-el-kom-pojem:podnikatel-v-elektronických-komunikacích---fyzická-osoba,
+    a-sgov-pokus-daje-podnikatel-v-el-kom-pojem:podnikatel-v-elektronických-komunikacích---právnická-osoba,
+    a-sgov-pokus-daje-podnikatel-v-el-kom-pojem:příjmení, a-sgov-pokus-daje-podnikatel-v-el-kom-pojem:příjmení-osoby-oprávněné-jednat-za-právnickou-osobu,
+    a-sgov-pokus-daje-podnikatel-v-el-kom-pojem:žádost-o-udělení-oprávnění-k-využívání-rádiových-kmitočtů .
+
+a-sgov-pokus-daje-podnikatel-v-el-kom-pojem:podnikatel-v-elektronických-komunikacích---fyzická-osoba
+  a skos:Concept;
+  dcterms:source "Zákon č. 127/2005 Sb., o elektronických komunikacích a o změně některých souvisejících zákonů (zákon o elektronických komunikacích), § 13 Oznámení podnikání odst. 1)";
+  skos:definition "Fyzická soba vykonávající komunikační činnost, která je podnikáním v elektronických komunikacích, s výjimkou poskytování interpersonálních komunikačních služeb nezávislých na číslech."@cs;
+  skos:inScheme a-sgov-pokus-daje-podnikatel-v-el-kom:glosář;
+  skos:prefLabel "Podnikatel v elektronických komunikacích - fyzická osoba"@cs;
+  skos:scopeNote "AIS - Modulární správní systém - MOSS"@cs .
+
+a-sgov-pokus-daje-podnikatel-v-el-kom-pojem:podnikatel-v-elektronických-komunikacích---právnická-osoba
+  a skos:Concept;
+  dcterms:source "Zákon č. 127/2005 Sb., o elektronických komunikacích a o změně některých souvisejících zákonů (zákon o elektronických komunikacích), § 13 Oznámení podnikání odst. 1)";
+  skos:definition "Právnická osoba vykonávající komunikační činnost, která je podnikáním v elektronických komunikacích, s výjimkou poskytování interpersonálních komunikačních služeb nezávislých na číslech."@cs;
+  skos:inScheme a-sgov-pokus-daje-podnikatel-v-el-kom:glosář;
+  skos:prefLabel "Podnikatel v elektronických komunikacích - právnická osoba"@cs;
+  skos:scopeNote "AIS - Modulární správní systém - MOSS"@cs .
+
+a-sgov-pokus-daje-podnikatel-v-el-kom-pojem:osvědčení-podnikatele-v-elektronických-komunikacích
+  a skos:Concept;
+  dcterms:source "Zákon č. 127/2005 Sb., o elektronických komunikacích a o změně některých souvisejících zákonů (zákon o elektronických komunikacích), § 14 Osvědčení a evidence podnikatelů";
+  skos:definition """
+"""@cs;
+  skos:inScheme a-sgov-pokus-daje-podnikatel-v-el-kom:glosář;
+  skos:prefLabel "Osvědčení podnikatele v elektronických komunikacích"@cs;
+  skos:scopeNote ""@cs .
+
+a-sgov-pokus-daje-podnikatel-v-el-kom-pojem:odštěpný-závod a skos:Concept;
+  skos:definition ""@cs;
+  skos:inScheme a-sgov-pokus-daje-podnikatel-v-el-kom:glosář;
+  skos:prefLabel "Odštěpný závod"@cs;
+  skos:scopeNote ""@cs .
+
+a-sgov-pokus-daje-podnikatel-v-el-kom-pojem:držitel-individuálního-oprávnění---fyzická-osoba
+  a skos:Concept;
+  skos:definition ""@cs;
+  skos:inScheme a-sgov-pokus-daje-podnikatel-v-el-kom:glosář;
+  skos:prefLabel "Držitel individuálního oprávnění - fyzická osoba"@cs;
+  skos:scopeNote ""@cs .
+
+a-sgov-pokus-daje-podnikatel-v-el-kom-pojem:držitel-individuálního-oprávnění---právnická-osoba
+  a skos:Concept;
+  dcterms:source "Zákon č. 127/2005 Sb., o elektronických komunikacích a o změně některých souvisejících zákonů (zákon o elektronických komunikacích), § 17 Individuální oprávnění k využívání rádiových kmitočtů, odst. 1) a § 18 Vydání oprávnění k využívání rádiových kmitočtů";
+  skos:definition ""@cs;
+  skos:inScheme a-sgov-pokus-daje-podnikatel-v-el-kom:glosář;
+  skos:prefLabel "Držitel individuálního oprávnění - právnická osoba"@cs;
+  skos:scopeNote ""@cs .
+
+a-sgov-pokus-daje-podnikatel-v-el-kom-pojem:individuální-oprávnění a skos:Concept;
+  dcterms:source "Zákon č. 127/2005 Sb., o elektronických komunikacích a o změně některých souvisejících zákonů (zákon o elektronických komunikacích), § 17 Individuální oprávnění k využívání rádiových kmitočtů, odst. 1) a § 18 Vydání oprávnění k využívání rádiových kmitočtů";
+  skos:definition """Oprávnění k využívání rádiových kmitočtů, které nelze využívat na základě všeobecného oprávnění podle Zákona č. 127/2005 Sb., § 9.
+"""@cs;
+  skos:inScheme a-sgov-pokus-daje-podnikatel-v-el-kom:glosář;
+  skos:prefLabel "Individuální oprávnění"@cs;
+  skos:scopeNote "AIS - SPECTRAPlus"@cs .
+
+a-sgov-pokus-daje-podnikatel-v-el-kom-pojem:žádost-o-udělení-oprávnění-k-využívání-rádiových-kmitočtů
+  a skos:Concept;
+  dcterms:source "Zákon č. 127/2005 Sb., o elektronických komunikacích a o změně některých souvisejících zákonů (zákon o elektronických komunikacích), § 17 Individuální oprávnění k využívání rádiových kmitočtů, odst. 2)";
+  skos:definition """Žádost k využívání rádiových kmitočtů podle  § 17, které nelze využívat na základě všeobecného oprávnění podle Zákona č. 127/2005 Sb., § 9.
+"""@cs;
+  skos:inScheme a-sgov-pokus-daje-podnikatel-v-el-kom:glosář;
+  skos:prefLabel "Žádost o udělení oprávnění k využívání rádiových kmitočtů"@cs;
+  skos:scopeNote "AIS - SPECTRAPlus"@cs .
+
+a-sgov-pokus-daje-podnikatel-v-el-kom-pojem:jméno a skos:Concept;
+  dcterms:source "Zákon č. 127/2005 Sb., o elektronických komunikacích a o změně některých souvisejících zákonů (zákon o elektronických komunikacích), § 18 vydání oprávnění k využívání rádiových kmitočtů odst. 1 písm. a) bod 1.";
+  skos:definition ""@cs;
+  skos:inScheme a-sgov-pokus-daje-podnikatel-v-el-kom:glosář;
+  skos:prefLabel "Jméno"@cs;
+  skos:scopeNote ""@cs .
+
+a-sgov-pokus-daje-podnikatel-v-el-kom-pojem:příjmení a skos:Concept;
+  dcterms:source "Zákon č. 127/2005 Sb., o elektronických komunikacích a o změně některých souvisejících zákonů (zákon o elektronických komunikacích), § 18 vydání oprávnění k využívání rádiových kmitočtů odst. 1 písm. a) bod 1.";
+  skos:definition ""@cs;
+  skos:inScheme a-sgov-pokus-daje-podnikatel-v-el-kom:glosář;
+  skos:prefLabel "Příjmení"@cs;
+  skos:scopeNote ""@cs .
+
+a-sgov-pokus-daje-podnikatel-v-el-kom-pojem:adresa a skos:Concept;
+  dcterms:source "Zákon č. 127/2005 Sb., o elektronických komunikacích a o změně některých souvisejících zákonů (zákon o elektronických komunikacích), § 18 vydání oprávnění k využívání rádiových kmitočtů odst. 1 písm. a) bod 1.";
+  skos:definition ""@cs;
+  skos:inScheme a-sgov-pokus-daje-podnikatel-v-el-kom:glosář;
+  skos:prefLabel "Adresa"@cs;
+  skos:scopeNote ""@cs .
+
+a-sgov-pokus-daje-podnikatel-v-el-kom-pojem:název a skos:Concept;
+  dcterms:source "Zákon č. 127/2005 Sb., o elektronických komunikacích a o změně některých souvisejících zákonů (zákon o elektronických komunikacích), § 18 vydání oprávnění k využívání rádiových kmitočtů odst. 1 písm. a) bod 1.";
+  skos:definition ""@cs;
+  skos:inScheme a-sgov-pokus-daje-podnikatel-v-el-kom:glosář;
+  skos:prefLabel "Název"@cs;
+  skos:scopeNote ""@cs .
+
+a-sgov-pokus-daje-podnikatel-v-el-kom-pojem:adresa-místa-podnikání a skos:Concept;
+  dcterms:source "Zákon č. 127/2005 Sb., o elektronických komunikacích a o změně některých souvisejících zákonů (zákon o elektronických komunikacích), § 18 vydání oprávnění k využívání rádiových kmitočtů odst. 1 písm. a) bod 1.";
+  skos:definition ""@cs;
+  skos:inScheme a-sgov-pokus-daje-podnikatel-v-el-kom:glosář;
+  skos:prefLabel "Adresa místa podnikání"@cs;
+  skos:scopeNote ""@cs .
+
+a-sgov-pokus-daje-podnikatel-v-el-kom-pojem:identifikační-číslo a skos:Concept;
+  dcterms:source "Zákon č. 127/2005 Sb., o elektronických komunikacích a o změně některých souvisejících zákonů (zákon o elektronických komunikacích), § 18 vydání oprávnění k využívání rádiových kmitočtů odst. 1 písm. a) bod 1.";
+  skos:definition ""@cs;
+  skos:inScheme a-sgov-pokus-daje-podnikatel-v-el-kom:glosář;
+  skos:prefLabel "Identifikační číslo"@cs;
+  skos:scopeNote ""@cs .
+
+a-sgov-pokus-daje-podnikatel-v-el-kom-pojem:má-individuální-oprávnění a skos:Concept;
+  dcterms:source "Zákon č. 127/2005 Sb., o elektronických komunikacích a o změně některých souvisejících zákonů (zákon o elektronických komunikacích), § 18 vydání oprávnění k využívání rádiových kmitočtů odst. 1 písm. a) bod 1.";
+  skos:definition ""@cs;
+  skos:inScheme a-sgov-pokus-daje-podnikatel-v-el-kom:glosář;
+  skos:prefLabel "Má individuální oprávnění"@cs;
+  skos:scopeNote ""@cs .
+
+a-sgov-pokus-daje-podnikatel-v-el-kom-pojem:adresa-sídla a skos:Concept;
+  dcterms:source "Zákon č. 127/2005 Sb., o elektronických komunikacích a o změně některých souvisejících zákonů (zákon o elektronických komunikacích), § 18 vydání oprávnění k využívání rádiových kmitočtů odst. 1 písm. a) bod 2.";
+  skos:definition ""@cs;
+  skos:inScheme a-sgov-pokus-daje-podnikatel-v-el-kom:glosář;
+  skos:prefLabel "Adresa sídla"@cs;
+  skos:scopeNote ""@cs .
+
+a-sgov-pokus-daje-podnikatel-v-el-kom-pojem:jméno-osoby-oprávněné-jednat-za-právnickou-osobu
+  a skos:Concept;
+  dcterms:source "Zákon č. 127/2005 Sb., o elektronických komunikacích a o změně některých souvisejících zákonů (zákon o elektronických komunikacích), § 18 vydání oprávnění k využívání rádiových kmitočtů odst. 1 písm. a) bod 2.";
+  skos:definition ""@cs;
+  skos:inScheme a-sgov-pokus-daje-podnikatel-v-el-kom:glosář;
+  skos:prefLabel "Jméno osoby oprávněné jednat za právnickou osobu"@cs;
+  skos:scopeNote ""@cs .
+
+a-sgov-pokus-daje-podnikatel-v-el-kom-pojem:příjmení-osoby-oprávněné-jednat-za-právnickou-osobu
+  a skos:Concept;
+  dcterms:source "Zákon č. 127/2005 Sb., o elektronických komunikacích a o změně některých souvisejících zákonů (zákon o elektronických komunikacích), § 18 vydání oprávnění k využívání rádiových kmitočtů odst. 1 písm. a) bod 2.";
+  skos:definition ""@cs;
+  skos:inScheme a-sgov-pokus-daje-podnikatel-v-el-kom:glosář;
+  skos:prefLabel "Příjmení osoby oprávněné jednat za právnickou osobu"@cs;
+  skos:scopeNote ""@cs .
+
+a-sgov-pokus-daje-podnikatel-v-el-kom-pojem:bydliště-osoby-oprávněné-jednat-ze-právnickou-osobu
+  a skos:Concept;
+  dcterms:source "Zákon č. 127/2005 Sb., o elektronických komunikacích a o změně některých souvisejících zákonů (zákon o elektronických komunikacích), § 18 vydání oprávnění k využívání rádiových kmitočtů odst. 1 písm. a) bod 2.";
+  skos:definition ""@cs;
+  skos:inScheme a-sgov-pokus-daje-podnikatel-v-el-kom:glosář;
+  skos:prefLabel "Bydliště osoby oprávněné jednat ze právnickou osobu"@cs;
+  skos:scopeNote ""@cs .
+
+a-sgov-pokus-daje-podnikatel-v-el-kom-pojem:má-odštěpný-závod a skos:Concept;
+  dcterms:source "Zákon č. 127/2005 Sb., o elektronických komunikacích a o změně některých souvisejících zákonů (zákon o elektronických komunikacích), § 18 vydání oprávnění k využívání rádiových kmitočtů odst. 1 písm. a) bod 2.";
+  skos:definition ""@cs;
+  skos:inScheme a-sgov-pokus-daje-podnikatel-v-el-kom:glosář;
+  skos:prefLabel "Má odštěpný závod"@cs;
+  skos:scopeNote ""@cs .

@@ -1,0 +1,28 @@
+@prefix a-popis-dat-pojem: <http://onto.fel.cvut.cz/ontologies/slovník/agendový/popis-dat/pojem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://slovník.gov.cz/agendový/pokus-daje-podnikatel-v-el-kom/pojem/podnikatel-v-elektronických-komunikacích---fyzická-osoba>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/element>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/hidden> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "335";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "-38" .
+
+<https://slovník.gov.cz/agendový/pokus-daje-podnikatel-v-el-kom/pojem/podnikatel-v-elektronických-komunikacích---právnická-osoba>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/element>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/hidden> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "886";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "98" .
+
+<https://slovník.gov.cz/datový/pracovní-prostor/pojem/příloha/instance-5c881227-33ca-4ac6-bc57-1328c83b5585>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/diagram>, a-popis-dat-pojem:příloha,
+    <https://slovník.gov.cz/datový/pracovní-prostor/pojem/příloha>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "5c881227-33ca-4ac6-bc57-1328c83b5585";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/index> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/name> "Nový diagram";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/representation> "0" .
+
+<https://slovník.gov.cz/agendový/pokus-daje-podnikatel-v-el-kom/pojem/adresa> a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/element>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/hidden> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "500";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "126" .
