@@ -24,13 +24,13 @@ g-sgov-evaluace-5-registr-vozidel-pojem:vozidlo a skos:Concept;
   skos:inScheme g-sgov-evaluace-5-registr-vozidel:glosář;
   skos:prefLabel "vozidlo"@cs .
 
-g-sgov-evaluace-5-registr-vozidel-pojem:vin a skos:Concept;
-  skos:inScheme g-sgov-evaluace-5-registr-vozidel:glosář;
-  skos:prefLabel "VIN"@cs .
-
 g-sgov-evaluace-5-registr-vozidel-pojem:rz a skos:Concept;
   skos:inScheme g-sgov-evaluace-5-registr-vozidel:glosář;
   skos:prefLabel "RZ"@cs .
+
+g-sgov-evaluace-5-registr-vozidel-pojem:vin a skos:Concept;
+  skos:inScheme g-sgov-evaluace-5-registr-vozidel:glosář;
+  skos:prefLabel "VIN"@cs .
 
 g-sgov-evaluace-5-registr-vozidel-pojem:hmotnost a skos:Concept;
   skos:inScheme g-sgov-evaluace-5-registr-vozidel:glosář;
