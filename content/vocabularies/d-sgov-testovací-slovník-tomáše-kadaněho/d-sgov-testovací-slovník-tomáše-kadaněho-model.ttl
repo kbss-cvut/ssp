@@ -1,0 +1,113 @@
+@prefix a-popis-dat-pojem: <http://onto.fel.cvut.cz/ontologies/slovník/agendový/popis-dat/pojem/> .
+@prefix d-sgov-testovací-slovník-tomáše-kadaněho: <https://slovník.gov.cz/datový/testovací-slovník-tomáše-kadaněho/> .
+@prefix d-sgov-testovací-slovník-tomáše-kadaněho-pojem: <https://slovník.gov.cz/datový/testovací-slovník-tomáše-kadaněho/pojem/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+d-sgov-testovací-slovník-tomáše-kadaněho:model a a-popis-dat-pojem:model, owl:Ontology;
+  dcterms:created "2022-11-29T20:47:25.591Z"^^xsd:dateTime;
+  dcterms:rights <https://creativecommons.org/licenses/by-sa/4.0>;
+  dcterms:title "Testovací slovník Tomáše Kadaněho - model"@cs;
+  vann:preferredNamespacePrefix "d-sgov-testovací-slovník-tomáše-kadaněho-pojem";
+  vann:preferredNamespaceUri "https://slovník.gov.cz/datový/testovací-slovník-tomáše-kadaněho/pojem/";
+  owl:imports d-sgov-testovací-slovník-tomáše-kadaněho:glosář;
+  owl:versionIRI "https://slovník.gov.cz/datový/testovací-slovník-tomáše-kadaněho/model/verze/1.0.0" .
+
+d-sgov-testovací-slovník-tomáše-kadaněho-pojem:silniční-vozidlo a <https://slovník.gov.cz/základní/pojem/typ-objektu>;
+  <http://onto.fel.cvut.cz/ontologies/application/termit/pojem/je-draft> true;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+        ];
+      owl:someValuesFrom d-sgov-testovací-slovník-tomáše-kadaněho-pojem:má-typ-silničního-vozidla
+    ], [ a owl:Restriction;
+      owl:allValuesFrom d-sgov-testovací-slovník-tomáše-kadaněho-pojem:má-typ-silničního-vozidla;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+        ]
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass d-sgov-testovací-slovník-tomáše-kadaněho-pojem:má-typ-silničního-vozidla;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+        ]
+    ] .
+
+d-sgov-testovací-slovník-tomáše-kadaněho-pojem:typ-silničního-vozidlo a <https://slovník.gov.cz/základní/pojem/typ-objektu>;
+  <http://onto.fel.cvut.cz/ontologies/application/termit/pojem/je-draft> true;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
+        ];
+      owl:someValuesFrom d-sgov-testovací-slovník-tomáše-kadaněho-pojem:má-typ-silničního-vozidla
+    ], [ a owl:Restriction;
+      owl:allValuesFrom d-sgov-testovací-slovník-tomáše-kadaněho-pojem:má-typ-silničního-vozidla;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
+        ]
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass d-sgov-testovací-slovník-tomáše-kadaněho-pojem:má-typ-silničního-vozidla;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
+        ]
+    ] .
+
+d-sgov-testovací-slovník-tomáše-kadaněho-pojem:má-typ-silničního-vozidla a <https://slovník.gov.cz/základní/pojem/typ-vztahu>;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>;
+      owl:someValuesFrom d-sgov-testovací-slovník-tomáše-kadaněho-pojem:silniční-vozidlo
+    ], [ a owl:Restriction;
+      owl:allValuesFrom d-sgov-testovací-slovník-tomáše-kadaněho-pojem:silniční-vozidlo;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass d-sgov-testovací-slovník-tomáše-kadaněho-pojem:silniční-vozidlo;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>
+    ], [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>;
+      owl:someValuesFrom d-sgov-testovací-slovník-tomáše-kadaněho-pojem:typ-silničního-vozidlo
+    ], [ a owl:Restriction;
+      owl:allValuesFrom d-sgov-testovací-slovník-tomáše-kadaněho-pojem:typ-silničního-vozidlo;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass d-sgov-testovací-slovník-tomáše-kadaněho-pojem:typ-silničního-vozidlo;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>
+    ] .
+
+d-sgov-testovací-slovník-tomáše-kadaněho-pojem:technický-průkaz rdfs:subClassOf <https://slovník.gov.cz/veřejný-sektor/pojem/objekt-práva>,
+    [ a owl:Restriction;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+      owl:someValuesFrom d-sgov-testovací-slovník-tomáše-kadaněho-pojem:číslo-technického-průkazu
+    ], [ a owl:Restriction;
+      owl:allValuesFrom d-sgov-testovací-slovník-tomáše-kadaněho-pojem:číslo-technického-průkazu;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass d-sgov-testovací-slovník-tomáše-kadaněho-pojem:číslo-technického-průkazu;
+      owl:onProperty <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+    ] .
+
+d-sgov-testovací-slovník-tomáše-kadaněho-pojem:číslo-technického-průkazu a <https://slovník.gov.cz/základní/pojem/typ-vlastnosti>;
+  rdfs:subClassOf [ a owl:Restriction;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ];
+      owl:someValuesFrom d-sgov-testovací-slovník-tomáše-kadaněho-pojem:technický-průkaz
+    ], [ a owl:Restriction;
+      owl:allValuesFrom d-sgov-testovací-slovník-tomáše-kadaněho-pojem:technický-průkaz;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ], [ a owl:Restriction;
+      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger;
+      owl:onClass d-sgov-testovací-slovník-tomáše-kadaněho-pojem:technický-průkaz;
+      owl:onProperty [
+          owl:inverseOf <https://slovník.gov.cz/základní/pojem/má-vlastnost>
+        ]
+    ] .

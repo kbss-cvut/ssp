@@ -9,6 +9,7 @@
 <https://slovník.gov.cz/datový/440-test> a a-popis-dat-pojem:slovník, owl:Ontology;
   a-popis-dat-pojem:má-glosář d-sgov-440-test:glosář;
   a-popis-dat-pojem:má-model d-sgov-440-test:model;
+  a-popis-dat-pojem:má-přílohu <https://slovník.gov.cz/příloha/instance-0686757b-dcc5-4e22-9b42-fd6e1fd893b6>;
   dcterms:created "2022-06-17T20:45:36.828Z"^^xsd:dateTime;
   dcterms:rights <https://creativecommons.org/licenses/by-sa/4.0>;
   dcterms:title "440-test"@cs;

@@ -17,14 +17,14 @@ d-sgov-440-test:glosář a a-popis-dat-pojem:glosář, owl:Ontology, skos:Concep
   owl:versionIRI "https://slovník.gov.cz/datový/440-test/glosář/verze/1.0.0";
   skos:hasTopConcept d-sgov-440-test-pojem:artur, d-sgov-440-test-pojem:conan, d-sgov-440-test-pojem:doyle .
 
-d-sgov-440-test-pojem:artur a skos:Concept;
+d-sgov-440-test-pojem:conan a skos:Concept;
   skos:inScheme d-sgov-440-test:glosář;
-  skos:prefLabel "artur"@cs .
+  skos:prefLabel "conan"@cs .
 
 d-sgov-440-test-pojem:doyle a skos:Concept;
   skos:inScheme d-sgov-440-test:glosář;
   skos:prefLabel "doyle"@cs .
 
-d-sgov-440-test-pojem:conan a skos:Concept;
+d-sgov-440-test-pojem:artur a skos:Concept;
   skos:inScheme d-sgov-440-test:glosář;
-  skos:prefLabel "conan"@cs .
+  skos:prefLabel "artur"@cs .
