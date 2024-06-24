@@ -11,6 +11,8 @@
     owl:Ontology;
   a-popis-dat-pojem:má-glosář d-sgov-registr-silničních-vozidel:glosář;
   a-popis-dat-pojem:má-model d-sgov-registr-silničních-vozidel:model;
+  a-popis-dat-pojem:má-přílohu <https://slovník.gov.cz/příloha/instance-26de7d7b-1960-48ba-86a9-eb7bada8023c>,
+    <https://slovník.gov.cz/příloha/instance-4f7e9460-aaa5-4ecc-9ed0-03248fc20475>, <https://slovník.gov.cz/příloha/instance-75e92855-e427-4448-b656-50386d50aca5>;
   dcterms:created "2021-06-30T20:32:51.631Z"^^xsd:dateTime;
   dcterms:rights <https://creativecommons.org/licenses/by-sa/4.0>;
   dcterms:title "Datový slovník registru silničních vozidel"@cs;

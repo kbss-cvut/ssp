@@ -9,6 +9,11 @@
 @prefix vann: <http://purl.org/vocab/vann/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+d-sgov-registr-silničních-vozidel-pojem:kategorie-vozidla-jako-položka-číselníku a
+    skos:Concept;
+  skos:inScheme d-sgov-registr-silničních-vozidel:glosář;
+  skos:prefLabel "Kategorie vozidla jako položka číselníku"@cs .
+
 d-sgov-registr-silničních-vozidel:glosář a a-popis-dat-pojem:glosář, owl:Ontology,
     skos:ConceptScheme;
   dcterms:created "2021-06-30T20:32:51.631Z"^^xsd:dateTime;
@@ -33,10 +38,19 @@ d-sgov-registr-silničních-vozidel:glosář a a-popis-dat-pojem:glosář, owl:O
     d-sgov-registr-silničních-vozidel-pojem:značka-silničního-vozidla-jako-položka-číselníku,
     d-sgov-registr-silničních-vozidel-pojem:číselník-značek-silničních-vozidel .
 
-d-sgov-registr-silničních-vozidel-pojem:počítačové-číslo-vozidla a skos:Concept;
-  skos:altLabel "pčv"@cs;
+d-sgov-registr-silničních-vozidel-pojem:druh-zvláštního-vozidla-jako-položka-číselníku
+  a skos:Concept;
   skos:inScheme d-sgov-registr-silničních-vozidel:glosář;
-  skos:prefLabel "počítačové číslo vozidla"@cs .
+  skos:prefLabel "Druh zvláštního vozidla jako položka číselníku"@cs .
+
+d-sgov-registr-silničních-vozidel-pojem:druh-vozidla-jako-položka-číselníku a skos:Concept;
+  skos:inScheme d-sgov-registr-silničních-vozidel:glosář;
+  skos:prefLabel "Druh vozidla jako položka číselníku"@cs .
+
+d-sgov-registr-silničních-vozidel-pojem:druh-silničního-vozidla-jako-položka-číselníku
+  a skos:Concept;
+  skos:inScheme d-sgov-registr-silničních-vozidel:glosář;
+  skos:prefLabel "Druh silničního vozidla jako položka číselníku"@cs .
 
 d-sgov-registr-silničních-vozidel-pojem:aktuální-stav-vozidla a skos:Concept;
   skos:inScheme d-sgov-registr-silničních-vozidel:glosář;
@@ -48,10 +62,10 @@ d-sgov-registr-silničních-vozidel-pojem:aktuální-vyřazení-silničního-voz
   skos:inScheme d-sgov-registr-silničních-vozidel:glosář;
   skos:prefLabel "Aktuální vyřazení silničního vozidla z provozu"@cs .
 
-d-sgov-registr-silničních-vozidel-pojem:má-aktuální-technický-průkaz a skos:Concept;
-  skos:altLabel "aktuální technický průkaz"@cs;
+d-sgov-registr-silničních-vozidel-pojem:počítačové-číslo-vozidla a skos:Concept;
+  skos:altLabel "pčv"@cs;
   skos:inScheme d-sgov-registr-silničních-vozidel:glosář;
-  skos:prefLabel "má aktuální technický průkaz"@cs .
+  skos:prefLabel "počítačové číslo vozidla"@cs .
 
 d-sgov-registr-silničních-vozidel-pojem:má-aktuální-osvědčení-o-registraci a skos:Concept;
   skos:altLabel "aktuální osvědčení o registraci"@cs;
@@ -63,6 +77,21 @@ d-sgov-registr-silničních-vozidel-pojem:značka-silničního-vozidla-jako-polo
   skos:inScheme d-sgov-registr-silničních-vozidel:glosář;
   skos:prefLabel "Značka silničního vozidla jako položka číselníku"@cs .
 
+d-sgov-registr-silničních-vozidel-pojem:rok-výroby-silničního-vozidla a skos:Concept;
+  skos:altLabel "rok výroby"@cs;
+  skos:inScheme d-sgov-registr-silničních-vozidel:glosář;
+  skos:prefLabel "rok výroby silničního vozidla"@cs .
+
+d-sgov-registr-silničních-vozidel-pojem:datum-platnosti-technické-prohlídky-do a skos:Concept;
+  skos:altLabel "platnost do"@cs;
+  skos:inScheme d-sgov-registr-silničních-vozidel:glosář;
+  skos:prefLabel "datum platnosti technické prohlídky do"@cs .
+
+d-sgov-registr-silničních-vozidel-pojem:má-aktuální-technický-průkaz a skos:Concept;
+  skos:altLabel "aktuální technický průkaz"@cs;
+  skos:inScheme d-sgov-registr-silničních-vozidel:glosář;
+  skos:prefLabel "má aktuální technický průkaz"@cs .
+
 d-sgov-registr-silničních-vozidel-pojem:má-druh-vozidla a skos:Concept;
   skos:inScheme d-sgov-registr-silničních-vozidel:glosář;
   skos:prefLabel "má druh vozidla"@cs .
@@ -71,40 +100,21 @@ d-sgov-registr-silničních-vozidel-pojem:má-druh-zvláštního-vozidla a skos:
   skos:inScheme d-sgov-registr-silničních-vozidel:glosář;
   skos:prefLabel "má druh zvláštního vozidla"@cs .
 
-d-sgov-registr-silničních-vozidel-pojem:druh-vozidla-jako-položka-číselníku a skos:Concept;
+d-sgov-registr-silničních-vozidel-pojem:datum-platnosti-technické-prohlídky-od a skos:Concept;
+  skos:altLabel "platnost od"@cs;
   skos:inScheme d-sgov-registr-silničních-vozidel:glosář;
-  skos:prefLabel "Druh vozidla jako položka číselníku"@cs .
-
-d-sgov-registr-silničních-vozidel-pojem:kategorie-vozidla-jako-položka-číselníku a
-    skos:Concept;
-  skos:inScheme d-sgov-registr-silničních-vozidel:glosář;
-  skos:prefLabel "Kategorie vozidla jako položka číselníku"@cs .
-
-d-sgov-registr-silničních-vozidel-pojem:datum-první-registrace-silničního-vozidla-v-čr
-  a skos:Concept;
-  skos:altLabel "datum první registrace v ČR"@cs;
-  skos:inScheme d-sgov-registr-silničních-vozidel:glosář;
-  skos:prefLabel "datum první registrace silničního vozidla v ČR"@cs .
-
-d-sgov-registr-silničních-vozidel-pojem:rok-výroby-silničního-vozidla a skos:Concept;
-  skos:altLabel "rok výroby"@cs;
-  skos:inScheme d-sgov-registr-silničních-vozidel:glosář;
-  skos:prefLabel "rok výroby silničního vozidla"@cs .
+  skos:prefLabel "datum platnosti technické prohlídky od"@cs .
 
 d-sgov-registr-silničních-vozidel-pojem:stanice-technické-kontroly-jako-položka-číselníku
   a skos:Concept;
   skos:inScheme d-sgov-registr-silničních-vozidel:glosář;
   skos:prefLabel "Stanice technické kontroly jako položka číselníku"@cs .
 
-d-sgov-registr-silničních-vozidel-pojem:datum-platnosti-technické-prohlídky-od a skos:Concept;
-  skos:altLabel "platnost od"@cs;
+d-sgov-registr-silničních-vozidel-pojem:datum-první-registrace-silničního-vozidla-v-čr
+  a skos:Concept;
+  skos:altLabel "datum první registrace v ČR"@cs;
   skos:inScheme d-sgov-registr-silničních-vozidel:glosář;
-  skos:prefLabel "datum platnosti technické prohlídky od"@cs .
-
-d-sgov-registr-silničních-vozidel-pojem:datum-platnosti-technické-prohlídky-do a skos:Concept;
-  skos:altLabel "platnost do"@cs;
-  skos:inScheme d-sgov-registr-silničních-vozidel:glosář;
-  skos:prefLabel "datum platnosti technické prohlídky do"@cs .
+  skos:prefLabel "datum první registrace silničního vozidla v ČR"@cs .
 
 d-sgov-registr-silničních-vozidel-pojem:obchodní-specifikace-silničního-vozidla a
     skos:Concept;
@@ -118,16 +128,6 @@ d-sgov-registr-silničních-vozidel-pojem:identifikace-silničního-vozidla a sk
 d-sgov-registr-silničních-vozidel-pojem:má-druh-vozidla-určený-číselníkem a skos:Concept;
   skos:inScheme d-sgov-registr-silničních-vozidel:glosář;
   skos:prefLabel "má druh vozidla určený číselníkem"@cs .
-
-d-sgov-registr-silničních-vozidel-pojem:druh-silničního-vozidla-jako-položka-číselníku
-  a skos:Concept;
-  skos:inScheme d-sgov-registr-silničních-vozidel:glosář;
-  skos:prefLabel "Druh silničního vozidla jako položka číselníku"@cs .
-
-d-sgov-registr-silničních-vozidel-pojem:druh-zvláštního-vozidla-jako-položka-číselníku
-  a skos:Concept;
-  skos:inScheme d-sgov-registr-silničních-vozidel:glosář;
-  skos:prefLabel "Druh zvláštního vozidla jako položka číselníku"@cs .
 
 d-sgov-registr-silničních-vozidel-pojem:má-kategorii-vozidla-určenou-číselníkem a
     skos:Concept;
