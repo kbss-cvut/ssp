@@ -1,0 +1,324 @@
+@prefix a-popis-dat-pojem: <http://onto.fel.cvut.cz/ontologies/slovník/agendový/popis-dat/pojem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://slovník.gov.cz/agendový/vesm-r-p-klad/pojem/kapitánská-zkouška> a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/element>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/hidden> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "-336";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "399" .
+
+<https://slovník.gov.cz/agendový/vesm-r-p-klad/pojem/průkaz-kapitána> a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/element>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/hidden> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "328";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "347" .
+
+<https://slovník.gov.cz/agendový/vesm-r-p-klad/pojem/žádost-o-vykonání-kapitánské-zkoušky>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/element>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/hidden> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "-286";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "151" .
+
+<https://slovník.gov.cz/agendový/vesm-r-p-klad/pojem/vesmírná-loď> a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/element>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/hidden> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "342";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "149" .
+
+<https://slovník.gov.cz/agendový/vesm-r-p-klad/pojem/výsledek-kapitánské-zkoušky>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/element>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/hidden> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-x> "-45";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/position-y> "385" .
+
+<https://slovník.gov.cz/datový/pracovní-prostor/pojem/příloha/instance-f85352d2-0278-4bc2-93a7-6c68fee56424>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/diagram>, a-popis-dat-pojem:příloha,
+    <https://slovník.gov.cz/datový/pracovní-prostor/pojem/příloha>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "f85352d2-0278-4bc2-93a7-6c68fee56424";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/index> "3";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/name> "Kapitánská zkouška";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/representation> "1" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-e5f12a4a-7b7b-46ba-9b1e-476a6cdbde8c>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "e5f12a4a-7b7b-46ba-9b1e-476a6cdbde8c";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/agendový/vesm-r-p-klad/pojem/je-vojákem>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/agendový/vesm-r-p-klad/pojem/fyzická-osoba>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/agendový/vesm-r-p-klad/pojem/voják>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-974e86c2-5570-4f7d-982e-2cfcc09c790e>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "974e86c2-5570-4f7d-982e-2cfcc09c790e";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/agendový/vesm-r-p-klad/pojem/je-vojákem>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/agendový/vesm-r-p-klad/pojem/fyzická-osoba>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-73e31b36-ab55-4ae6-a812-dc22aeffaa32>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "false";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "73e31b36-ab55-4ae6-a812-dc22aeffaa32";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/uml/generalization>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/agendový/vesm-r-p-klad/pojem/kapitán>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/agendový/vesm-r-p-klad/pojem/kapitán>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "generalization" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-d0b0b3aa-e53e-4395-b205-2eac61ef0033>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "d0b0b3aa-e53e-4395-b205-2eac61ef0033";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/agendový/vesm-r-p-klad/pojem/důstojník>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/agendový/vesm-r-p-klad/pojem/datum-získání-hodnosti-důstojníka>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-754ff65e-4b3b-45c7-91c8-f025dc3f1a1c>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "754ff65e-4b3b-45c7-91c8-f025dc3f1a1c";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/agendový/vesm-r-p-klad/pojem/důstojník>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/agendový/vesm-r-p-klad/pojem/jméno-osoby>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-be4ee9a6-e6c8-41c9-8233-06547807e419>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "be4ee9a6-e6c8-41c9-8233-06547807e419";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/agendový/vesm-r-p-klad/pojem/důstojník>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/agendový/vesm-r-p-klad/pojem/příjmení>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-610b98ad-140e-4d36-acdf-f63f44801296>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "610b98ad-140e-4d36-acdf-f63f44801296";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/agendový/vesm-r-p-klad/pojem/důstojník>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/agendový/vesm-r-p-klad/pojem/vojenské-číslo-důstojníka>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-f01d5d78-d0ee-44c9-9249-95098d0b5214>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "f01d5d78-d0ee-44c9-9249-95098d0b5214";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/uml/generalization>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/agendový/vesm-r-p-klad/pojem/kapitán>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/agendový/vesm-r-p-klad/pojem/důstojník>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "generalization" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-ee5423b0-e635-4296-b211-65e944afe51f>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "ee5423b0-e635-4296-b211-65e944afe51f";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/agendový/vesm-r-p-klad/pojem/vesmírná-loď>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/agendový/vesm-r-p-klad/pojem/název-vesmírné-lodi>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-3b69c573-cc33-46f9-bfd2-ee3cff535d0d>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "3b69c573-cc33-46f9-bfd2-ee3cff535d0d";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/agendový/vesm-r-p-klad/pojem/vesmírná-loď>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/agendový/vesm-r-p-klad/pojem/číslo-vesmírné-lodi>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-f3b65b94-b4f3-4f21-ac61-fcd523ecf394>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "f3b65b94-b4f3-4f21-ac61-fcd523ecf394";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/agendový/vesm-r-p-klad/pojem/řízení-vesmírné-lodi>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/agendový/vesm-r-p-klad/pojem/vesmírná-loď>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/agendový/vesm-r-p-klad/pojem/kapitán>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-73c75f04-c3b7-47f6-a0d4-592b93d521de>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "73c75f04-c3b7-47f6-a0d4-592b93d521de";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-1>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/agendový/vesm-r-p-klad/pojem/řízení-vesmírné-lodi>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/agendový/vesm-r-p-klad/pojem/vesmírná-loď>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-89e551a7-26d1-480c-b3cb-03000b4f89b3>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "89e551a7-26d1-480c-b3cb-03000b4f89b3";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vztažený-prvek-2>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/agendový/vesm-r-p-klad/pojem/řízení-vesmírné-lodi>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/agendový/vesm-r-p-klad/pojem/kapitán>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-aa2f7bda-6f3d-4ab3-8b6a-b24659a8ef4b>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "aa2f7bda-6f3d-4ab3-8b6a-b24659a8ef4b";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/agendový/vesm-r-p-klad/pojem/žádost-o-vykonání-kapitánské-zkoušky>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/agendový/vesm-r-p-klad/pojem/jméno-osoby>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-b6087b6e-0372-4a47-a851-3eb8766eba6a>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "b6087b6e-0372-4a47-a851-3eb8766eba6a";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/agendový/vesm-r-p-klad/pojem/žádost-o-vykonání-kapitánské-zkoušky>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/agendový/vesm-r-p-klad/pojem/příjmení>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-0b67cc09-6cc7-485b-8fc8-e81f12c8c12c>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "0b67cc09-6cc7-485b-8fc8-e81f12c8c12c";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/agendový/vesm-r-p-klad/pojem/žádost-o-vykonání-kapitánské-zkoušky>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/agendový/vesm-r-p-klad/pojem/vojenské-číslo-důstojníka>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-695aa686-6e2b-419b-8614-c701ea600edd>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "695aa686-6e2b-419b-8614-c701ea600edd";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/agendový/vesm-r-p-klad/pojem/průkaz-kapitána>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/agendový/vesm-r-p-klad/pojem/jméno-osoby>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-ff3ba611-362b-46af-ba4c-473e97917a19>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "ff3ba611-362b-46af-ba4c-473e97917a19";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/agendový/vesm-r-p-klad/pojem/průkaz-kapitána>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/agendový/vesm-r-p-klad/pojem/příjmení>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-a65560b1-6848-4b18-b0d2-d92f398da5e1>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "a65560b1-6848-4b18-b0d2-d92f398da5e1";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/agendový/vesm-r-p-klad/pojem/průkaz-kapitána>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/agendový/vesm-r-p-klad/pojem/vojenské-číslo-důstojníka>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-6261e642-f31c-4b80-ade1-d156771a58bd>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "6261e642-f31c-4b80-ade1-d156771a58bd";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/agendový/vesm-r-p-klad/pojem/průkaz-kapitána>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/agendový/vesm-r-p-klad/pojem/datum-přidělení-funkce-kapitána>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-c574747c-c71e-4c1f-8645-4d768878f5cf>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "c574747c-c71e-4c1f-8645-4d768878f5cf";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/agendový/vesm-r-p-klad/pojem/výsledek-kapitánské-zkoušky>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/agendový/vesm-r-p-klad/pojem/datum-přidělení-funkce-kapitána>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .
+
+<http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link/instance-971ddf85-2583-44aa-bbac-925dd92a7ef4>
+  a <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/link>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/active> "true";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/id> "971ddf85-2583-44aa-bbac-925dd92a7ef4";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/iri> <https://slovník.gov.cz/základní/pojem/má-vlastnost>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/source> <https://slovník.gov.cz/agendový/vesm-r-p-klad/pojem/žádost-o-vykonání-kapitánské-zkoušky>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/sourceCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/target> <https://slovník.gov.cz/agendový/vesm-r-p-klad/pojem/průměrný-plat>;
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality1> "0";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/targetCardinality2> "*";
+  <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/type> "default" .

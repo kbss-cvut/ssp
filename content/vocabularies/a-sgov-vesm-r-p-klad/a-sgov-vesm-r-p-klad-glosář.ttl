@@ -1,0 +1,138 @@
+@prefix a-popis-dat-pojem: <http://onto.fel.cvut.cz/ontologies/slovník/agendový/popis-dat/pojem/> .
+@prefix a-sgov-vesm-r-p-klad: <https://slovník.gov.cz/agendový/vesm-r-p-klad/> .
+@prefix a-sgov-vesm-r-p-klad-pojem: <https://slovník.gov.cz/agendový/vesm-r-p-klad/pojem/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+a-sgov-vesm-r-p-klad:glosář a a-popis-dat-pojem:glosář, owl:Ontology, skos:ConceptScheme;
+  dcterms:created "2022-11-30T11:55:33.931Z"^^xsd:dateTime;
+  dcterms:rights <https://creativecommons.org/licenses/by-sa/4.0>;
+  dcterms:title "Vesmír (příklad) - glosář"@cs;
+  vann:preferredNamespacePrefix "a-sgov-vesm-r-p-klad-pojem";
+  vann:preferredNamespaceUri "https://slovník.gov.cz/agendový/vesm-r-p-klad/pojem/";
+  owl:versionIRI "https://slovník.gov.cz/agendový/vesm-r-p-klad/glosář/verze/1.0.0";
+  skos:hasTopConcept a-sgov-vesm-r-p-klad-pojem:datum-přidělení-funkce-kapitána, a-sgov-vesm-r-p-klad-pojem:datum-získání-hodnosti-důstojníka,
+    a-sgov-vesm-r-p-klad-pojem:důstojník, a-sgov-vesm-r-p-klad-pojem:fyzická-osoba, a-sgov-vesm-r-p-klad-pojem:je-vojákem,
+    a-sgov-vesm-r-p-klad-pojem:jméno-osoby, a-sgov-vesm-r-p-klad-pojem:kapitán, a-sgov-vesm-r-p-klad-pojem:kapitánská-zkouška,
+    a-sgov-vesm-r-p-klad-pojem:název-vesmírné-lodi, a-sgov-vesm-r-p-klad-pojem:ohlášení-vesmírného-letu,
+    a-sgov-vesm-r-p-klad-pojem:průkaz-kapitána, a-sgov-vesm-r-p-klad-pojem:průměrný-plat,
+    a-sgov-vesm-r-p-klad-pojem:příjmení, a-sgov-vesm-r-p-klad-pojem:seznam-držitelů-kapitánské-funkce,
+    a-sgov-vesm-r-p-klad-pojem:vesmírná-loď, a-sgov-vesm-r-p-klad-pojem:vojenské-číslo-důstojníka,
+    a-sgov-vesm-r-p-klad-pojem:voják, a-sgov-vesm-r-p-klad-pojem:výsledek-kapitánské-zkoušky,
+    a-sgov-vesm-r-p-klad-pojem:číslo-vesmírné-lodi, a-sgov-vesm-r-p-klad-pojem:řízení-vesmírné-lodi,
+    a-sgov-vesm-r-p-klad-pojem:žádost-o-vykonání-kapitánské-zkoušky .
+
+a-sgov-vesm-r-p-klad-pojem:kapitánská-zkouška a skos:Concept;
+  skos:definition "Pokud se chce důstojník stát kapitánem, musí složit kapitánskou zkoušku."@cs;
+  skos:inScheme a-sgov-vesm-r-p-klad:glosář;
+  skos:prefLabel "kapitánská zkouška"@cs .
+
+a-sgov-vesm-r-p-klad-pojem:průkaz-kapitána a skos:Concept;
+  skos:definition "průkaz osvědčuje, že důstojník, držící průkaz může vykonávat funkci kapitána."@cs;
+  skos:inScheme a-sgov-vesm-r-p-klad:glosář;
+  skos:prefLabel "průkaz kapitána"@cs;
+  skos:scopeNote ""@cs .
+
+a-sgov-vesm-r-p-klad-pojem:seznam-držitelů-kapitánské-funkce a skos:Concept;
+  skos:definition "Vesmírný úřad zveřejňuje seznam držitelů kapitánské funkce"@cs;
+  skos:inScheme a-sgov-vesm-r-p-klad:glosář;
+  skos:prefLabel "seznam držitelů kapitánské funkce"@cs;
+  skos:scopeNote ""@cs .
+
+a-sgov-vesm-r-p-klad-pojem:ohlášení-vesmírného-letu a skos:Concept;
+  skos:definition "Kapitán musí Vesmírnému úřadu ohlásit, že se vydává s vesmírnou lodí na let"@cs;
+  skos:inScheme a-sgov-vesm-r-p-klad:glosář;
+  skos:prefLabel "ohlášení vesmírného letu"@cs;
+  skos:scopeNote ""@cs .
+
+a-sgov-vesm-r-p-klad-pojem:kapitán a skos:Concept;
+  skos:definition ""@cs;
+  skos:inScheme a-sgov-vesm-r-p-klad:glosář;
+  skos:prefLabel "kapitán"@cs;
+  skos:scopeNote ""@cs .
+
+a-sgov-vesm-r-p-klad-pojem:žádost-o-vykonání-kapitánské-zkoušky a skos:Concept;
+  skos:definition ""@cs;
+  skos:inScheme a-sgov-vesm-r-p-klad:glosář;
+  skos:prefLabel "žádost o vykonání kapitánské zkoušky"@cs;
+  skos:scopeNote ""@cs .
+
+a-sgov-vesm-r-p-klad-pojem:důstojník a skos:Concept;
+  skos:definition "Důstojník je člen osádky vesmírné lodi, účastnící se řízení vesmírné lodi"@cs;
+  skos:inScheme a-sgov-vesm-r-p-klad:glosář;
+  skos:prefLabel "důstojník"@cs;
+  skos:scopeNote "nejedná se o hodnost důstojníka z pohledu armády ČR."@cs .
+
+a-sgov-vesm-r-p-klad-pojem:vojenské-číslo-důstojníka a skos:Concept;
+  skos:definition "Identifikátor, který jednoznačně určuje identitu vojáka ve vztahu k armádě ČR"@cs;
+  skos:inScheme a-sgov-vesm-r-p-klad:glosář;
+  skos:prefLabel "vojenské číslo"@cs;
+  skos:scopeNote ""@cs .
+
+a-sgov-vesm-r-p-klad-pojem:datum-získání-hodnosti-důstojníka a skos:Concept;
+  skos:definition ""@cs;
+  skos:inScheme a-sgov-vesm-r-p-klad:glosář;
+  skos:prefLabel "datum získání hodnosti důstojníka"@cs;
+  skos:scopeNote ""@cs .
+
+a-sgov-vesm-r-p-klad-pojem:průměrný-plat a skos:Concept;
+  skos:definition ""@cs;
+  skos:inScheme a-sgov-vesm-r-p-klad:glosář;
+  skos:prefLabel "průměrný plat"@cs;
+  skos:scopeNote ""@cs .
+
+a-sgov-vesm-r-p-klad-pojem:vesmírná-loď a skos:Concept;
+  skos:definition ""@cs;
+  skos:inScheme a-sgov-vesm-r-p-klad:glosář;
+  skos:prefLabel "vesmírná loď"@cs;
+  skos:scopeNote ""@cs .
+
+a-sgov-vesm-r-p-klad-pojem:řízení-vesmírné-lodi a skos:Concept;
+  skos:definition "Důstojník je přiřazen k posádce vesmírné lodi. Při letu vesmírné lodi se podílí na jejím řízení . "@cs;
+  skos:inScheme a-sgov-vesm-r-p-klad:glosář;
+  skos:prefLabel "řízení vesmírné lodi"@cs;
+  skos:scopeNote ""@cs .
+
+a-sgov-vesm-r-p-klad-pojem:výsledek-kapitánské-zkoušky a skos:Concept;
+  skos:definition "událost kapitánské zkoušky je vyhodnocena a je vytvořen zápis o výsledku kapitánské zkoušky. Výsledkem zkoušky je, zda důstojník kapitánskou zkoušku úspěšně vykonal nebo ne."@cs;
+  skos:inScheme a-sgov-vesm-r-p-klad:glosář;
+  skos:prefLabel "výsledek kapitánské zkoušky"@cs;
+  skos:scopeNote ""@cs .
+
+a-sgov-vesm-r-p-klad-pojem:datum-přidělení-funkce-kapitána a skos:Concept;
+  skos:definition "na základě úspěšného výsledku kapitánské zkoušky je důstojníkovi přidělana funkce kapitána. součástí rozhodnutí o výsledku zkoušky je i datum, ke kterému je důstojníkovi funkce kapitána přidělena."@cs;
+  skos:inScheme a-sgov-vesm-r-p-klad:glosář;
+  skos:prefLabel "datum přidělení funkce kapitána"@cs;
+  skos:scopeNote ""@cs .
+
+a-sgov-vesm-r-p-klad-pojem:fyzická-osoba a skos:Concept;
+  skos:definition "fyzická osoba ve vztahu k ČR. Vedená jako občan ČR"@cs;
+  skos:inScheme a-sgov-vesm-r-p-klad:glosář;
+  skos:prefLabel "fyzická osoba"@cs;
+  skos:scopeNote ""@cs .
+
+a-sgov-vesm-r-p-klad-pojem:jméno-osoby a skos:Concept;
+  skos:definition ""@cs;
+  skos:inScheme a-sgov-vesm-r-p-klad:glosář;
+  skos:prefLabel "jméno osoby"@cs .
+
+a-sgov-vesm-r-p-klad-pojem:příjmení a skos:Concept;
+  skos:definition ""@cs;
+  skos:inScheme a-sgov-vesm-r-p-klad:glosář;
+  skos:prefLabel "příjmení"@cs .
+
+a-sgov-vesm-r-p-klad-pojem:název-vesmírné-lodi a skos:Concept;
+  skos:definition ""@cs;
+  skos:inScheme a-sgov-vesm-r-p-klad:glosář;
+  skos:prefLabel "název vesmírné lodi"@cs;
+  skos:scopeNote ""@cs .
+
+a-sgov-vesm-r-p-klad-pojem:číslo-vesmírné-lodi a skos:Concept;
+  skos:definition ""@cs;
+  skos:inScheme a-sgov-vesm-r-p-klad:glosář;
+  skos:prefLabel "číslo vesmírné lodi"@cs;
+  skos:scopeNote ""@cs .
