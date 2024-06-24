@@ -1,0 +1,71 @@
+@prefix a-popis-dat-pojem: <http://onto.fel.cvut.cz/ontologies/slovník/agendový/popis-dat/pojem/> .
+@prefix d-sgov-csat-manualy: <https://slovník.gov.cz/datový/csat-manualy/> .
+@prefix d-sgov-csat-manualy-pojem: <https://slovník.gov.cz/datový/csat-manualy/pojem/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+d-sgov-csat-manualy:glosář a a-popis-dat-pojem:glosář, owl:Ontology, skos:ConceptScheme;
+  dcterms:created "2022-05-11T14:07:00.574Z"^^xsd:dateTime;
+  dcterms:rights <https://creativecommons.org/licenses/by-sa/4.0>;
+  dcterms:title "csat-manualy - glosář"@cs;
+  vann:preferredNamespacePrefix "d-sgov-csat-manualy-pojem";
+  vann:preferredNamespaceUri "https://slovník.gov.cz/datový/csat-manualy/pojem/";
+  owl:versionIRI "https://slovník.gov.cz/datový/csat-manualy/glosář/verze/1.0.0";
+  skos:hasTopConcept d-sgov-csat-manualy-pojem:210, d-sgov-csat-manualy-pojem:24-11-00,
+    d-sgov-csat-manualy-pojem:equipment, d-sgov-csat-manualy-pojem:zone .
+
+d-sgov-csat-manualy-pojem:24-11-00 a skos:Concept;
+  skos:definition ""@cs;
+  skos:inScheme d-sgov-csat-manualy:glosář;
+  skos:prefLabel "24-11-00"@cs;
+  skos:scopeNote ""@cs .
+
+d-sgov-csat-manualy-pojem:ac-generator-drive-system a skos:Concept;
+  skos:broader d-sgov-csat-manualy-pojem:24-11-00;
+  skos:definition ""@cs;
+  skos:inScheme d-sgov-csat-manualy:glosář;
+  skos:prefLabel "AC Generator Drive System"@cs;
+  skos:scopeNote ""@cs .
+
+d-sgov-csat-manualy-pojem:idg---deactivation a skos:Concept;
+  skos:broader d-sgov-csat-manualy-pojem:ac-generator-drive-system;
+  skos:definition ""@cs;
+  skos:inScheme d-sgov-csat-manualy:glosář;
+  skos:prefLabel "IDG - deactivation"@cs .
+
+d-sgov-csat-manualy-pojem:circuit-breakers-and-safety-tags a skos:Concept;
+  skos:broader d-sgov-csat-manualy-pojem:idg---deactivation;
+  skos:definition ""@cs;
+  skos:inScheme d-sgov-csat-manualy:glosář;
+  skos:prefLabel "Circuit breakers and safety tags"@cs;
+  skos:scopeNote ""@cs .
+
+d-sgov-csat-manualy-pojem:zone a skos:Concept;
+  skos:definition ""@cs;
+  skos:inScheme d-sgov-csat-manualy:glosář;
+  skos:prefLabel "Zone"@cs;
+  skos:scopeNote ""@cs .
+
+d-sgov-csat-manualy-pojem:210 a skos:Concept;
+  skos:broader d-sgov-csat-manualy-pojem:zone;
+  skos:definition ""@cs;
+  skos:inScheme d-sgov-csat-manualy:glosář;
+  skos:prefLabel "210"@cs;
+  skos:scopeNote ""@cs .
+
+d-sgov-csat-manualy-pojem:equipment a skos:Concept;
+  skos:definition ""@cs;
+  skos:inScheme d-sgov-csat-manualy:glosář;
+  skos:prefLabel "Equipment"@cs;
+  skos:scopeNote ""@cs .
+
+d-sgov-csat-manualy-pojem:test-equipment--engine-generator-pressure a skos:Concept;
+  skos:broader d-sgov-csat-manualy-pojem:equipment;
+  skos:definition ""@cs;
+  skos:inScheme d-sgov-csat-manualy:glosář;
+  skos:prefLabel " Test Equipment- Engine Generator Pressure"@cs;
+  skos:scopeNote ""@cs .

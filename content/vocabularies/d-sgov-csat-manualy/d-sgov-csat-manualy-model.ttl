@@ -1,0 +1,41 @@
+@prefix a-popis-dat-pojem: <http://onto.fel.cvut.cz/ontologies/slovník/agendový/popis-dat/pojem/> .
+@prefix d-sgov-csat-manualy: <https://slovník.gov.cz/datový/csat-manualy/> .
+@prefix d-sgov-csat-manualy-pojem: <https://slovník.gov.cz/datový/csat-manualy/pojem/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+d-sgov-csat-manualy:model a a-popis-dat-pojem:model, owl:Ontology;
+  dcterms:created "2022-05-11T14:07:00.574Z"^^xsd:dateTime;
+  dcterms:rights <https://creativecommons.org/licenses/by-sa/4.0>;
+  dcterms:title "csat-manualy - model"@cs;
+  vann:preferredNamespacePrefix "d-sgov-csat-manualy-pojem";
+  vann:preferredNamespaceUri "https://slovník.gov.cz/datový/csat-manualy/pojem/";
+  owl:imports d-sgov-csat-manualy:glosář;
+  owl:versionIRI "https://slovník.gov.cz/datový/csat-manualy/model/verze/1.0.0" .
+
+d-sgov-csat-manualy-pojem:24-11-00 <http://onto.fel.cvut.cz/ontologies/application/termit/pojem/je-draft>
+    true .
+
+d-sgov-csat-manualy-pojem:ac-generator-drive-system <http://onto.fel.cvut.cz/ontologies/application/termit/pojem/je-draft>
+    true .
+
+d-sgov-csat-manualy-pojem:idg---deactivation <http://onto.fel.cvut.cz/ontologies/application/termit/pojem/je-draft>
+    true .
+
+d-sgov-csat-manualy-pojem:circuit-breakers-and-safety-tags <http://onto.fel.cvut.cz/ontologies/application/termit/pojem/je-draft>
+    true .
+
+d-sgov-csat-manualy-pojem:zone <http://onto.fel.cvut.cz/ontologies/application/termit/pojem/je-draft>
+    true .
+
+d-sgov-csat-manualy-pojem:210 <http://onto.fel.cvut.cz/ontologies/application/termit/pojem/je-draft>
+    true .
+
+d-sgov-csat-manualy-pojem:equipment <http://onto.fel.cvut.cz/ontologies/application/termit/pojem/je-draft>
+    true .
+
+d-sgov-csat-manualy-pojem:test-equipment--engine-generator-pressure <http://onto.fel.cvut.cz/ontologies/application/termit/pojem/je-draft>
+    true .
