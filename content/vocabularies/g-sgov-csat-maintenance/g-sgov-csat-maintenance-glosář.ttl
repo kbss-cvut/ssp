@@ -1,0 +1,41 @@
+@prefix a-popis-dat-pojem: <http://onto.fel.cvut.cz/ontologies/slovník/agendový/popis-dat/pojem/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix g-sgov-csat-maintenance: <https://slovník.gov.cz/generický/csat-maintenance/> .
+@prefix g-sgov-csat-maintenance-pojem: <https://slovník.gov.cz/generický/csat-maintenance/pojem/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+g-sgov-csat-maintenance:glosář a a-popis-dat-pojem:glosář, owl:Ontology, skos:ConceptScheme;
+  dcterms:created "2022-09-21T12:30:10.524Z"^^xsd:dateTime;
+  dcterms:rights <https://creativecommons.org/licenses/by-sa/4.0>;
+  dcterms:title "csat-maintenance - glosář"@cs;
+  vann:preferredNamespacePrefix "g-sgov-csat-maintenance-pojem";
+  vann:preferredNamespaceUri "https://slovník.gov.cz/generický/csat-maintenance/pojem/";
+  owl:versionIRI "https://slovník.gov.cz/generický/csat-maintenance/glosář/verze/1.0.0";
+  skos:hasTopConcept g-sgov-csat-maintenance-pojem:billing-contract .
+
+g-sgov-csat-maintenance-pojem:billing-contract a skos:Concept;
+  skos:altLabel "Project"@cs;
+  skos:definition ""@cs;
+  skos:inScheme g-sgov-csat-maintenance:glosář;
+  skos:prefLabel "billing contract"@cs;
+  skos:scopeNote ""@cs .
+
+g-sgov-csat-maintenance-pojem:main-billing-contract a skos:Concept;
+  skos:altLabel "Main Project"@cs;
+  skos:broader g-sgov-csat-maintenance-pojem:billing-contract;
+  skos:definition ""@cs;
+  skos:inScheme g-sgov-csat-maintenance:glosář;
+  skos:prefLabel "main billing contract"@cs;
+  skos:scopeNote ""@cs .
+
+g-sgov-csat-maintenance-pojem:workpackage-based-billing-contract a skos:Concept;
+  skos:altLabel "subproject"@cs;
+  skos:broader g-sgov-csat-maintenance-pojem:billing-contract;
+  skos:definition ""@cs;
+  skos:inScheme g-sgov-csat-maintenance:glosář;
+  skos:prefLabel "workpackage based billing contract"@cs;
+  skos:scopeNote ""@cs .
